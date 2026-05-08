@@ -207,7 +207,7 @@ MonoBehaviour:
       ValueMax: 0
       CustomValueMax:
         rid: -2
-      Features: 1
+      Features: 2
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
     conditionLogic:
