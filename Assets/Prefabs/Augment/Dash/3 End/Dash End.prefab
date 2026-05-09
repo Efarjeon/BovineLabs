@@ -46,9 +46,7 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -8447468791178745691, guid: 5a6cd8bf5e6250f4fa9249ab6881d92f, type: 2}
-    value: {fileID: 0}
+  m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1324504251682476035
@@ -106,7 +104,7 @@ MonoBehaviour:
   AddIntrinsics: 1
   IntrinsicDefaults:
   - Intrinsic: {fileID: 11400000, guid: 6ef0536c3d692f7438e44e88527c649b, type: 2}
-    Value: 1
+    Value: 0
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
@@ -209,6 +207,7 @@ GameObject:
   - component: {fileID: 5603528436551324034}
   - component: {fileID: 257286931287210281}
   - component: {fileID: 31983183001639940}
+  - component: {fileID: 7990745132819235313}
   m_Layer: 0
   m_Name: Two Dashes' Explosion
   m_TagString: Untagged
@@ -367,6 +366,22 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: 6ef0536c3d692f7438e44e88527c649b, type: 2}
     Amount: -2
     Target: 3
+--- !u!114 &7990745132819235313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475739462504152851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
+  Create:
+  - Definition: {fileID: 11400000, guid: 71c94aff386ef5f44b5d61f430822ab6, type: 2}
+    Target: 2
+    DestroyOnDisabled: 0
 --- !u!1 &4433101633483156304
 GameObject:
   m_ObjectHideFlags: 0
