@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectManagementSettings
   objectDefinitions:
   - {fileID: 11400000, guid: c3c2fb1075ba2084fbb70fd928edc221, type: 2}
+  - {fileID: 11400000, guid: 36a7a6ca6800d17459d1c6d20466f10a, type: 2}
+  - {fileID: 11400000, guid: ce1ab9fb262d84a4298eefc30c711f89, type: 2}
   - {fileID: 11400000, guid: 71c94aff386ef5f44b5d61f430822ab6, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
   objectGroups: []
