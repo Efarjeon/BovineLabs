@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5805365909039723415
+--- !u!114 &-3121958326541131586
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24,10 +24,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 2370339189823105924}
-    m_Duration: 8.35
+    m_Asset: {fileID: 5690200520358518346}
+    m_Duration: 2
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -5805365909039723415}
+    m_ParentTrack: {fileID: -3121958326541131586}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Projectile TRA
+    m_DisplayName: Dash Damage TRA
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -103,18 +103,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Projectile Stateful CheckTimeline
+  m_Name: Damaging Dash with CD Timeline
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
-  - {fileID: -5805365909039723415}
+  - {fileID: -3121958326541131586}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &2370339189823105924
+--- !u!114 &5690200520358518346
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
   m_Name: PhysicsTriggerInstantiateClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: ce1ab9fb262d84a4298eefc30c711f89, type: 2}
+  objectDefinition: {fileID: 11400000, guid: cca212bf6c15e9c4e98c7085afe341ac, type: 2}
   triggerState: 1
   positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
