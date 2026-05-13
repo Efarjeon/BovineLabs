@@ -1719,6 +1719,34 @@ PrefabInstance:
       propertyPath: m_PrefabInstanceID
       value: 3355408436
       objectReference: {fileID: 0}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: StatDefaults.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: IntrinsicDefaults.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: StatDefaults.Array.data[2].Stat
+      value: 
+      objectReference: {fileID: 11400000, guid: a801a99b8dd10ff44bc9532dad8d20d8, type: 2}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: StatDefaults.Array.data[3].Stat
+      value: 
+      objectReference: {fileID: 11400000, guid: 620a34ff04c23264baa9b2918a3a6c1c, type: 2}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: StatDefaults.Array.data[2].Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[3].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6484654186707638435, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[3].Intrinsic
+      value: 
+      objectReference: {fileID: 11400000, guid: 7c41c5bed9c9f0444abb53674b3a951c, type: 2}
     - target: {fileID: 6509201251450975801, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: m_Enabled
       value: 1
