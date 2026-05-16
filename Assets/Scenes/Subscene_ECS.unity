@@ -4982,6 +4982,7 @@ GameObject:
   - component: {fileID: 64841930}
   - component: {fileID: 64841929}
   - component: {fileID: 64841932}
+  - component: {fileID: 64841933}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -5019,8 +5020,8 @@ MonoBehaviour:
   Active:
     trigger: 0
     cooldown: 0
-    cooldownAfterDuration: 0
-    duration: 0
+    cooldownAfterDuration: 1
+    duration: 4
     cancellable: 0
   Conditions:
     conditions:
@@ -5100,7 +5101,19 @@ MonoBehaviour:
   Create:
   - Definition: {fileID: 11400000, guid: 2784de03cfe6cb045898d85d8d6dd600, type: 2}
     Target: 2
-    DestroyOnDisabled: 0
+    DestroyOnDisabled: 1
+--- !u!114 &64841933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64841927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
 --- !u!1 &160821344
 GameObject:
   m_ObjectHideFlags: 0
