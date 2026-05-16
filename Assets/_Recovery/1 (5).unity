@@ -1642,7 +1642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 664617126883123726, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: Create.Array.data[0].DestroyOnDisabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 978121804012471161, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: m_Name
@@ -1894,11 +1894,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8747105205342924377, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: Active.cooldown
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8747105205342924377, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: Active.duration
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8747105205342924377, guid: 87ff809bab7842941ad787e193995a8d, type: 3}
       propertyPath: Active.cooldownAfterDuration
