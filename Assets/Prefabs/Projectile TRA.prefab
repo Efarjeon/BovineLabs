@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 5443533787824151476}
   - component: {fileID: 227765446924446447}
   - component: {fileID: 4593001383243936991}
+  - component: {fileID: 2276377118191737763}
+  - component: {fileID: 3099746258932029676}
   m_Layer: 0
   m_Name: Projectile TRA
   m_TagString: Untagged
@@ -146,7 +148,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 4
     cancellable: 0
   Conditions:
     conditions:
@@ -219,7 +221,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
-  Timelines: []
+  Timelines:
+  - Director: {fileID: 5710390115279711253}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
+--- !u!114 &2276377118191737763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152909587009660436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
+    Target: 0
+    ValueType: 0
+    Fixed:
+      ModifyType: 1
+      Value: 30
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+  - StatSchema: {fileID: 11400000, guid: a801a99b8dd10ff44bc9532dad8d20d8, type: 2}
+    Target: 0
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 400
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+--- !u!114 &3099746258932029676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152909587009660436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
 --- !u!1 &4756049206799287425
 GameObject:
   m_ObjectHideFlags: 0
