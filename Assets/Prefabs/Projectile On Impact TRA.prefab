@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7761677017482502646}
   - component: {fileID: 2283565707141808768}
   - component: {fileID: -735479166972867505}
+  - component: {fileID: 1151324297765299393}
   m_Layer: 0
   m_Name: Projectile On Impact TRA
   m_TagString: Untagged
@@ -35,7 +36,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.272, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 276244677048486924}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8000263360893120960
@@ -205,3 +207,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
   Definition: {fileID: 11400000, guid: 7d9d961ca48d77f4c876eb73c10f39a4, type: 2}
+--- !u!114 &1151324297765299393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412832541895390223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 3543248458539273191}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
+--- !u!1 &910263978067519644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276244677048486924}
+  - component: {fileID: 3543248458539273191}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276244677048486924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910263978067519644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 560830272153898364}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &3543248458539273191
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910263978067519644}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 6cf9ed8020c190242954febaef78d3c1, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -8239091649391413073, guid: 6cf9ed8020c190242954febaef78d3c1, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
