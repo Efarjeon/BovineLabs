@@ -241,7 +241,7 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 3
     m_DetailedStaticMeshCollision:
       m_Override: 0
       m_Value:
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_InitialLinearVelocity:
     x: 0
     y: 0
-    z: 15
+    z: 35
   m_InitialAngularVelocity:
     x: 0
     y: 0

@@ -35,7 +35,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.CommandSequenceClip
   Sequences:
   - Steps:
-    - Action: {fileID: 384104736008741500, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    - Action: {fileID: -2176679726776346340, guid: 052faaac586de48259a63d0c4782560b, type: 3}
       Mode: 0
       Phase: 0
     Condition: {fileID: 11400000, guid: b4b3dcbbbae429c49b27c59669e1e02e, type: 2}

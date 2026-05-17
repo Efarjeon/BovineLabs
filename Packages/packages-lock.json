@@ -104,6 +104,16 @@
       },
       "hash": "6dfbe6026afc9c96855911f138a1ea3339d2fd1a"
     },
+    "com.bovinelabs.timeline": {
+      "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.timeline",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.bovinelabs.core": "1.6.0",
+        "com.unity.timeline": "1.8.11"
+      },
+      "hash": "77e8a565196e92aa797e7be77f25ae23ff83d213"
+    },
     "com.bovinelabs.timeline.animation": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
       "depth": 0,
