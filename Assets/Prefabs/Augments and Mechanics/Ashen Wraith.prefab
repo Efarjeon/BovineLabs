@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
   Create:
-  - Definition: {fileID: 11400000, guid: 7e1f48d01c0e1354ca7d4a12e7232246, type: 2}
+  - Definition: {fileID: 11400000, guid: 115ae75e1d630914282df336e0760946, type: 2}
     Target: 2
     DestroyOnDisabled: 1
 --- !u!114 &5516585135395041044
