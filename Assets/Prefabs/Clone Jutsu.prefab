@@ -144,7 +144,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 4
     cancellable: 0
   Conditions:
     conditions:
