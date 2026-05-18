@@ -81,115 +81,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 0}
     value: {fileID: 0}
+  - key: {fileID: 4907066779775495468, guid: 8287811961dc2af44a6bc44525ccc112, type: 2}
+    value: {fileID: 8127958466208048196}
   m_ExposedReferences:
     m_References: []
---- !u!1 &4385244532794233413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3956648195988882080}
-  - component: {fileID: 5486518015612796280}
-  - component: {fileID: 5966802261882840271}
-  - component: {fileID: 6698745217594377683}
-  - component: {fileID: 1116569214091979373}
-  m_Layer: 0
-  m_Name: Reaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3956648195988882080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7398589572601908138}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5486518015612796280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
---- !u!114 &5966802261882840271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
-  Owner: {fileID: 7554210913281410539}
-  Source: {fileID: 0}
-  Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
-  Initialize:
-    Target: 1
---- !u!114 &6698745217594377683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
-  Active:
-    trigger: 0
-    cooldown: 0
-    cooldownAfterDuration: 0
-    duration: 0
-    cancellable: 0
-  Conditions:
-    conditions: []
-    conditionLogic:
-      expression: 
-    chanceToTrigger: 1
-    doNotReset: 0
-  references:
-    version: 2
-    RefIds: []
---- !u!114 &1116569214091979373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
 --- !u!1 &5211906148603014322
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +96,7 @@ GameObject:
   - component: {fileID: 8342576194086801031}
   - component: {fileID: 8127958466208048196}
   - component: {fileID: 9207736039336210128}
+  - component: {fileID: 108722495174399433}
   m_Layer: 0
   m_Name: Physics
   m_TagString: Untagged
@@ -289,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsShapeAuthoring
   m_ForceUniqueID: 100631745
   m_PrefabInstanceID: 0
-  m_ShapeType: 0
+  m_ShapeType: 3
   m_PrimitiveCenter:
     x: 0
     y: 0
@@ -297,23 +193,23 @@ MonoBehaviour:
   m_PrimitiveSize:
     x: 1
     y: 1
-    z: 1
+    z: 2.02
   m_PrimitiveOrientation:
     Value:
-      x: 0
+      x: 90
       y: 0
       z: 0
     RotationOrder: 4
   m_Capsule:
-    Height: 1
+    Height: 2.02
     Radius: 0.5
     Axis: 2
   m_Cylinder:
-    Height: 1
+    Height: 2.02
     Radius: 0.5
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 0.5
+  m_SphereRadius: 1.01
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
@@ -424,6 +320,19 @@ MonoBehaviour:
         Tag07: 0
     m_SerializedVersion: 1
   m_SerializedVersion: 3
+--- !u!114 &108722495174399433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211906148603014322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &5388519469659783876
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +515,8 @@ PlayableDirector:
     value: {fileID: 4682727733672973820}
   - key: {fileID: 4768370480421131221, guid: 590c9c062cbaf1246a68e1b2d1d35fe4, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -4721013140946630986, guid: e94b484867b67044fadae0fd3acab750, type: 2}
+    value: {fileID: 1149256098206129821}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &7026496813834823713
@@ -620,6 +531,7 @@ GameObject:
   - component: {fileID: 432662906099901755}
   - component: {fileID: 7223899841104030059}
   - component: {fileID: 4434755241196170130}
+  - component: {fileID: 5835669481650186578}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -694,14 +606,53 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: Countdown Clone Explosion
+      Condition: {fileID: 11400000, guid: 0dbeb322faf912c448f9f7fe99dcc376, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &5835669481650186578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7026496813834823713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 8535566262817226392}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
 --- !u!1 &7554210913281410539
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,7 +688,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3956648195988882080}
   - {fileID: 1915605348005604393}
   - {fileID: 8342576194086801031}
   - {fileID: 841279862164352934}
