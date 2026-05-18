@@ -436,6 +436,7 @@ GameObject:
   - component: {fileID: 507885169159994385}
   - component: {fileID: 3760192887954717419}
   - component: {fileID: 7693279737093357676}
+  - component: {fileID: 3590509010987074961}
   m_Layer: 0
   m_Name: Projectile Object
   m_TagString: Untagged
@@ -506,3 +507,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &3590509010987074961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7899210778493580209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
+  From: 2
+  To: 1
+  Position: 1
+  Rotation: 0
+  Scale: 0
+  ApplyInitialTransform: 1
