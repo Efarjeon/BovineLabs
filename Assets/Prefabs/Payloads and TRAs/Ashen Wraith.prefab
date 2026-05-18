@@ -75,7 +75,6 @@ GameObject:
   - component: {fileID: 5486518015612796280}
   - component: {fileID: 5966802261882840271}
   - component: {fileID: 6698745217594377683}
-  - component: {fileID: 4062203539792508553}
   - component: {fileID: 1116569214091979373}
   m_Layer: 0
   m_Name: Reaction
@@ -148,7 +147,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 1
+    duration: 0
     cancellable: 0
   Conditions:
     conditions: []
@@ -159,22 +158,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
---- !u!114 &4062203539792508553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4385244532794233413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
-  Create:
-  - Definition: {fileID: 11400000, guid: 115ae75e1d630914282df336e0760946, type: 2}
-    Target: 2
-    DestroyOnDisabled: 0
 --- !u!114 &1116569214091979373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +183,8 @@ GameObject:
   - component: {fileID: 3903992277927321850}
   - component: {fileID: 8629289786506242254}
   - component: {fileID: 2075028594204702416}
+  - component: {fileID: 1149256098206129821}
+  - component: {fileID: 4682097330653407159}
   m_Layer: 0
   m_Name: Essence
   m_TagString: Untagged
@@ -240,8 +225,8 @@ MonoBehaviour:
   StatsCanBeModified: 1
   AddIntrinsics: 1
   IntrinsicDefaults:
-  - Intrinsic: {fileID: 0}
-    Value: 0
+  - Intrinsic: {fileID: 11400000, guid: 0dbeb322faf912c448f9f7fe99dcc376, type: 2}
+    Value: 1
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
@@ -282,6 +267,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Conditions.EventWriterAuthoring
   subscriptionOnly: 0
+--- !u!114 &1149256098206129821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5388519469659783876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 0}
+  Custom:
+    Enable: 0
+    Target0: {fileID: 0}
+    Target1: {fileID: 0}
+  Initialize:
+    Target: 1
+--- !u!114 &4682097330653407159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5388519469659783876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &6413009534026659302
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +347,9 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 4768370480421131221, guid: 75bbfee9a0b95f74abec13cec17ed977, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &7026496813834823713
@@ -389,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
-  Owner: {fileID: 0}
+  Owner: {fileID: 5388519469659783876}
   Source: {fileID: 0}
   Target: {fileID: 0}
   Custom:
