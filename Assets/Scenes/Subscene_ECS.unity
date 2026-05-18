@@ -5308,6 +5308,8 @@ MonoBehaviour:
     Value: 10
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Value: 100
+  - Intrinsic: {fileID: 11400000, guid: 3bb4bbe983001b042bc741f162b0b834, type: 2}
+    Value: 1
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
@@ -6275,6 +6277,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!1 &603480132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603480133}
+  - component: {fileID: 603480134}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603480133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603480132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1492400302}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &603480134
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603480132}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: eb6be65a1a4a11e49a11c41d7485efb4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &647094259
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,6 +6404,7 @@ GameObject:
   - component: {fileID: 696582543}
   - component: {fileID: 696582542}
   - component: {fileID: 696582541}
+  - component: {fileID: 696582545}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -6389,8 +6441,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: 20
-    Target: 4
+    Amount: 100
+    Target: 2
+  - Intrinsic: {fileID: 11400000, guid: 3bb4bbe983001b042bc741f162b0b834, type: 2}
+    Amount: -1
+    Target: 2
 --- !u!114 &696582542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6413,8 +6468,8 @@ MonoBehaviour:
     conditions:
     - Name: CurrentHealth
       Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 4
-      Operation: 1
+      Target: 2
+      Operation: 6
       ComparisonMode: 0
       Value: 0
       CustomValue:
@@ -6427,13 +6482,32 @@ MonoBehaviour:
       ValueMax: 0
       CustomValueMax:
         rid: -2
-      Features: 2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
+    - Name: Death Defiance
+      Condition: {fileID: 11400000, guid: 3bb4bbe983001b042bc741f162b0b834, type: 2}
+      Target: 2
+      Operation: 3
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
-    doNotReset: 1
+    doNotReset: 0
   references:
     version: 2
     RefIds:
@@ -6472,6 +6546,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &696582545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696582539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 603480134}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
 --- !u!1 &712796237
 GameObject:
   m_ObjectHideFlags: 0
@@ -15718,6 +15810,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 696582540}
+  - {fileID: 603480133}
   m_Father: {fileID: 712796241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586938273
