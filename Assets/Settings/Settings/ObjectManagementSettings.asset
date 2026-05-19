@@ -15,6 +15,7 @@ MonoBehaviour:
   objectDefinitions:
   - {fileID: 11400000, guid: f5d003edb1ad6e4469aa6f8df4620114, type: 2}
   - {fileID: 11400000, guid: 64563ea3ff115674496a4ac7adf6d2cc, type: 2}
+  - {fileID: 11400000, guid: 9ed3d1d7b434c2b48af4b21cfc52c8f5, type: 2}
   - {fileID: 11400000, guid: d6c3a0c71ebb57948a23229604bdf237, type: 2}
   - {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
