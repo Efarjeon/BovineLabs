@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ReactionSettings
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionSettings
   conditionEvents:
+  - {fileID: 11400000, guid: 8eff2ae4eca41064b9efdf1f0c922847, type: 2}
   - {fileID: 11400000, guid: 3abba647a17b4a8fbf794cafa2d8135d, type: 2}
   - {fileID: 11400000, guid: 2bf0f6b7d8364fe2ad9ef52d5efd255b, type: 2}
   - {fileID: 11400000, guid: d43b71f3899c442cb09c24e333c7a8b8, type: 2}
@@ -60,6 +61,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 44bba5a2afba41e89aa3fb010974e839, type: 2}
   - {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
   - {fileID: 11400000, guid: 975616b2eab6463a9f141fe72cd75d52, type: 2}
+  - {fileID: 11400000, guid: 63650ded058133b4fb7bb9686bb1f633, type: 2}
   - {fileID: 11400000, guid: 52b24bb9e95b4d138a2d95c2e2886e42, type: 2}
   - {fileID: 11400000, guid: 865b9cb205044c08b03a784f486508fd, type: 2}
   - {fileID: 11400000, guid: 996c7f69b5554068bfd8c7ea5924cbe7, type: 2}
@@ -104,6 +106,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2acf325c6ae94cf0a0c364465fa90540, type: 2}
   - {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
   - {fileID: 11400000, guid: 06427d71bb3b44ee8f2f9d99e11aa8e0, type: 2}
+  - {fileID: 11400000, guid: 6c2c6bb536f36d34d82e2ccdd412771f, type: 2}
   - {fileID: 11400000, guid: b4b3dcbbbae429c49b27c59669e1e02e, type: 2}
   - {fileID: 11400000, guid: a95eaeb728a94fd1bf98d2353f28bbd3, type: 2}
   - {fileID: 11400000, guid: 656c5d325e244536b948a3da76e573a0, type: 2}
