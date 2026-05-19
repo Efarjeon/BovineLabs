@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6195472101238202823}
   - component: {fileID: 5968828969602420886}
   - component: {fileID: -8144065701294611228}
-  - component: {fileID: -5660965373772907845}
+  - component: {fileID: 5239896608054041702}
   m_Layer: 0
   m_Name: Clone Jutsu
   m_TagString: Untagged
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
---- !u!114 &-5660965373772907845
+--- !u!114 &5239896608054041702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
