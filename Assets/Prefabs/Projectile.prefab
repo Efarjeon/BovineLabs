@@ -42,12 +42,14 @@ PlayableDirector:
   m_GameObject: {fileID: 354899868112398056}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
+  m_PlayableAsset: {fileID: 11400000, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: -4037567936177962335, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
+    value: {fileID: 6890045214084516998}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &6744710264668099698
@@ -165,9 +167,7 @@ GameObject:
   - component: {fileID: 8103622510405463590}
   - component: {fileID: 6890045214084516998}
   - component: {fileID: 6504707638109648073}
-  - component: {fileID: 969822005002771304}
   - component: {fileID: 7038162966196954959}
-  - component: {fileID: 2978722061876626167}
   m_Layer: 0
   m_Name: Trajectory Physics
   m_TagString: Untagged
@@ -425,19 +425,6 @@ MonoBehaviour:
     Target1: {fileID: 0}
   Initialize:
     Target: 1
---- !u!114 &969822005002771304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3443271472079384552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 0}
 --- !u!114 &7038162966196954959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,24 +437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
---- !u!114 &2978722061876626167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3443271472079384552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
-  From: 2
-  To: 1
-  Position: 1
-  Rotation: 0
-  Scale: 0
-  ApplyInitialTransform: 1
 --- !u!1 &7251361770255369432
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +450,7 @@ GameObject:
   - component: {fileID: 4000253089873319937}
   - component: {fileID: 3225989311172632920}
   - component: {fileID: 4815821289380744654}
+  - component: {fileID: 5502802482748932556}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -569,3 +539,15 @@ MonoBehaviour:
   Rotation: 0
   Scale: 0
   ApplyInitialTransform: 1
+--- !u!114 &5502802482748932556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251361770255369432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
