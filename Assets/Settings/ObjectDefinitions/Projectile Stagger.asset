@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Projectile
+  m_Name: Projectile Stagger
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 3
+  id: 8
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 7251361770255369432, guid: a7b0d2fc6c4e1624883908dbba5d7616, type: 3}
+  prefab: {fileID: 7251361770255369432, guid: c9aeb016ab4b64d459d79177e30dc675, type: 3}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EssenceSettings
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.EssenceSettings
   statSchemas:
+  - {fileID: 11400000, guid: c13c17623ae4ec44087739b06c6ae7ee, type: 2}
   - {fileID: 11400000, guid: 7d4ad9a26d7e4da58c1c9b22307a58df, type: 2}
   - {fileID: 11400000, guid: 0482c8c0399042afaf4c886fb0d846f0, type: 2}
   - {fileID: 11400000, guid: 6d8a88f0ff074d36bb7a2bed0290b06a, type: 2}
@@ -56,6 +57,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 30a899661c84c2996b99d8accd08d4b6, type: 2}
   - {fileID: 11400000, guid: 4fd90e13234f435e8bac348cd151b509, type: 2}
   - {fileID: 11400000, guid: b935fbdabf7a4150a2a091bab79d69c4, type: 2}
+  - {fileID: 11400000, guid: adfa255e551babe42b70148bd37c0d16, type: 2}
   - {fileID: 11400000, guid: e1440abaa63647a8af7fdb02b72a040a, type: 2}
   - {fileID: 11400000, guid: e9aafbec77754426a0e0ceebadf3b8de, type: 2}
   - {fileID: 11400000, guid: 9a3ddfc22ca847ac8f9fc54743c4529b, type: 2}
@@ -117,6 +119,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3687795e814147afa0fe1bb30119476e, type: 2}
   - {fileID: 11400000, guid: 95a61e8c263e49dbbc6a31729d0815ce, type: 2}
   - {fileID: 11400000, guid: 96c2a5db33e37c79cbd488ea42cee70d, type: 2}
+  - {fileID: 11400000, guid: 32ea6dca25994c04394520ecaba3a95f, type: 2}
   - {fileID: 11400000, guid: e63f12218a70483ba3d6f30c22b88e5d, type: 2}
   - {fileID: 11400000, guid: ce9fca3f4fe64fc7b756b51fde668c23, type: 2}
   - {fileID: 11400000, guid: adcbf67be25b4b43a3435d2d7f72692c, type: 2}
@@ -150,6 +153,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
   - {fileID: 11400000, guid: cb598df02a294ee9b5f98cbb4426f6dc, type: 2}
   - {fileID: 11400000, guid: a309bb0dd9613180c839c2a0f7a57b34, type: 2}
+  - {fileID: 11400000, guid: 054e84c1c03594a46820bb8009ed16da, type: 2}
   - {fileID: 11400000, guid: a1ba9803a3b54ca4afa4bf8e440e8b70, type: 2}
   - {fileID: 11400000, guid: 72cca5ef8879475587b6efce61148f62, type: 2}
   - {fileID: 11400000, guid: 24b31a2aa5c2474e9e81321d9e4bc40c, type: 2}
@@ -179,6 +183,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6f39a22ef66a4880b2a2918be8962f89, type: 2}
   - {fileID: 11400000, guid: b41143a8ad1640bfade2f31aa633f933, type: 2}
   - {fileID: 11400000, guid: 3ff1a8b5746b41848adfe89df8858451, type: 2}
+  - {fileID: 11400000, guid: 9bd87f62870e0a940a911ee8d6b33a82, type: 2}
   - {fileID: 11400000, guid: a7f01d37e3174a258536083cf6241ea9, type: 2}
   - {fileID: 11400000, guid: 1044c232ab714ef8b2ed9dde3115434a, type: 2}
   - {fileID: 11400000, guid: 8c877884fbc9478490e13a210b875f42, type: 2}

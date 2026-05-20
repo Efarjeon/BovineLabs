@@ -42,13 +42,15 @@ PlayableDirector:
   m_GameObject: {fileID: 354899868112398056}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 58f65f77a3ca0124f9ebf9e0b42e8f9b, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -4037567936177962335, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
+    value: {fileID: 6890045214084516998}
+  - key: {fileID: -4037567936177962335, guid: 58f65f77a3ca0124f9ebf9e0b42e8f9b, type: 2}
     value: {fileID: 6890045214084516998}
   m_ExposedReferences:
     m_References: []
@@ -419,10 +421,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!114 &7038162966196954959
@@ -452,7 +451,7 @@ GameObject:
   - component: {fileID: 4815821289380744654}
   - component: {fileID: 5502802482748932556}
   m_Layer: 0
-  m_Name: Projectile
+  m_Name: Projectile Slow Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
+  Definition: {fileID: 11400000, guid: d851bd07ff7909e439d62cfc6ddd590c, type: 2}
 --- !u!114 &4000253089873319937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,10 +502,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!114 &3225989311172632920
