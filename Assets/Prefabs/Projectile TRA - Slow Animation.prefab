@@ -52,13 +52,13 @@ PlayableDirector:
   - key: {fileID: 5917642726686213334, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
     value: {fileID: -1456383246340423924}
   - key: {fileID: -4649621534684280223, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: 8118310281106374241}
+    value: {fileID: 0}
   - key: {fileID: 7525463858412898074, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: 8118310281106374241}
+    value: {fileID: 0}
   - key: {fileID: 477116940428990062, guid: 52b8889a53b78a24bb690496ff7d578e, type: 2}
-    value: {fileID: 8118310281106374241}
+    value: {fileID: 0}
   - key: {fileID: -3969448823626121906, guid: 52b8889a53b78a24bb690496ff7d578e, type: 2}
-    value: {fileID: 8118310281106374241}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &5655216785603469945
@@ -78,7 +78,6 @@ GameObject:
   - component: {fileID: -1935567297441569431}
   - component: {fileID: -894699370762452732}
   - component: {fileID: 5442483012848366762}
-  - component: {fileID: 8118310281106374241}
   m_Layer: 0
   m_Name: Projectile TRA - Slow Animation
   m_TagString: Untagged
@@ -171,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 64563ea3ff115674496a4ac7adf6d2cc, type: 2}
+  Definition: {fileID: 11400000, guid: 9ed3d1d7b434c2b48af4b21cfc52c8f5, type: 2}
 --- !u!114 &-1456383246340423924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,28 +279,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: -30
-    Target: 1
---- !u!114 &8118310281106374241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7305cdf55c354c0eb811d408fe38ad23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.StatAuthoring
-  AddStats: 1
-  StatDefaults: []
-  StatDefaultGroups: []
-  StatsCanBeModified: 1
-  AddIntrinsics: 1
-  IntrinsicDefaults: []
-  IntrinsicDefaultGroups: []
-  Initialize:
-    CopyFrom: 3
+  Intrinsics: []

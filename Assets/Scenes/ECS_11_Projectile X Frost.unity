@@ -5900,7 +5900,7 @@ MonoBehaviour:
   m_InitialLinearVelocity:
     x: 0
     y: 0
-    z: 10
+    z: 0
   m_InitialAngularVelocity:
     x: 0
     y: 0

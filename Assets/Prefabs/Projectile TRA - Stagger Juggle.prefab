@@ -50,7 +50,7 @@ PlayableDirector:
   - key: {fileID: -4649621534684280223, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
     value: {fileID: -1456383246340423924}
   - key: {fileID: -8754082234461281838, guid: 508dd1171a9e9134080352e72b38d3bb, type: 2}
-    value: {fileID: 8018258084023004253}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &5655216785603469945
@@ -69,8 +69,7 @@ GameObject:
   - component: {fileID: 4142052147772024278}
   - component: {fileID: -1935567297441569431}
   - component: {fileID: -894699370762452732}
-  - component: {fileID: 5442483012848366762}
-  - component: {fileID: 8018258084023004253}
+  - component: {fileID: -4791882421716422934}
   m_Layer: 0
   m_Name: Projectile TRA - Stagger Juggle
   m_TagString: Untagged
@@ -210,38 +209,17 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 5
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: CurrentHealth
-      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 1
-      Operation: 3
-      ComparisonMode: 0
-      Value: 0
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 2
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &-894699370762452732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,7 +227,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
   m_Name: 
@@ -260,7 +238,7 @@ MonoBehaviour:
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
     Bindings: []
---- !u!114 &5442483012848366762
+--- !u!114 &-4791882421716422934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,31 +247,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 5655216785603469945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: -30
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: 32ea6dca25994c04394520ecaba3a95f, type: 2}
     Target: 1
---- !u!114 &8018258084023004253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7305cdf55c354c0eb811d408fe38ad23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.StatAuthoring
-  AddStats: 1
-  StatDefaults: []
-  StatDefaultGroups: []
-  StatsCanBeModified: 1
-  AddIntrinsics: 1
-  IntrinsicDefaults: []
-  IntrinsicDefaultGroups: []
-  Initialize:
-    CopyFrom: 3
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 1
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
