@@ -218,10 +218,10 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Null
-      Condition: {fileID: 0}
-      Target: 0
-      Operation: 0
+    - Name: CurrentHealth
+      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+      Target: 1
+      Operation: 3
       ComparisonMode: 0
       Value: 0
       CustomValue:
@@ -234,7 +234,7 @@ MonoBehaviour:
       ValueMax: 0
       CustomValueMax:
         rid: -2
-      Features: 0
+      Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
     conditionLogic:
