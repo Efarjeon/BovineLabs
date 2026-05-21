@@ -5397,6 +5397,9 @@ MonoBehaviour:
   - Stat: {fileID: 11400000, guid: adfa255e551babe42b70148bd37c0d16, type: 2}
     ModifyType: 0
     Value: 0
+  - Stat: {fileID: 11400000, guid: 95a61e8c263e49dbbc6a31729d0815ce, type: 2}
+    ModifyType: 0
+    Value: 100
   StatDefaultGroups: []
   StatsCanBeModified: 1
   AddIntrinsics: 1
@@ -5897,7 +5900,7 @@ MonoBehaviour:
   m_InitialLinearVelocity:
     x: 0
     y: 0
-    z: 0
+    z: 10
   m_InitialAngularVelocity:
     x: 0
     y: 0
