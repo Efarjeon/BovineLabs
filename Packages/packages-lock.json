@@ -77,6 +77,15 @@
       },
       "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
     },
+    "com.bovinelabs.reaction.addon": {
+      "version": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.6.0"
+      },
+      "hash": "8231dd3e7786746e994fd960d85723757ccd5a77"
+    },
     "com.bovinelabs.spatial": {
       "version": "https://github.com/IAFahim/BovineLabs.Spatial.git",
       "depth": 0,
@@ -170,7 +179,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "3961cbc64e9f5aaaac3b904f078e3321849049fd"
+      "hash": "742af7e5c54ebdd049b21e78ddac6a18bbf80b00"
     },
     "com.bovinelabs.timeline.playerinputs": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
