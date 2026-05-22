@@ -16,6 +16,6 @@ MonoBehaviour:
   key:
     Value: 77
   defaultValue: 0
-  range: {x: 0, y: 0}
+  range: {x: 0, y: 10}
   minStat: {fileID: 0}
   maxStat: {fileID: 0}

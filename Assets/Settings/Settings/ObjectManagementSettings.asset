@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ObjectManagementSettings
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectManagementSettings
   objectDefinitions:
+  - {fileID: 11400000, guid: 450359ae976143b49a0235426deb076e, type: 2}
   - {fileID: 11400000, guid: f5d003edb1ad6e4469aa6f8df4620114, type: 2}
   - {fileID: 11400000, guid: 9f3ed6c87a71f804cb7e469a22840d07, type: 2}
   - {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
@@ -23,4 +24,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d41d9c9688be7e942a5cbb66b20f8d87, type: 2}
   - {fileID: 11400000, guid: 9ed3d1d7b434c2b48af4b21cfc52c8f5, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
+  - {fileID: 11400000, guid: 6543c0bf6fa12aa4ebb5a86c87de827c, type: 2}
   objectGroups: []
