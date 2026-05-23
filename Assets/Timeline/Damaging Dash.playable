@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1252949203845367794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
+  m_Name: PhysicsTriggerInstantiateClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
+  objectDefinition: {fileID: 11400000, guid: d6be79dac3b1cb6408689dc96f542a3d, type: 2}
+  triggerState: 1
+  positionMode: 2
+  positionOffset: {x: 0, y: 0, z: 0}
+  positionOffsetSpace: 4
+  rotationMode: 2
+  rotationOffset: {x: 0, y: 0, z: 0}
+  assignParent: 0
+  assignParentLink: {fileID: 0}
+  targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,8 +67,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 8320121425494007513}
-    m_Duration: 1
+    m_Asset: {fileID: -1252949203845367794}
+    m_Duration: 0.65
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1453386733384205527}
     m_EaseInDuration: 0
@@ -110,57 +132,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: OnInputDash
+    m_DisplayName: Dash Damage TRA
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
---- !u!114 &8320121425494007513
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32a25ce66a0e89320997b5dd497e8621, type: 3}
-  m_Name: PhysicsTriggerConditionClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerConditionClip
-  triggerState: 1
-  collidesWith:
-    Category00: 0
-    Category01: 0
-    Category02: 0
-    Category03: 0
-    Category04: 0
-    Category05: 0
-    Category06: 0
-    Category07: 0
-    Category08: 1
-    Category09: 0
-    Category10: 0
-    Category11: 0
-    Category12: 0
-    Category13: 0
-    Category14: 0
-    Category15: 0
-    Category16: 0
-    Category17: 0
-    Category18: 0
-    Category19: 0
-    Category20: 0
-    Category21: 0
-    Category22: 0
-    Category23: 0
-    Category24: 0
-    Category25: 0
-    Category26: 0
-    Category27: 0
-    Category28: 0
-    Category29: 0
-    Category30: 0
-    Category31: 0
-  condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
-  value: 1
-  routeTo: 1
-  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
