@@ -8915,7 +8915,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4550046945098457136, guid: 4481632f188159542b0dff184d7e0292, type: 3}
       propertyPath: Conditions.chanceToTrigger
-      value: 1
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499927501546923342, guid: 4481632f188159542b0dff184d7e0292, type: 3}
+      propertyPath: Create.Array.data[0].Definition
+      value: 
+      objectReference: {fileID: 11400000, guid: 6047f115f5e54484fbac716df8a2d44c, type: 2}
+    - target: {fileID: 6499927501546923342, guid: 4481632f188159542b0dff184d7e0292, type: 3}
+      propertyPath: Create.Array.data[0].DestroyOnDisabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
