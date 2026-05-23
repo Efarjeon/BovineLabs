@@ -5117,6 +5117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 44182480}
   - component: {fileID: 44182481}
+  - component: {fileID: 44182482}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -5158,6 +5159,18 @@ PlayableDirector:
     value: {fileID: 588256452}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &44182482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44182479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Timeline.Core.Authoring::BovineLabs.Timeline.Core.Authoring.TimelineReferenceAuthoring
 --- !u!1 &65574054
 GameObject:
   m_ObjectHideFlags: 0
@@ -13363,6 +13376,7 @@ GameObject:
   - component: {fileID: 1238747589}
   - component: {fileID: 1238747588}
   - component: {fileID: 1238747587}
+  - component: {fileID: 1238747591}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -13442,6 +13456,25 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
+    - Name: Dash Cooldown
+      Condition: {fileID: 11400000, guid: 078af9e8f57e41343939ad8c55836b7d, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
@@ -13481,6 +13514,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &1238747591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238747585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: 078af9e8f57e41343939ad8c55836b7d, type: 2}
+    Amount: 4
+    Target: 2
 --- !u!1 &1241495307
 GameObject:
   m_ObjectHideFlags: 0
@@ -16507,6 +16556,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -3327492878883898042, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 588256448}
+  - key: {fileID: 4755966240739972595, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 1387560025}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1951091060
