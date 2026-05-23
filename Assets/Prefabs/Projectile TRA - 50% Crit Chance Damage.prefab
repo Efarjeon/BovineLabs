@@ -72,9 +72,7 @@ GameObject:
   - component: {fileID: -1456383246340423924}
   - component: {fileID: 4142052147772024278}
   - component: {fileID: -1935567297441569431}
-  - component: {fileID: -894699370762452732}
   - component: {fileID: 5442483012848366762}
-  - component: {fileID: 866564683144632398}
   m_Layer: 0
   m_Name: Projectile TRA - 50% Crit Chance Damage
   m_TagString: Untagged
@@ -235,35 +233,17 @@ MonoBehaviour:
       CustomValueMax:
         rid: -2
       Features: 1
-      DestroyIfTargetDestroyed: 0
+      DestroyIfTargetDestroyed: 1
       CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 0.5
-    doNotReset: 0
+    doNotReset: 1
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!114 &-894699370762452732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
-  Timelines:
-  - Director: {fileID: 6862412038097995567}
-    InitialTime: 0
-    DisableTimelineOnDeactivate: 0
-    ResetWhenActive: 0
-    Bindings: []
 --- !u!114 &5442483012848366762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,16 +260,3 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Amount: -30
     Target: 1
---- !u!114 &866564683144632398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
-  Stats: []
