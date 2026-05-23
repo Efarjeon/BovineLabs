@@ -73,6 +73,8 @@ GameObject:
   - component: {fileID: 4142052147772024278}
   - component: {fileID: -1935567297441569431}
   - component: {fileID: 5442483012848366762}
+  - component: {fileID: -5427898787008499069}
+  - component: {fileID: 6153436454378283627}
   m_Layer: 0
   m_Name: Projectile TRA - 50% Crit Chance Damage
   m_TagString: Untagged
@@ -90,7 +92,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.1, z: 1.38}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.58, y: 0.42, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1198800025022895644}
@@ -103,7 +105,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5655216785603469945}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &783830193102286388
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -260,3 +262,29 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Amount: -30
     Target: 1
+--- !u!114 &-5427898787008499069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  Target: 4
+--- !u!114 &6153436454378283627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4

@@ -75,6 +75,8 @@ GameObject:
   - component: {fileID: -894699370762452732}
   - component: {fileID: 5442483012848366762}
   - component: {fileID: 866564683144632398}
+  - component: {fileID: -5884798396832463505}
+  - component: {fileID: 3729425715305438974}
   m_Layer: 0
   m_Name: Projectile TRA - Basic Damage
   m_TagString: Untagged
@@ -292,4 +294,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
-  Stats: []
+  Stats:
+  - StatSchema: {fileID: 0}
+    Target: 0
+    ValueType: 2
+    Fixed:
+      ModifyType: 0
+      Value: 0
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+--- !u!114 &-5884798396832463505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  Target: 4
+--- !u!114 &3729425715305438974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
