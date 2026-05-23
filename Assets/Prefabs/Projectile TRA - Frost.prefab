@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: -1935567297441569431}
   - component: {fileID: 5442483012848366762}
   - component: {fileID: 866564683144632398}
+  - component: {fileID: -3557793208222673884}
   m_Layer: 0
   m_Name: Projectile TRA - Frost
   m_TagString: Untagged
@@ -216,35 +217,14 @@ MonoBehaviour:
     duration: 4
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: CurrentHealth
-      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 1
-      Operation: 3
-      ComparisonMode: 0
-      Value: 0
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
-    doNotReset: 0
+    doNotReset: 1
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &5442483012848366762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,3 +285,16 @@ MonoBehaviour:
       ModifyType: 0
       Min: 0
       Max: 0
+--- !u!114 &-3557793208222673884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
