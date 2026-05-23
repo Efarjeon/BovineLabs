@@ -129,8 +129,8 @@ MonoBehaviour:
   triggerState: 1
   forceType: 1
   mode: 1
-  magnitude: 1.5
-  direction: {x: 0, y: 2, z: 0}
+  magnitude: 2
+  direction: {x: 5, y: 0, z: 0}
   originMode: 0
   strengthStat: {fileID: 0}
   readStatFrom: 4
