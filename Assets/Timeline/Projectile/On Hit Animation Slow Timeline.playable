@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: TimelineEssenceStatClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceStatClip
   routeTo: 1
+  routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   stat: {fileID: 11400000, guid: 95a61e8c263e49dbbc6a31729d0815ce, type: 2}
   modifyType: 1
-  value: 60
+  value: 70

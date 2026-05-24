@@ -58,7 +58,7 @@ PlayableDirector:
   - key: {fileID: 477116940428990062, guid: 52b8889a53b78a24bb690496ff7d578e, type: 2}
     value: {fileID: 0}
   - key: {fileID: -3969448823626121906, guid: 52b8889a53b78a24bb690496ff7d578e, type: 2}
-    value: {fileID: 0}
+    value: {fileID: -1456383246340423924}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &5655216785603469945
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 9ed3d1d7b434c2b48af4b21cfc52c8f5, type: 2}
+  Definition: {fileID: 11400000, guid: d41d9c9688be7e942a5cbb66b20f8d87, type: 2}
 --- !u!114 &-1456383246340423924
 MonoBehaviour:
   m_ObjectHideFlags: 0
