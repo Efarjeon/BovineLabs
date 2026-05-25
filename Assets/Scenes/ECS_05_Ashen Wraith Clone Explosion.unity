@@ -5037,11 +5037,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.FollowPositionOnlyAuthoring
   target: {fileID: 1697952402}
---- !u!4 &65408184 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-  m_PrefabInstance: {fileID: 1925218014}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &160821344
 GameObject:
   m_ObjectHideFlags: 0
@@ -5914,29 +5909,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 905909247}
-  - {fileID: 65408184}
+  - {fileID: 8838586157490234319}
   m_Father: {fileID: 11785434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1192093594 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9062657800476589871, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-  m_PrefabInstance: {fileID: 1925218014}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1192093596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192093594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc74f86af1a4bcbb88866caa200aa0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateOnDeactivateAuthoring
-  Spawns:
-  - Definition: {fileID: 11400000, guid: 450359ae976143b49a0235426deb076e, type: 2}
-    Target: 0
 --- !u!1 &1238747585
 GameObject:
   m_ObjectHideFlags: 0
@@ -8825,74 +8800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Bridge.Authoring::BovineLabs.Bridge.Authoring.Camera.CameraMainAuthoring
   projectionCenterOffset: {x: 0, y: 0}
---- !u!1001 &1925218014
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1138849774}
-    m_Modifications:
-    - target: {fileID: 2979996697554538980, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: Owner
-      value: 
-      objectReference: {fileID: 1387560016}
-    - target: {fileID: 6661089971159139346, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: Create.Array.data[0].Definition
-      value: 
-      objectReference: {fileID: 11400000, guid: ba0f285cddce274449538243fbd397ad, type: 2}
-    - target: {fileID: 8200762176510836026, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_Name
-      value: Ashen Wraith
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.79809
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.668
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.29968
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8838586159390235921, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9062657800476589871, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1192093596}
-  m_SourcePrefab: {fileID: 100100000, guid: 4b258ef2d939b7e4eb16392c30e8f3de, type: 3}
 --- !u!1 &1951091058
 GameObject:
   m_ObjectHideFlags: 0
@@ -9008,6 +8915,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1418420619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5906633028231421603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1138849774}
+    m_Modifications:
+    - target: {fileID: 2788331869432774284, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: Owner
+      value: 
+      objectReference: {fileID: 1387560016}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.79809
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.668
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.29968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726447464730080123, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: m_Name
+      value: Ashen Wraith
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+--- !u!4 &8838586157490234319 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5440982558013204698, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+  m_PrefabInstance: {fileID: 5906633028231421603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
