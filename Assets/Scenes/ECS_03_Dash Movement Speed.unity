@@ -5106,6 +5106,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2754a85d267f495787f09dc526997ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.Spatial.Authoring::BovineLabs.Timeline.Spatial.Authoring.InfluenceTrailEmitterAuthoring
+--- !u!1 &361374107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+  m_PrefabInstance: {fileID: 5114508121981633856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &361374114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
+    Target: 2
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 20
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+--- !u!114 &361374116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
+--- !u!114 &361374118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
 --- !u!1 &459224082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,6 +5714,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f30da58ee5646aa97df40eac267246d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Quill.Grid.Authoring::BovineLabs.Quill.Grid.Authoring.Test.GridSyntheticFieldAuthoring
+--- !u!1 &1193685471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+  m_PrefabInstance: {fileID: 5114508121981633856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1193685477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193685471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
+--- !u!114 &1193685478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193685471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
+--- !u!114 &1193685479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193685471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
+    Target: 2
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 30
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
 --- !u!1 &1241495307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8216,6 +8336,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1749563369}
     m_Modifications:
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Active.duration
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Active.cancellable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.doNotReset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Name
+      value: OnDashCompleted
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Name
+      value: On Dash Movement Speed Rank
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 44bba5a2afba41e89aa3fb010974e839, type: 2}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Operation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 9bd87f62870e0a940a911ee8d6b33a82, type: 2}
+    - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CancelActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 581686335857083760, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Owner
       value: 
@@ -8260,6 +8432,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2256032269915548557, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Active.duration
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256032269915548557, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Name
+      value: OnDashCompleted
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256032269915548557, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 44bba5a2afba41e89aa3fb010974e839, type: 2}
+    - target: {fileID: 3056199744892302748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302305702324612748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302305702324612748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Timelines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302305702324612748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Timelines.Array.data[0].Director
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302305702324612748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Timelines.Array.data[1].Director
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791612874707398021, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: Timelines.Array.data[0].Director
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5466346065614875084, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
@@ -8280,10 +8488,30 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 1387560018}
+    - target: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525147934752570528, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7525147934752570528, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].key
+      value: 
+      objectReference: {fileID: 4755966240739972595, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    - target: {fileID: 7525147934752570528, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: 2826979494301157522, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     - target: {fileID: 7525147934752570528, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 588256448}
+    - target: {fileID: 7525147934752570528, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 1387560025}
     - target: {fileID: 7531365204301420916, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Owner
       value: 
@@ -8292,10 +8520,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dash
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 3302305702324612748, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+    - {fileID: 3791612874707398021, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 141554317989722487, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+    - {fileID: 425794149327229247, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 361374114}
+    - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 361374116}
+    - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 361374118}
+    - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193685478}
+    - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193685477}
+    - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193685479}
   m_SourcePrefab: {fileID: 100100000, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
