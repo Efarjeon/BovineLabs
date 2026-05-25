@@ -5166,6 +5166,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
   Target: 4
+--- !u!114 &361374123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
+  Create:
+  - Definition: {fileID: 11400000, guid: b0318ea5e41433b43b2aa55249efda22, type: 2}
+    Target: 2
+    DestroyOnDisabled: 0
 --- !u!1 &459224082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,6 +5790,22 @@ MonoBehaviour:
       ModifyType: 0
       Min: 0
       Max: 0
+--- !u!114 &1193685484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193685471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
+  Create:
+  - Definition: {fileID: 11400000, guid: a594f0d867f8d3f4197c7d9d9d344e85, type: 2}
+    Target: 0
+    DestroyOnDisabled: 0
 --- !u!1 &1241495307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,7 +8374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Active.duration
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 169346625384206735, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Active.cancellable
@@ -8438,7 +8470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256032269915548557, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Active.duration
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2256032269915548557, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
@@ -8541,6 +8573,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
       addedObject: {fileID: 361374118}
+    - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 361374123}
     - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1193685478}
@@ -8550,6 +8585,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1193685479}
+    - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1193685484}
   m_SourcePrefab: {fileID: 100100000, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

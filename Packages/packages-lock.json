@@ -7,14 +7,14 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.bridge": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.bridge",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.core": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
@@ -23,7 +23,7 @@
       "dependencies": {
         "com.unity.entities": "1.4.5"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.essence": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -33,7 +33,7 @@
         "com.bovinelabs.core": "1.4.4",
         "com.bovinelabs.reaction": "0.5.0"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.grid": {
       "version": "https://github.com/IAFahim/com.bovinelabs.grid.git",
@@ -66,7 +66,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.entities.graphics": "1.4.15"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.reaction": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
@@ -75,7 +75,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.4.6"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.reaction.addon": {
       "version": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
@@ -107,7 +107,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.timeline": "1.8.11"
       },
-      "hash": "c915871fde7ff01a34f34513fdfd00763bbb05f3"
+      "hash": "2cac7a11cfa6bdb16cb6b990c3a83411fc675f27"
     },
     "com.bovinelabs.timeline.animation": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
@@ -121,7 +121,7 @@
         "com.bovinelabs.timeline.core": "1.0.0",
         "com.rukhanka.animation": "1.0.0"
       },
-      "hash": "b150282da58c00afeea02297c154c49f1119575f"
+      "hash": "3327fa1626f380c79fa2ccccef3c5e59aaeed9ef"
     },
     "com.bovinelabs.timeline.core": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.core.git",
@@ -151,7 +151,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "748bfae203c0c9ddc8c6533e68e7bc73060cab9e"
+      "hash": "30b495c0ef6567485cf53a2a3f6cc598d1fb060b"
     },
     "com.bovinelabs.timeline.group-tool": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.group-tool.git",
@@ -179,7 +179,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "742af7e5c54ebdd049b21e78ddac6a18bbf80b00"
+      "hash": "6cacd9eef072d31a5b25c79164006b870f23de2f"
     },
     "com.bovinelabs.timeline.playerinputs": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
@@ -195,7 +195,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "929c77fe67fc514aa88bab39e7a813251ddac316"
+      "hash": "332020b82316e0b22a2105c7de6a446ca9342375"
     },
     "com.bovinelabs.timeline.time": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Time.git",
@@ -234,15 +234,6 @@
         "com.bovinelabs.timeline.core": "1.0.0"
       },
       "hash": "8e5f28e3ddf30c5728928a3a31db5954edffced5"
-    },
-    "com.gitcopy.gc": {
-      "version": "https://github.com/IAFahim/GC.git?path=/integration/unity/Packages/com.gitcopy.gc",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0"
-      },
-      "hash": "cdac6ff8cb1d25bc05121c01186ba6ce3512f0a2"
     },
     "com.rukhanka.animation": {
       "version": "https://github.com/iafahim/com.rukhanka.animation.git",
@@ -651,14 +642,6 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.imageconversion": "1.0.0"
-      }
-    },
-    "com.unity.modules.subsystems": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
     "com.unity.modules.terrain": {
