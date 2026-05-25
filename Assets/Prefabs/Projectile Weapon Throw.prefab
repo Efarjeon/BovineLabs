@@ -48,8 +48,6 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -4037567936177962335, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
-    value: {fileID: 6890045214084516998}
   - key: {fileID: -8689513416279416294, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
     value: {fileID: 6890045214084516998}
   m_ExposedReferences:
