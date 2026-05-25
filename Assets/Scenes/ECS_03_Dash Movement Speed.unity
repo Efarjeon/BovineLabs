@@ -7570,7 +7570,7 @@ MonoBehaviour:
   AddIntrinsics: 1
   IntrinsicDefaults:
   - Intrinsic: {fileID: 11400000, guid: 9bd87f62870e0a940a911ee8d6b33a82, type: 2}
-    Value: 1
+    Value: 2
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
