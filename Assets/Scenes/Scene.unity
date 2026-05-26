@@ -545,7 +545,7 @@ PanelRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776615288}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776615288}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79f8d8b3a35f42639801e1aee13218b0, type: 3}
   m_Name: 
@@ -767,15 +767,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SceneAsset: {fileID: 102900000, guid: 84c8ed8baae0e1f4c890dcfb72493760, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: bcedcd4c8721dc24f8c3f1c88c49ded5, type: 3}
   _HierarchyColor: {r: 0, g: 1, b: 0.10661459, a: 1}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 3101592648
-      y: 1327369898
-      z: 3217885580
-      w: 108237863
+      x: 3302809291
+      y: 1120735864
+      z: 2350857359
+      w: 1575851208
 --- !u!4 &1060808808
 Transform:
   m_ObjectHideFlags: 0
