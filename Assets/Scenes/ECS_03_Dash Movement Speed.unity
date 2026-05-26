@@ -5181,36 +5181,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
   TransformUsageFlags: 2
---- !u!114 &361374131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 361374107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
-  Stats:
-  - StatSchema: {fileID: 11400000, guid: c13c17623ae4ec44087739b06c6ae7ee, type: 2}
-    Target: 2
-    ValueType: 0
-    Fixed:
-      ModifyType: 0
-      Value: 10
-    Linear:
-      ModifyType: 0
-      ConditionSchemaObject: {fileID: 0}
-      FromMin: 0
-      FromMax: 0
-      ToMin: 0
-      ToMax: 0
-    Range:
-      ModifyType: 0
-      Min: 0
-      Max: 0
 --- !u!114 &361374132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5230,14 +5200,51 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: OnDashCompleted
+      Condition: {fileID: 11400000, guid: 44bba5a2afba41e89aa3fb010974e839, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &361374133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
+  Create:
+  - Definition: {fileID: 11400000, guid: b0318ea5e41433b43b2aa55249efda22, type: 2}
+    Target: 0
+    DestroyOnDisabled: 0
 --- !u!1 &459224082
 GameObject:
   m_ObjectHideFlags: 0
@@ -8652,10 +8659,10 @@ PrefabInstance:
       addedObject: {fileID: 361374132}
     - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 361374131}
+      addedObject: {fileID: 361374130}
     - targetCorrespondingSourceObject: {fileID: 7270646552551327608, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 361374130}
+      addedObject: {fileID: 361374133}
     - targetCorrespondingSourceObject: {fileID: 8848030444792694422, guid: a418b7856bdcbde44b48a50c8875c261, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1193685478}
