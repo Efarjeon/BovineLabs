@@ -124,7 +124,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 1
+    Target: 3
 --- !u!114 &37593250744088065
 MonoBehaviour:
   m_ObjectHideFlags: 0

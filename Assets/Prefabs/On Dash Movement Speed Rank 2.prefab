@@ -146,54 +146,14 @@ MonoBehaviour:
     duration: 4
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: OnDashCompleted
-      Condition: {fileID: 11400000, guid: 44bba5a2afba41e89aa3fb010974e839, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
-    - Name: On Dash Movement Speed Rank
-      Condition: {fileID: 11400000, guid: 9bd87f62870e0a940a911ee8d6b33a82, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 2
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &4297838383468037357
 MonoBehaviour:
   m_ObjectHideFlags: 0
