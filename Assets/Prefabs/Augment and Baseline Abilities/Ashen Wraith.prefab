@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 2788331869432774284}
   - component: {fileID: 8936302756416850329}
   - component: {fileID: 2215731406202323516}
-  - component: {fileID: 2703559478823088877}
-  - component: {fileID: 8999197610044158729}
   m_Layer: 0
   m_Name: Reaction
   m_TagString: Untagged
@@ -131,33 +129,6 @@ MonoBehaviour:
   - Definition: {fileID: 11400000, guid: ba0f285cddce274449538243fbd397ad, type: 2}
     Target: 2
     DestroyOnDisabled: 1
---- !u!114 &2703559478823088877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3656167149831836257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
---- !u!114 &8999197610044158729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3656167149831836257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc74f86af1a4bcbb88866caa200aa0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateOnDeactivateAuthoring
-  Spawns:
-  - Definition: {fileID: 11400000, guid: 450359ae976143b49a0235426deb076e, type: 2}
-    Target: 0
 --- !u!1 &7726447464730080123
 GameObject:
   m_ObjectHideFlags: 0

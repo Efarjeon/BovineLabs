@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 341648595698321043}
   - component: {fileID: 8867134782454976544}
   - component: {fileID: 3014806692583869825}
+  - component: {fileID: -7073692225573956187}
   m_Layer: 0
   m_Name: Ashen Wraith Explosion Knockback
   m_TagString: Untagged
@@ -138,6 +139,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &-7073692225573956187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2343487894204158374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
+  From: 2
+  To: 3
+  Position: 1
+  Rotation: 0
+  Scale: 0
+  ApplyInitialTransform: 1
 --- !u!1 &3631785402413338509
 GameObject:
   m_ObjectHideFlags: 0
