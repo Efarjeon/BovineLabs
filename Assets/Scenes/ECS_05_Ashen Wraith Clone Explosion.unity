@@ -8850,7 +8850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2215731406202323516, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
       propertyPath: Create.Array.data[0].DestroyOnDisabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2788331869432774284, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
       propertyPath: Owner
