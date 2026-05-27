@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7954819480524434889}
   - component: {fileID: 8501677431783625434}
   - component: {fileID: 6041752718507150273}
-  - component: {fileID: -489378009252694882}
+  - component: {fileID: 2378191559201528721}
   m_Layer: 0
   m_Name: On Dash Movement Speed Rank 1
   m_TagString: Untagged
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
   Definition: {fileID: 11400000, guid: b0318ea5e41433b43b2aa55249efda22, type: 2}
---- !u!114 &-489378009252694882
+--- !u!114 &2378191559201528721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
   From: 2
-  To: 0
+  To: 1
   Position: 1
   Rotation: 0
   Scale: 0
-  ApplyInitialTransform: 0
+  ApplyInitialTransform: 1
