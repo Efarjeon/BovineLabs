@@ -9209,8 +9209,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ashen Wraith Knockback
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2603839682362642087, guid: b0fcab860810b2a46bc7d65afc89be20, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
