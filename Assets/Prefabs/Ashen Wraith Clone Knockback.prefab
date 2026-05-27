@@ -18,9 +18,8 @@ GameObject:
   - component: {fileID: 7142032739411103710}
   - component: {fileID: -5549792584442428782}
   - component: {fileID: 6568271148184966714}
-  - component: {fileID: -1782610845107555252}
   m_Layer: 0
-  m_Name: Ashen Wraith Clone
+  m_Name: Ashen Wraith Clone Knockback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +186,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 4
+    duration: 0
     cancellable: 0
   Conditions:
     conditions: []
@@ -211,18 +210,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateOnDeactivateAuthoring
   Spawns:
-  - Definition: {fileID: 11400000, guid: 450359ae976143b49a0235426deb076e, type: 2}
+  - Definition: {fileID: 11400000, guid: 5c40cdb9b52e8b64b9e6eb206b91bf97, type: 2}
     Target: 0
---- !u!114 &-1782610845107555252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7144028553602046979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
-  Target: 4
