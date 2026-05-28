@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4335657794014520941}
   - component: {fileID: 6496850607608639616}
-  - component: {fileID: 1845539448891628221}
   - component: {fileID: 6281701444072467961}
   m_Layer: 0
   m_Name: Physics
@@ -184,18 +183,6 @@ MonoBehaviour:
         Tag07: 0
     m_SerializedVersion: 1
   m_SerializedVersion: 3
---- !u!114 &1845539448891628221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2633727710369116039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
 --- !u!114 &6281701444072467961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,6 +301,7 @@ GameObject:
   - component: {fileID: -2196777332532485551}
   - component: {fileID: 4750215411008479117}
   - component: {fileID: 5541846673065426344}
+  - component: {fileID: 8921265408007200826}
   m_Layer: 0
   m_Name: Ashen Wraith Explosion Knockback
   m_TagString: Untagged
@@ -476,6 +464,18 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &8921265408007200826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822324390281313853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
 --- !u!1 &6946825146362588879
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +525,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 3509142849868002546, guid: 1fd6d3c4e49942847bb07e6ede7922e0, type: 2}
-    value: {fileID: 1845539448891628221}
+    value: {fileID: 8921265408007200826}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &7501560178080744297
