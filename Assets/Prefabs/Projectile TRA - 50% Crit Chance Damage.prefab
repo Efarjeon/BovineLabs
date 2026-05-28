@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 5442483012848366762}
   - component: {fileID: -5427898787008499069}
   - component: {fileID: 6153436454378283627}
+  - component: {fileID: 5262927998373502741}
   m_Layer: 0
   m_Name: Projectile TRA - 50% Crit Chance Damage
   m_TagString: Untagged
@@ -287,4 +288,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
+--- !u!114 &5262927998373502741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5655216785603469945}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb980dbe83cfdcde8641e1fa1c9c210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnChanceFailAuthoring
   Target: 4

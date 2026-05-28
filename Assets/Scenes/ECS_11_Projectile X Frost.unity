@@ -15880,6 +15880,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unleash
       objectReference: {fileID: 0}
+    - target: {fileID: 3924541290570281103, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
+      propertyPath: Conditions.doNotReset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394658001239016168, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
+      propertyPath: Create.Array.data[0].Definition
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
     - target: {fileID: 4617362300637630400, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: Owner
       value: 
@@ -15924,11 +15932,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6632007408387533528, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
+      propertyPath: Definition
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
     - target: {fileID: 8350530873927981818, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 459224084}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6632007408387533528, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
     m_RemovedGameObjects:
     - {fileID: 3963934955660997768, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
     m_AddedGameObjects: []

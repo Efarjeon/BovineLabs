@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
   m_Name: PhysicsTriggerInstantiateClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: 9e71e59e18660224f8aa01100956825b, type: 2}
+  objectDefinition: {fileID: 11400000, guid: 64563ea3ff115674496a4ac7adf6d2cc, type: 2}
   triggerState: 1
   positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
@@ -115,6 +115,8 @@ MonoBehaviour:
   assignParent: 0
   assignParentLink: {fileID: 0}
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  ignoreTarget: 2
+  requireLinks: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

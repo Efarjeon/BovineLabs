@@ -15887,7 +15887,7 @@ PrefabInstance:
     - target: {fileID: 4394658001239016168, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: Create.Array.data[0].Definition
       value: 
-      objectReference: {fileID: 11400000, guid: 8e0af9a7f4cf6014cbfd9e1ca678684e, type: 2}
+      objectReference: {fileID: 11400000, guid: 41565a0b7e9c37a49a49e9699bf288dd, type: 2}
     - target: {fileID: 4394658001239016168, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: Create.Array.data[0].DestroyOnDisabled
       value: 0

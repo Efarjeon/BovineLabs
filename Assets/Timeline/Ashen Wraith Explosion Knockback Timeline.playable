@@ -127,13 +127,15 @@ MonoBehaviour:
   m_Name: PhysicsTriggerForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerForceClip
   triggerState: 1
-  forceType: 1
+  forceType: 0
   mode: 1
-  magnitude: 2
-  direction: {x: 5, y: 0, z: 0}
+  magnitude: 3
+  direction: {x: 0, y: 0, z: 5}
   originMode: 0
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
   applyTo: 1
   applyToLink: {fileID: 0}
+  ignoreTarget: 2
+  requireLinks: []
