@@ -13431,7 +13431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
   Active:
     trigger: 0
-    cooldown: 0
+    cooldown: 2
     cooldownAfterDuration: 0
     duration: 0
     cancellable: 0
@@ -16558,6 +16558,10 @@ PlayableDirector:
     value: {fileID: 588256448}
   - key: {fileID: 4755966240739972595, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 1387560025}
+  - key: {fileID: 2826979494301157522, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1966934679459176824, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1951091060
