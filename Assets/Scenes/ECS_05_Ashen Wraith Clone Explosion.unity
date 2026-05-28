@@ -8786,6 +8786,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -3327492878883898042, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 588256448}
+  - key: {fileID: 2826979494301157522, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1966934679459176824, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 1387560025}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1951091060
@@ -8904,6 +8908,14 @@ PrefabInstance:
       propertyPath: Active.duration
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8936302756416850329, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Name
+      value: OnDashInitiated
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936302756416850329, guid: 59a67828af486a547b560a3dc1a81e4a, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
