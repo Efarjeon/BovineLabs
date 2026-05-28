@@ -15,7 +15,7 @@ MonoBehaviour:
   mode: 1
   directionMode: 0
   linearForce: {x: 0, y: 0, z: 15}
-  space: 4
+  space: 1
   magnitude: 10
   directionTarget: 1
   directionTargetLink: {fileID: 0}
