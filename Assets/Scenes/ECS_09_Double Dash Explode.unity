@@ -5107,8 +5107,8 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnInputDash
-      Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
+    - Name: OnDashInitiated
+      Condition: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
       Target: 2
       Operation: 1
       ComparisonMode: 0
@@ -5927,8 +5927,8 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnInputDash
-      Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
+    - Name: OnDashInitiated
+      Condition: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
       Target: 2
       Operation: 1
       ComparisonMode: 0
@@ -5951,7 +5951,7 @@ MonoBehaviour:
       Target: 3
       Operation: 1
       ComparisonMode: 0
-      Value: 1
+      Value: 2
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -9138,6 +9138,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -3327492878883898042, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 588256448}
+  - key: {fileID: 2826979494301157522, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 1387560025}
+  - key: {fileID: 1966934679459176824, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 1387560025}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1951091060
@@ -9260,7 +9264,7 @@ MonoBehaviour:
   AddIntrinsics: 1
   IntrinsicDefaults:
   - Intrinsic: {fileID: 11400000, guid: cdc0454ab593555489831915e51bbda3, type: 2}
-    Value: 0
+    Value: 1
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
