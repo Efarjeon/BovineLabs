@@ -151,7 +151,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "80bb69f4974a55c7da0244b0b287c35f9e300af8"
+      "hash": "8d224d2db5d8e4a525333b52ac65d3ce34884ab9"
     },
     "com.bovinelabs.timeline.group-tool": {
       "version": "https://github.com/IAFahim/com.bovinelabs.timeline.group-tool.git",
@@ -179,7 +179,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "7b143f1de99f70e252c61dc4becdd12c0664d8b4"
+      "hash": "d74c7572030cf4035a6e00131b6f9fd69360b07f"
     },
     "com.bovinelabs.timeline.playerinputs": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.PlayerInputs.git",
@@ -195,7 +195,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "3a531fa08c9a896c33b839e772dd50119ff000c8"
+      "hash": "0595c48d73eda7e5ffbecdb40a05f9230677bcc9"
     },
     "com.bovinelabs.timeline.time": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Time.git",

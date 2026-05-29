@@ -22,6 +22,8 @@ MonoBehaviour:
   assignParent: 0
   assignParentLink: {fileID: 0}
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  ignoreTarget: 2
+  requireLinks: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5212,8 +5212,9 @@ GameObject:
   - component: {fileID: 423218635}
   - component: {fileID: 423218634}
   - component: {fileID: 423218633}
+  - component: {fileID: 423218637}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Sphere 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5233,7 +5234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 0}
   Source: {fileID: 0}
-  Target: {fileID: 0}
+  Target: {fileID: 588256445}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -5303,12 +5304,65 @@ Transform:
   m_GameObject: {fileID: 423218632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.708, z: 0.97}
+  m_LocalPosition: {x: 0.39, y: 0.708, z: 2.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 833947391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &423218637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423218632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsBodyAuthoring
+  m_MotionType: 0
+  m_Smoothing: 0
+  m_Mass: 1
+  m_LinearDamping: 0.01
+  m_AngularDamping: 0.05
+  m_InitialLinearVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_InitialAngularVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_GravityFactor: 0
+  m_OverrideDefaultMassDistribution: 0
+  m_CenterOfMass:
+    x: 0
+    y: 0
+    z: 0
+  m_Orientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_InertiaTensor:
+    x: 0.4
+    y: 0.4
+    z: 0.4
+  m_SolverType: 0
+  m_WorldIndex: 0
+  m_CustomTags:
+    Tag00: 0
+    Tag01: 0
+    Tag02: 0
+    Tag03: 0
+    Tag04: 0
+    Tag05: 0
+    Tag06: 0
+    Tag07: 0
 --- !u!1 &459224082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5356,6 +5410,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputConsumerAuthoring
   PlayerId: 0
+  Controllable: 0
+  OverrideTrigger: 1
+  ReleaseIdleSeconds: 0.25
 --- !u!114 &459224085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5782,7 +5839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 1387560016}
   Source: {fileID: 1387560016}
-  Target: {fileID: 536106232}
+  Target: {fileID: 423218632}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -5796,6 +5853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700290373}
   - component: {fileID: 700290374}
+  - component: {fileID: 700290375}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5834,11 +5892,27 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -8359409681569858962, guid: d01fa088d2529bd4c9525fccab2ed54f, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 588256448}
   - key: {fileID: 1959303394676410775, guid: d01fa088d2529bd4c9525fccab2ed54f, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 8314261724255946829, guid: d01fa088d2529bd4c9525fccab2ed54f, type: 2}
+    value: {fileID: 588256448}
+  - key: {fileID: 4942822847513174069, guid: d01fa088d2529bd4c9525fccab2ed54f, type: 2}
+    value: {fileID: 588256448}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &700290375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700290372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Timeline.Core.Authoring::BovineLabs.Timeline.Core.Authoring.TimelineReferenceAuthoring
 --- !u!1 &772346494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5934,6 +6008,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 11785434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833947390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833947391}
+  - component: {fileID: 833947392}
+  - component: {fileID: 833947393}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833947391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833947390}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 423218636}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &833947392
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833947390}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: e72654fe62b1f7a44a4b5c0ff1ce49d4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -4104660233190949884, guid: e72654fe62b1f7a44a4b5c0ff1ce49d4, type: 2}
+    value: {fileID: 423218637}
+  - key: {fileID: 5440031629578241419, guid: e72654fe62b1f7a44a4b5c0ff1ce49d4, type: 2}
+    value: {fileID: 423218637}
+  - key: {fileID: 5335384208791951725, guid: e72654fe62b1f7a44a4b5c0ff1ce49d4, type: 2}
+    value: {fileID: 423218637}
+  - key: {fileID: -3799190522522960067, guid: e72654fe62b1f7a44a4b5c0ff1ce49d4, type: 2}
+    value: {fileID: 0}
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &833947393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833947390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Timeline.Core.Authoring::BovineLabs.Timeline.Core.Authoring.TimelineReferenceAuthoring
 --- !u!1 &913748214
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,7 +8231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 0}
   Source: {fileID: 0}
-  Target: {fileID: 0}
+  Target: {fileID: 423218632}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -8862,6 +9006,10 @@ PlayableDirector:
   - key: {fileID: -3327492878883898042, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 588256448}
   - key: {fileID: 4755966240739972595, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2826979494301157522, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1966934679459176824, guid: da28e0a14e9049d41881c2f1bc54754c, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
