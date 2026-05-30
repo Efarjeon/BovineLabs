@@ -15946,8 +15946,7 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 459224084}
-    m_RemovedComponents:
-    - {fileID: 6632007408387533528, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3963934955660997768, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
     m_AddedGameObjects: []
