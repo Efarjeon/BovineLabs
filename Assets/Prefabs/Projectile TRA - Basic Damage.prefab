@@ -1,62 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1874053788305988569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1198800025022895644}
-  - component: {fileID: 6862412038097995567}
-  m_Layer: 0
-  m_Name: Timeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1198800025022895644
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874053788305988569}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 746295294299867866}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &6862412038097995567
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874053788305988569}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -8063879808802333744, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: -1456383246340423924}
-  - key: {fileID: 5917642726686213334, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: -1456383246340423924}
-  - key: {fileID: -4649621534684280223, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 7525463858412898074, guid: b4a422ce89d47f648819d701ab4b401e, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &5655216785603469945
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +15,6 @@ GameObject:
   - component: {fileID: -1456383246340423924}
   - component: {fileID: 4142052147772024278}
   - component: {fileID: -1935567297441569431}
-  - component: {fileID: -894699370762452732}
   - component: {fileID: 5442483012848366762}
   - component: {fileID: -5884798396832463505}
   - component: {fileID: 3729425715305438974}
@@ -95,8 +37,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.1, z: 1.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1198800025022895644}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3371075001281651216
@@ -247,24 +188,6 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!114 &-894699370762452732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655216785603469945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
-  Timelines:
-  - Director: {fileID: 6862412038097995567}
-    InitialTime: 0
-    DisableTimelineOnDeactivate: 0
-    ResetWhenActive: 0
-    Bindings: []
 --- !u!114 &5442483012848366762
 MonoBehaviour:
   m_ObjectHideFlags: 0
