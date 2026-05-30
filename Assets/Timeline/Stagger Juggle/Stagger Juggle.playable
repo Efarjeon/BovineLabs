@@ -106,9 +106,16 @@ MonoBehaviour:
   m_Name: PhysicsForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
   mode: 1
+  directionMode: 0
   linearForce: {x: 0, y: 3.5, z: 5}
-  angularForce: {x: 0, y: 0, z: 0}
   space: 4
+  magnitude: 10
+  directionTarget: 1
+  directionTargetLink: {fileID: 0}
+  angularForce: {x: 0, y: 0, z: 0}
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
