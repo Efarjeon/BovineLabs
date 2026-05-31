@@ -5486,6 +5486,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputConsumerAuthoring
   PlayerId: 0
+  Controllable: 0
+  OverrideTrigger: 1
+  ReleaseIdleSeconds: 0.25
 --- !u!4 &444366026
 Transform:
   m_ObjectHideFlags: 0
@@ -5548,6 +5551,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputConsumerAuthoring
   PlayerId: 0
+  Controllable: 0
+  OverrideTrigger: 1
+  ReleaseIdleSeconds: 0.25
 --- !u!114 &459224085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15887,7 +15893,7 @@ PrefabInstance:
     - target: {fileID: 4394658001239016168, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: Create.Array.data[0].Definition
       value: 
-      objectReference: {fileID: 11400000, guid: 41565a0b7e9c37a49a49e9699bf288dd, type: 2}
+      objectReference: {fileID: 11400000, guid: 416809c4d0208434a8912e5541b659f0, type: 2}
     - target: {fileID: 4394658001239016168, guid: 1619325cbedc34c4cad307255d0f64d4, type: 3}
       propertyPath: Create.Array.data[0].DestroyOnDisabled
       value: 0

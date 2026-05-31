@@ -52,6 +52,10 @@ PlayableDirector:
     value: {fileID: 6890045214084516998}
   - key: {fileID: -8689513416279416294, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
     value: {fileID: 6890045214084516998}
+  - key: {fileID: 3979312841861026436, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
+    value: {fileID: 6890045214084516998}
+  - key: {fileID: -8209329561061802170, guid: 7a7d0ca79ad9f364b8b1c3cc84d95267, type: 2}
+    value: {fileID: 6890045214084516998}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &6744710264668099698
@@ -485,7 +489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 8e0af9a7f4cf6014cbfd9e1ca678684e, type: 2}
+  Definition: {fileID: 11400000, guid: 416809c4d0208434a8912e5541b659f0, type: 2}
 --- !u!114 &4000253089873319937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,8 +532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
-  From: 1
-  To: 2
+  From: 2
+  To: 1
   Position: 1
   Rotation: 0
   Scale: 0
