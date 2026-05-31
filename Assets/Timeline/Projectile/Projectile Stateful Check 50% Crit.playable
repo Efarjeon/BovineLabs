@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Projectile Stateful Check Frost
+  m_Name: Projectile Stateful Check 50% Crit
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe44c7185fd74120b9c5ea101d9fa1c, type: 3}
   m_Name: PhysicsTriggerInstantiateClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
-  objectDefinition: {fileID: 11400000, guid: 64563ea3ff115674496a4ac7adf6d2cc, type: 2}
+  objectDefinition: {fileID: 11400000, guid: 41565a0b7e9c37a49a49e9699bf288dd, type: 2}
   triggerState: 1
   positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
