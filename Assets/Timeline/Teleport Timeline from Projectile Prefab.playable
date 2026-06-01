@@ -1,5 +1,74 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7864514305632184427
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa7f61ef1964ffe8841d5c49948cea6, type: 3}
+  m_Name: PhysicsTeleportClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportClip
+  entityToTeleport: 2
+  entityToTeleportLink: {fileID: 0}
+  radius: 3
+  teleportRelativeTo: 1
+  teleportRelativeToLink: {fileID: 0}
+  azimuthCenter: 0
+  azimuthHalfRange: 180
+  elevationCenter: 0
+  elevationHalfRange: 30
+  referenceFrame: 0
+  facingMode: 0
+  clearanceRadius: 0.5
+  maxCandidates: 4
+  obstacleMask:
+    Category00: 0
+    Category01: 0
+    Category02: 0
+    Category03: 0
+    Category04: 0
+    Category05: 0
+    Category06: 0
+    Category07: 0
+    Category08: 0
+    Category09: 0
+    Category10: 0
+    Category11: 0
+    Category12: 0
+    Category13: 0
+    Category14: 0
+    Category15: 0
+    Category16: 0
+    Category17: 0
+    Category18: 0
+    Category19: 0
+    Category20: 0
+    Category21: 0
+    Category22: 0
+    Category23: 0
+    Category24: 0
+    Category25: 0
+    Category26: 0
+    Category27: 0
+    Category28: 0
+    Category29: 0
+    Category30: 0
+    Category31: 0
+  requireLineOfSight: 0
+  requireCandidateVisibility: 0
+  lineOfSightOffset: 1.5
+  resetVelocity: 1
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
+  failureCondition: {fileID: 0}
+  failureValue: 1
+  failureRouteTo: 4
+  failureRouteLink: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10,18 +79,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Projectile Stateful Check Weapon Throw Teleport
+  m_Name: Teleport Timeline from Projectile Prefab
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
-  - {fileID: 1076144157356430391}
+  - {fileID: 4495213838976578108}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &1076144157356430391
+--- !u!114 &4495213838976578108
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,10 +114,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 4076055465951261968}
-    m_Duration: 6.3
+    m_Asset: {fileID: -7864514305632184427}
+    m_Duration: 1
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 1076144157356430391}
+    m_ParentTrack: {fileID: 4495213838976578108}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
@@ -114,72 +183,3 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
---- !u!114 &4076055465951261968
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa7f61ef1964ffe8841d5c49948cea6, type: 3}
-  m_Name: PhysicsTeleportClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportClip
-  entityToTeleport: 2
-  entityToTeleportLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
-  radius: 3
-  teleportRelativeTo: 1
-  teleportRelativeToLink: {fileID: 0}
-  azimuthCenter: 0
-  azimuthHalfRange: 180
-  elevationCenter: 0
-  elevationHalfRange: 30
-  referenceFrame: 0
-  facingMode: 3
-  clearanceRadius: 0.5
-  maxCandidates: 4
-  obstacleMask:
-    Category00: 0
-    Category01: 0
-    Category02: 0
-    Category03: 0
-    Category04: 0
-    Category05: 0
-    Category06: 0
-    Category07: 0
-    Category08: 0
-    Category09: 0
-    Category10: 0
-    Category11: 0
-    Category12: 0
-    Category13: 0
-    Category14: 0
-    Category15: 0
-    Category16: 0
-    Category17: 0
-    Category18: 0
-    Category19: 0
-    Category20: 0
-    Category21: 0
-    Category22: 0
-    Category23: 0
-    Category24: 0
-    Category25: 0
-    Category26: 0
-    Category27: 0
-    Category28: 0
-    Category29: 0
-    Category30: 0
-    Category31: 0
-  requireLineOfSight: 0
-  requireCandidateVisibility: 0
-  lineOfSightOffset: 1.5
-  resetVelocity: 1
-  strengthStat: {fileID: 0}
-  readStatFrom: 4
-  readStatLink: {fileID: 0}
-  failureCondition: {fileID: 0}
-  failureValue: 1
-  failureRouteTo: 4
-  failureRouteLink: {fileID: 0}
