@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8d19127edd59f47db6143dcf9652e1f, type: 3}
   m_Name: TimelineEssenceEventClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Essence.Authoring::BovineLabs.Timeline.Essence.Authoring.TimelineEssenceEventClip
-  routeTo: 1
+  routeTo: 2
   routeLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   conditionEvent: {fileID: 11400000, guid: e2471958b9b3f394ca7e17297f3d3d1a, type: 2}
   value: 1

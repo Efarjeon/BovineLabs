@@ -9103,12 +9103,12 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: CurrentHealth
-      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 1
-      Operation: 3
+    - Name: Healing Sphere Despawn
+      Condition: {fileID: 11400000, guid: e2471958b9b3f394ca7e17297f3d3d1a, type: 2}
+      Target: 2
+      Operation: 1
       ComparisonMode: 0
-      Value: 0
+      Value: 1
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -9220,6 +9220,8 @@ GameObject:
   - component: {fileID: 2123443363}
   - component: {fileID: 2123443362}
   - component: {fileID: 2123443361}
+  - component: {fileID: 2123443365}
+  - component: {fileID: 2123443364}
   m_Layer: 0
   m_Name: Healing Sphere
   m_TagString: Untagged
@@ -9532,6 +9534,30 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &2123443364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123443356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
+--- !u!114 &2123443365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123443356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
