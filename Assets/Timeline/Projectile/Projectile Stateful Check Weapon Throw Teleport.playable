@@ -137,6 +137,8 @@ MonoBehaviour:
   elevationHalfRange: 30
   referenceFrame: 0
   facingMode: 3
+  facingTarget: 1
+  facingTargetLink: {fileID: 0}
   clearanceRadius: 0.5
   maxCandidates: 4
   obstacleMask:
