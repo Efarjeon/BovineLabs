@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 5987455289740531567}
   - component: {fileID: 8546196730363411884}
   - component: {fileID: 7756775926851651439}
-  - component: {fileID: 2158164973080170132}
-  - component: {fileID: 870430757066390267}
   - component: {fileID: 7731826785972867692}
   m_Layer: 0
   m_Name: Healing Sphere Destruction TRA
@@ -174,52 +172,6 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
---- !u!114 &2158164973080170132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270854293081138384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: 10
-    Target: 1
---- !u!114 &870430757066390267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270854293081138384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
-  Stats:
-  - StatSchema: {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
-    Target: 1
-    ValueType: 0
-    Fixed:
-      ModifyType: 0
-      Value: 1
-    Linear:
-      ModifyType: 0
-      ConditionSchemaObject: {fileID: 0}
-      FromMin: 0
-      FromMax: 0
-      ToMin: 0
-      ToMax: 0
-    Range:
-      ModifyType: 0
-      Min: 0
-      Max: 0
 --- !u!114 &7731826785972867692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,4 +184,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 9f3ed6c87a71f804cb7e469a22840d07, type: 2}
+  Definition: {fileID: 11400000, guid: b64832ec6ed4dc340bc796f946787f73, type: 2}
