@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/InputSystem.inputsettings.asset.meta
 guid: b0758d95e5e90bdc090d9bc16580c9fa
+========
+guid: 78738cbf2e7bbf31abafc569826e9631
+>>>>>>>> upstream/main:Assets/DemoConsumerLink.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

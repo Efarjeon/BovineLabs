@@ -77,4 +77,10 @@ crashlytics-build.properties
 .DS_Store
 graphify-out/
 
-/.pi
+**/.pi/
+
+*.sqlite
+
+# Mono crash dumps
+exception_trace.txt
+mono_crash.mem.*

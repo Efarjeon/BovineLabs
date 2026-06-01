@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DirectorTimeScaleClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.DirectorTimeScaleClip
   TimeScale: 0.1
---- !u!114 &-8964421624147140571
+--- !u!114 &-8647597700772610839
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,9 +22,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ff21df9f4764de7b86dd1eb4270ab3f, type: 3}
-  m_Name: Physics Linear PID Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsLinearPIDTrack
+  m_Script: {fileID: 11500000, guid: 94e307101f80471192ee948ec1fa5bd6, type: 3}
+  m_Name: Physics Teleport Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
@@ -35,16 +35,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 2.5833333333333335
     m_ClipIn: 0
-    m_Asset: {fileID: 5428497042690615115}
-    m_Duration: 0.2833333333333333
+    m_Asset: {fileID: -1703632802686946173}
+    m_Duration: 1
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -8964421624147140571}
+    m_ParentTrack: {fileID: -8647597700772610839}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -102,7 +102,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: PhysicsLinearPIDClip
+    m_DisplayName: PhysicsTeleportClip
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -130,6 +130,33 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-8372629582886613361
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60945455a8404617ac2c6ee13a5953ed, type: 3}
+  m_Name: AxisTransformClip(Clone)
+  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.AxisTransformClip
+  ReadRootFrom: 3
+  ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
+  AnchorLink: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
+  Action: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  Range: 2
+  Plane: {x: 0, y: 1, z: 0}
+  Smoothing: 0
+  LeashRadius: 2
+  Drag: 3.66
+  DecayRate: 3.51
+  Mode: 0
+  IgnoreParentRotation: 0
+  KeepLastPosition: 1
+  LocalSpace: 0
+  CameraRelative: 1
 --- !u!114 &-8370034099660768068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -142,17 +169,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9fff0f272d44e8b8c3cd542e6c53f8e, type: 3}
   m_Name: PhysicsTriggerForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerForceClip
-  triggerState: 1
-  forceType: 1
+  triggerState: 2
+  forceType: 2
   mode: 0
-  magnitude: 1000
+  magnitude: 100
   direction: {x: 0, y: 0, z: 1}
   originMode: 0
+  falloffCurve: 0
+  falloffStartRadius: 0
+  falloffEndRadius: 5
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
   applyTo: 1
   applyToLink: {fileID: 0}
+  ignoreTarget: 2
+  requireLinks: []
 --- !u!114 &-8148941382746961763
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -168,7 +200,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -176,6 +208,7 @@ MonoBehaviour:
   - {fileID: -5031337880447802677}
   - {fileID: -764723377789886988}
   - {fileID: -4966873830450226548}
+  - {fileID: -7655345696952888290}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -192,6 +225,99 @@ MonoBehaviour:
   m_Name: NumberClip
   m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.NumberClip
   Number: 50
+--- !u!114 &-7655345696952888290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1eb07044bac47eb945f00cca0ecede8, type: 3}
+  m_Name: Axis Transform Track (1)
+  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.AxisTransformTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -8148941382746961763}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -8372629582886613361}
+    m_Duration: 10
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -7655345696952888290}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: AxisTransformClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
 --- !u!114 &-7634199713061766854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,7 +340,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 6.133333333333334
+    m_Start: 5
     m_ClipIn: 0
     m_Asset: {fileID: -6513364210000686198}
     m_Duration: 5
@@ -382,6 +508,20 @@ MonoBehaviour:
   m_Name: ScaleClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Transform.Authoring::BovineLabs.Timeline.Transform.Authoring.ScaleClip
   Scale: {x: 1, y: 2, z: 1}
+--- !u!114 &-6152670224312662199
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63585fe47c354bf1b3f60501c3891e15, type: 3}
+  m_Name: AfterImageClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.AfterImageClip
+  Prefab: {fileID: 11400000, guid: 98454e1957a48b913a2b3767612a630e, type: 2}
+  DestroyOnClipEnd: 1
 --- !u!114 &-5756201016497073933
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -638,14 +778,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60945455a8404617ac2c6ee13a5953ed, type: 3}
   m_Name: AxisTransformClip
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.AxisTransformClip
-  ReadRootFrom: 2
+  ReadRootFrom: 3
   ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
+  AnchorLink: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
   Action: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  Range: 1
+  Range: 0
   Plane: {x: 0, y: 1, z: 0}
-  Smoothing: 2
-  ClampRadius: 0
-  Mode: 8
+  Smoothing: 0
+  LeashRadius: 1
+  Drag: 0
+  DecayRate: 0
+  Mode: 0
+  IgnoreParentRotation: 1
+  KeepLastPosition: 0
+  LocalSpace: 0
+  CameraRelative: 1
 --- !u!114 &-5304372104756700006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -803,7 +950,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: -8148941382746961763}
@@ -881,6 +1028,75 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-4981325069664101358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa7f61ef1964ffe8841d5c49948cea6, type: 3}
+  m_Name: PhysicsTeleportClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportClip
+  entityToTeleport: 4
+  entityToTeleportLink: {fileID: 0}
+  radius: 10.26
+  teleportRelativeTo: 0
+  teleportRelativeToLink: {fileID: 0}
+  azimuthCenter: 0
+  azimuthHalfRange: 180
+  elevationCenter: 0
+  elevationHalfRange: 30
+  referenceFrame: 0
+  facingMode: 2
+  clearanceRadius: 0.5
+  maxCandidates: 4
+  obstacleMask:
+    Category00: 0
+    Category01: 0
+    Category02: 0
+    Category03: 0
+    Category04: 0
+    Category05: 0
+    Category06: 0
+    Category07: 0
+    Category08: 0
+    Category09: 0
+    Category10: 0
+    Category11: 0
+    Category12: 0
+    Category13: 0
+    Category14: 0
+    Category15: 0
+    Category16: 0
+    Category17: 0
+    Category18: 0
+    Category19: 0
+    Category20: 0
+    Category21: 0
+    Category22: 0
+    Category23: 0
+    Category24: 0
+    Category25: 0
+    Category26: 0
+    Category27: 0
+    Category28: 0
+    Category29: 0
+    Category30: 0
+    Category31: 0
+  requireLineOfSight: 0
+  requireCandidateVisibility: 0
+  lineOfSightOffset: 1.5
+  resetVelocity: 1
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
+  failureCondition: {fileID: 0}
+  failureValue: 1
+  failureRouteTo: 4
+  failureRouteLink: {fileID: 0}
 --- !u!114 &-4966873830450226548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -896,7 +1112,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: -8148941382746961763}
@@ -906,7 +1122,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -5410940431168369178}
-    m_Duration: 5
+    m_Duration: 10
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4966873830450226548}
     m_EaseInDuration: 0
@@ -991,6 +1207,28 @@ MonoBehaviour:
   Intrinsics:
   - {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
   Events: []
+--- !u!114 &-4571502003578545383
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4b24f5566441939ab7cdc81e5018a1, type: 3}
+  m_Name: DistanceToStatClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Distance.Authoring::BovineLabs.Timeline.Distance.Authoring.DistanceToStatClip
+  from: 2
+  fromLink: {fileID: 0}
+  to: 1
+  toLink: {fileID: 0}
+  statTarget: 4
+  statTargetLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  stat: {fileID: 11400000, guid: c28103cc179c4bea925831a62d52d39d, type: 2}
+  multiplier: 1
+  mode: 1
+  interval: 0.5
 --- !u!114 &-4321031879931285611
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1035,7 +1273,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.6666666666666665
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1062,25 +1300,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1095,7 +1315,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: BlendTree2DClip
   - m_Version: 1
-    m_Start: 3.3333333333333335
+    m_Start: 5
     m_ClipIn: 0
     m_Asset: {fileID: 5427651027039577481}
     m_Duration: 5
@@ -1103,29 +1323,11 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -4293134366758703274}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.6666666666666665
+    m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1217,11 +1419,13 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
+  m_CacheSorted: 0
+  m_BlendsValid: 1
   m_Clips:
   - m_Version: 1
     m_Start: 0
@@ -1235,10 +1439,8 @@ MonoBehaviour:
     m_BlendInDuration: 0
     m_BlendOutDuration: 0
     m_MixInCurve:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
+      - time: 0
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1246,8 +1448,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 1
+      - time: 1
         value: 1
         inSlope: 0
         outSlope: 0
@@ -1259,10 +1460,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
+      - time: 0
         value: 1
         inSlope: 0
         outSlope: 0
@@ -1270,8 +1469,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 1
+      - time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1292,8 +1490,12 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: SpatialActiveClip
+    <DirtyIndex>k__BackingField: 0
   m_Markers:
     m_Objects: []
+    m_CacheDirty: 0
+    m_HasNotifications: 0
+  <DirtyIndex>k__BackingField: 0
   resetOnDeactivate: 1
 --- !u!114 &-3955803023947555653
 MonoBehaviour:
@@ -1388,7 +1590,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
---- !u!114 &-3728716721764865890
+--- !u!114 &-3595554750278490842
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1397,16 +1599,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90f7a62452d867eb3b569dca9253b9a9, type: 3}
-  m_Name: PhysicsVelocityClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsVelocityClip
-  mode: 1
-  linearVelocity: {x: 0, y: 30, z: 1}
-  angularVelocity: {x: 0, y: 0, z: 0}
-  space: 4
-  strengthStat: {fileID: 0}
-  readStatFrom: 4
-  readStatLink: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 1d5ee99d95eb73b049d3974e24b1242b, type: 3}
+  m_Name: AfterImageClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.AfterImageClip
 --- !u!114 &-3037766685039867013
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1435,7 +1630,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1470,7 +1665,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -8370034099660768068}
-    m_Duration: 4.483333333333333
+    m_Duration: 10
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2879647747670679448}
     m_EaseInDuration: 0
@@ -1711,7 +1906,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1789,6 +1984,75 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &-1703632802686946173
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa7f61ef1964ffe8841d5c49948cea6, type: 3}
+  m_Name: PhysicsTeleportClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportClip
+  entityToTeleport: 4
+  entityToTeleportLink: {fileID: 0}
+  radius: 3
+  teleportRelativeTo: 1
+  teleportRelativeToLink: {fileID: 0}
+  azimuthCenter: 0
+  azimuthHalfRange: 180
+  elevationCenter: 0
+  elevationHalfRange: 30
+  referenceFrame: 0
+  facingMode: 0
+  clearanceRadius: 0.5
+  maxCandidates: 16
+  obstacleMask:
+    Category00: 0
+    Category01: 0
+    Category02: 0
+    Category03: 0
+    Category04: 0
+    Category05: 0
+    Category06: 0
+    Category07: 0
+    Category08: 0
+    Category09: 0
+    Category10: 0
+    Category11: 0
+    Category12: 0
+    Category13: 0
+    Category14: 0
+    Category15: 0
+    Category16: 0
+    Category17: 0
+    Category18: 0
+    Category19: 0
+    Category20: 0
+    Category21: 0
+    Category22: 0
+    Category23: 0
+    Category24: 0
+    Category25: 0
+    Category26: 0
+    Category27: 0
+    Category28: 0
+    Category29: 0
+    Category30: 0
+    Category31: 0
+  requireLineOfSight: 0
+  requireCandidateVisibility: 0
+  lineOfSightOffset: 1.5
+  resetVelocity: 1
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
+  failureCondition: {fileID: 0}
+  failureValue: 1
+  failureRouteTo: 4
+  failureRouteLink: {fileID: 0}
 --- !u!114 &-1649423987052053625
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1804,7 +2068,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1879,6 +2143,30 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: EntityLinkTargetPatchClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
+--- !u!114 &-815073957605109853
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593d6aae67696020b83d1053a76122bc, type: 3}
+  m_Name: Stateful Trigger Track (2)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.StatefulTriggerTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -2002,6 +2290,41 @@ MonoBehaviour:
   Dutch: 0
   ModeOverride: 0
   OrthographicSize: 0
+--- !u!114 &-423143088340430063
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb463547df244d9ad791fc3cb7f975a, type: 3}
+  m_Name: PhysicsLinearPIDClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsLinearPIDClip
+  uniformAxes: 1
+  tuning:
+    Proportional:
+      x: 10
+      y: 10
+      z: 10
+    Derivative:
+      x: 3
+      y: 3
+      z: 3
+    Integral:
+      x: 1
+      y: 1
+      z: 1
+    MaxOutput: 100
+  trackingTarget: 1
+  targetMode: 0
+  targetOffset: {x: 0, y: 0, z: 0}
+  strength: 1
+  stopThreshold: 0.1
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
 --- !u!114 &-311222055561545554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2041,9 +2364,6 @@ MonoBehaviour:
   - {fileID: -1649423987052053625}
   - {fileID: 714145927590769594}
   - {fileID: 5457701888208028253}
-  - {fileID: 7629110967774230932}
-  - {fileID: 3287888961075858278}
-  - {fileID: -8964421624147140571}
   - {fileID: -8148941382746961763}
   - {fileID: 9163435243908383156}
   - {fileID: -4106123855044702114}
@@ -2051,35 +2371,23 @@ MonoBehaviour:
   - {fileID: 3358482928571307602}
   - {fileID: -1751968194663782901}
   - {fileID: -7634199713061766854}
+  - {fileID: 4791619290203030576}
   - {fileID: 6486009319765817834}
   - {fileID: -3004747188421574965}
   - {fileID: -1971424872366394813}
   - {fileID: -2879647747670679448}
+  - {fileID: 9180388455565498156}
+  - {fileID: -8647597700772610839}
+  - {fileID: 4747093303008644252}
+  - {fileID: 2071501284772150596}
+  - {fileID: -815073957605109853}
+  - {fileID: 1957736623728883310}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &140128133416193991
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
-  m_Name: PhysicsForceClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
-  mode: 1
-  linearForce: {x: 0, y: 10, z: 1}
-  angularForce: {x: 0, y: 0, z: 0}
-  space: 4
-  strengthStat: {fileID: 0}
-  readStatFrom: 4
-  readStatLink: {fileID: 0}
 --- !u!114 &486024511359720393
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2218,7 +2526,7 @@ MonoBehaviour:
     x: 0
     y: 1
   blendDirectionComponentTarget: 0
---- !u!114 &2571481065866975264
+--- !u!114 &1957736623728883310
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2227,32 +2535,91 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86e1ae0f97e488f835c2b3109ccb29d, type: 3}
-  m_Name: PhysicsAngularPIDClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsAngularPIDClip
-  uniformAxes: 1
-  tuning:
-    Proportional:
-      x: 20
-      y: 20
-      z: 20
-    Derivative:
-      x: 4
-      y: 4
-      z: 4
-    Integral:
-      x: 0.5
-      y: 0.5
-      z: 0.5
-    MaxOutput: 200
-  trackingTarget: 1
-  targetMode: 1
-  targetRotationEuler: {x: 0, y: 0, z: 0}
-  strength: 1
-  strengthStat: {fileID: 0}
-  readStatFrom: 4
-  readStatLink: {fileID: 0}
---- !u!114 &2705104007839482283
+  m_Script: {fileID: 11500000, guid: 94e307101f80471192ee948ec1fa5bd6, type: 3}
+  m_Name: Physics Teleport Track (1)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTeleportTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 1.15
+    m_ClipIn: 0
+    m_Asset: {fileID: -4981325069664101358}
+    m_Duration: 1
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 1957736623728883310}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: PhysicsTeleportClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
+--- !u!114 &2071501284772150596
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2261,42 +2628,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68741f226d884ec1a144d33dc5fafbbb, type: 3}
-  m_Name: CommandSequenceClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.CommandSequenceClip
-  Sequences:
-  - Steps:
-    - Action: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-      Mode: 0
-      Phase: 0
-    Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
-    Value: 1
-  RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
---- !u!114 &3215472544210726175
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b7b13e63ee48a880be0328394dae68, type: 3}
-  m_Name: TimeScaleClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.TimeScaleClip
-  timeScale: 0.1
---- !u!114 &3287888961075858278
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 443881b87a82d0188853a96efc66be5a, type: 3}
-  m_Name: Physics Velocity Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsVelocityTrack
+  m_Script: {fileID: 11500000, guid: 7058d219a30c4b37995721e5d969d247, type: 3}
+  m_Name: Physics Force Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceTrack
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
@@ -2309,10 +2643,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -3728716721764865890}
-    m_Duration: 0.016666666666666666
+    m_Asset: {fileID: 6058541449997462612}
+    m_Duration: 10
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 3287888961075858278}
+    m_ParentTrack: {fileID: 2071501284772150596}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
@@ -2374,10 +2708,78 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: PhysicsVelocityClip
+    m_DisplayName: PhysicsForceClip
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &2571481065866975264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e86e1ae0f97e488f835c2b3109ccb29d, type: 3}
+  m_Name: PhysicsAngularPIDClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsAngularPIDClip
+  uniformAxes: 1
+  tuning:
+    Proportional:
+      x: 60
+      y: 60
+      z: 60
+    Derivative:
+      x: 20
+      y: 20
+      z: 20
+    Integral:
+      x: 0
+      y: 0
+      z: 0
+    MaxOutput: 1000
+  trackingTarget: 6
+  targetMode: 1
+  targetRotationEuler: {x: 0, y: 0, z: 0}
+  strength: 1
+  stopThreshold: 0
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
+--- !u!114 &2705104007839482283
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68741f226d884ec1a144d33dc5fafbbb, type: 3}
+  m_Name: CommandSequenceClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.CommandSequenceClip
+  Sequences:
+  - Steps:
+    - Action: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+      Mode: 0
+      Phase: 0
+    Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
+    Value: 1
+  RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+--- !u!114 &3215472544210726175
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b7b13e63ee48a880be0328394dae68, type: 3}
+  m_Name: TimeScaleClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.TimeScaleClip
+  timeScale: 0.1
 --- !u!114 &3358482928571307602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2575,6 +2977,8 @@ MonoBehaviour:
   assignParent: 0
   assignParentLink: {fileID: 11400000, guid: a83fe61ae6391c5d19028cc5f30e8892, type: 2}
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  ignoreTarget: 2
+  requireLinks: []
 --- !u!114 &3742618853116167990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2631,7 +3035,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -2715,6 +3119,100 @@ MonoBehaviour:
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   avatarMask: {fileID: 0}
   applyAvatarMask: 1
+--- !u!114 &4747093303008644252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0dcdc92007faa2e997317057ae925a, type: 3}
+  m_Name: After Image Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.AfterImageTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 2.15
+    m_ClipIn: 0
+    m_Asset: {fileID: -3595554750278490842}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4747093303008644252}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: AfterImageClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
+  afterImagePrefab: {fileID: 9128569630041000598, guid: 5cf9dfd18fb7439e0ab7c90a493ea970, type: 3}
 --- !u!114 &4790979076716102730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2729,6 +3227,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.TimelineTimeScaleClip
   timeScale: 1
   stat: {fileID: 11400000, guid: 95a61e8c263e49dbbc6a31729d0815ce, type: 2}
+--- !u!114 &4791619290203030576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff21df9f4764de7b86dd1eb4270ab3f, type: 3}
+  m_Name: Physics Linear PID Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsLinearPIDTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -423143088340430063}
+    m_Duration: 10
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 4791619290203030576}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: PhysicsLinearPIDClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
 --- !u!114 &5310386309778359708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2757,46 +3348,12 @@ MonoBehaviour:
   BlendParameter:
     x: 1
     y: 0
-  ReadKind: 0
+  ReadKind: 1
   ReadFrom: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 0
   applyFootIK: 1
---- !u!114 &5428497042690615115
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eb463547df244d9ad791fc3cb7f975a, type: 3}
-  m_Name: PhysicsLinearPIDClip
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsLinearPIDClip
-  uniformAxes: 1
-  tuning:
-    Proportional:
-      x: 10
-      y: 10
-      z: 10
-    Derivative:
-      x: 1
-      y: 1
-      z: 1
-    Integral:
-      x: 2
-      y: 2
-      z: 2
-    MaxOutput: 100
-  trackingTarget: 1
-  targetMode: 4
-  targetOffset: {x: 0, y: 0, z: 0}
-  strength: 1
-  strengthStat: {fileID: 0}
-  readStatFrom: 4
-  readStatLink: {fileID: 0}
 --- !u!114 &5457701888208028253
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3013,6 +3570,29 @@ MonoBehaviour:
   Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
   Value: 1
   RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+--- !u!114 &6058541449997462612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
+  m_Name: PhysicsForceClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
+  mode: 0
+  directionMode: 1
+  linearForce: {x: 0, y: 0, z: 1}
+  space: 4
+  magnitude: 100
+  directionTarget: 1
+  directionTargetLink: {fileID: 0}
+  angularForce: {x: 0, y: 0, z: 0}
+  strengthStat: {fileID: 0}
+  readStatFrom: 4
+  readStatLink: {fileID: 0}
 --- !u!114 &6208688830986825939
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3085,7 +3665,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -3095,7 +3675,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 2571481065866975264}
-    m_Duration: 5
+    m_Duration: 10
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6486009319765817834}
     m_EaseInDuration: 0
@@ -3178,105 +3758,12 @@ MonoBehaviour:
   BlendParameter:
     x: 0.7
     y: 0.7
-  ReadKind: 0
-  ReadFrom: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
+  ReadKind: 1
+  ReadFrom: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 0
   applyFootIK: 1
---- !u!114 &7629110967774230932
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7058d219a30c4b37995721e5d969d247, type: 3}
-  m_Name: Physics Force Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 0
-    m_ClipIn: 0
-    m_Asset: {fileID: 140128133416193991}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 7629110967774230932}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: PhysicsForceClip
-  m_Markers:
-    m_Objects: []
-  resetOnDeactivate: 1
 --- !u!114 &8136810976554181148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3340,7 +3827,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -3433,11 +3920,13 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
+  m_CacheSorted: 0
+  m_BlendsValid: 1
   m_Clips:
   - m_Version: 1
     m_Start: 0
@@ -3450,6 +3939,97 @@ MonoBehaviour:
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
     m_BlendOutDuration: 0
+    m_MixInCurve:
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SpatialActiveClip
+    <DirtyIndex>k__BackingField: 0
+  m_Markers:
+    m_Objects: []
+    m_CacheDirty: 0
+    m_HasNotifications: 0
+  <DirtyIndex>k__BackingField: 0
+  resetOnDeactivate: 1
+--- !u!114 &9180388455565498156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12639aee7a049f287ce2a9911e8ca5a, type: 3}
+  m_Name: Distance To Stat Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.Distance.Authoring::BovineLabs.Timeline.Distance.Authoring.DistanceToStatTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -4571502003578545383}
+    m_Duration: 5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 9180388455565498156}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -3507,7 +4087,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: SpatialActiveClip
+    m_DisplayName: DistanceToStatClip
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1

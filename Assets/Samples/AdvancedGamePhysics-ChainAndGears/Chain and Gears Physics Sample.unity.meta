@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Samples/AdvancedGamePhysics-ChainAndGears/Chain and Gears Physics Sample.unity.meta
 guid: ab9b33e33497ab640a52633afcdb73fe
+========
+guid: 2a7a1bef3d1a00d30b77ddb5ade5e2da
+>>>>>>>> upstream/main:Assets/PlayerInputsDemo.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

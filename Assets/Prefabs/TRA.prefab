@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3305047710032299585}
   - component: {fileID: 7943562095193895293}
   - component: {fileID: 2138153433620403704}
+  - component: {fileID: -1542655314713116607}
   m_Layer: 0
   m_Name: TRA
   m_TagString: Untagged
@@ -113,10 +114,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!114 &1287778030574909890
@@ -151,7 +149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7912966824055113308}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
   m_Name: 
@@ -160,38 +158,17 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 1
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: CurrentHealth
-      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 2
-      Operation: 4
-      ComparisonMode: 0
-      Value: 0
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &8227694469458243894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,8 +182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: 10
+  - Intrinsic: {fileID: 11400000, guid: 6a5b703b67dc4286bfa73d788f086e0b, type: 2}
+    Amount: 206
     Target: 1
 --- !u!320 &3305047710032299585
 PlayableDirector:
@@ -257,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
   Stats:
   - StatSchema: {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
-    Target: 0
+    Target: 1
     ValueType: 0
     Fixed:
       ModifyType: 0
@@ -273,3 +250,16 @@ MonoBehaviour:
       ModifyType: 0
       Min: 0
       Max: 0
+--- !u!114 &-1542655314713116607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912966824055113308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Target: 4
