@@ -16,7 +16,7 @@ MonoBehaviour:
   ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
   AnchorLink: {fileID: 0}
   Action: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  Range: 1
+  Range: 2
   Plane: {x: 0, y: 1, z: 0}
   Smoothing: 0
   LeashRadius: 2

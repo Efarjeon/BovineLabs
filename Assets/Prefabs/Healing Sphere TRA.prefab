@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2158164973080170132}
   - component: {fileID: 870430757066390267}
   - component: {fileID: 7731826785972867692}
+  - component: {fileID: 8389956817714375740}
   m_Layer: 0
   m_Name: Healing Sphere TRA
   m_TagString: Untagged
@@ -149,7 +150,7 @@ MonoBehaviour:
     - Name: CurrentHealth
       Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
       Target: 1
-      Operation: 4
+      Operation: 3
       ComparisonMode: 0
       Value: 0
       CustomValue:
@@ -233,3 +234,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
   Definition: {fileID: 11400000, guid: 9f3ed6c87a71f804cb7e469a22840d07, type: 2}
+--- !u!114 &8389956817714375740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270854293081138384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  Target: 3

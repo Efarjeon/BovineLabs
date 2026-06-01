@@ -149,7 +149,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 773654708}
-  - {fileID: 1997632929}
+  - {fileID: 2099919126}
   - {fileID: 1138849774}
   - {fileID: 21303719}
   - {fileID: 772346495}
@@ -197,7 +197,6 @@ GameObject:
   - component: {fileID: 33295977}
   - component: {fileID: 33295979}
   - component: {fileID: 33295978}
-  - component: {fileID: 33295980}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -5023,19 +5022,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &33295980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33295976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b7b25870e1b4137927274eab579c1c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.FollowPositionOnlyAuthoring
-  target: {fileID: 1697952402}
 --- !u!1 &160821344
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,6 +5201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputConsumerAuthoring
   PlayerId: 0
+  Controllable: 0
+  OverrideTrigger: 1
+  ReleaseIdleSeconds: 0.25
 --- !u!114 &459224085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5343,7 +5332,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a8e24ca3c19be0ae383aed9ca347efbd, type: 2}
   - {fileID: 11400000, guid: 89916598b6c3ca6e5b1109a31001f189, type: 2}
   - {fileID: 11400000, guid: eaeddac758594e621ac1c1bde8130dce, type: 2}
-  - {fileID: 11400000, guid: 80f48e8b72e921ba4869cb20a288d411, type: 2}
+  - {fileID: 0}
 --- !u!4 &537042901
 Transform:
   m_ObjectHideFlags: 0
@@ -5784,236 +5773,6 @@ Transform:
   - {fileID: 6436399361721110745}
   m_Father: {fileID: 11785434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1241495307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1241495310}
-  - component: {fileID: 1241495309}
-  - component: {fileID: 1241495308}
-  - component: {fileID: 1241495314}
-  - component: {fileID: 1241495313}
-  - component: {fileID: 1241495312}
-  m_Layer: 0
-  m_Name: TImeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1241495308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Timeline.Core.Authoring::BovineLabs.Timeline.Core.Authoring.TimelineReferenceAuthoring
---- !u!320 &1241495309
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 1533976475158955954, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 2713462620551172859, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 5063639177002891229, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -1417571896936943283, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 8329585062532576727, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -6784736260034161606, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 4873586104128568558, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 2036159825829520048, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -9009083553386403397, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -4980386641422638443, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -1217159936822365458, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 6637488014592112411, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 7754974843889663124, guid: 88f79ac9dacb4426c80547702e2357fd, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 4304008739173729860, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -4293134366758703274, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1319626925}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 1241495309}
-  - key: {fileID: 0}
-    value: {fileID: 1241495309}
-  - key: {fileID: -1172143743795740798, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 416323850861367311, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1715107377}
-  - key: {fileID: -7757735239958557966, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -1649423987052053625, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 714145927590769594, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 1387560018}
-  - key: {fileID: 5457701888208028253, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1387560018}
-  - key: {fileID: 0}
-    value: {fileID: 459224084}
-  - key: {fileID: 7629110967774230932, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 3287888961075858278, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 1387560025}
-  - key: {fileID: -8964421624147140571, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 9021596343527273512, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 0}
-    value: {fileID: 459224084}
-  - key: {fileID: -5174208988558451568, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 459224084}
-  - key: {fileID: 0}
-    value: {fileID: 459224084}
-  - key: {fileID: -5031337880447802677, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 459224084}
-  - key: {fileID: -764723377789886988, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 459224084}
-  - key: {fileID: 9163435243908383156, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1398704565}
-  - key: {fileID: -4106123855044702114, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 356887550}
-  - key: {fileID: 0}
-    value: {fileID: 537042899}
-  - key: {fileID: -5421011351473203731, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1319626923}
-  - key: {fileID: 3358482928571307602, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1387560018}
-  - key: {fileID: -1751968194663782901, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -7634199713061766854, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1319626932}
-  - key: {fileID: 6486009319765817834, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 588256448}
-  - key: {fileID: -3955803023947555653, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1387560018}
-  - key: {fileID: -4966873830450226548, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 536106235}
-  - key: {fileID: -2879647747670679448, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &1241495310
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1241495312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6d5a07a3cf34c9da0f7aa29435adad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
-  Active:
-    trigger: 0
-    cooldown: 0
-    cooldownAfterDuration: 0
-    duration: 0
-    cancellable: 0
-  Conditions:
-    conditions: []
-    conditionLogic:
-      expression: 
-    chanceToTrigger: 1
-    doNotReset: 0
-  references:
-    version: 2
-    RefIds: []
---- !u!114 &1241495313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
-  Owner: {fileID: 0}
-  Source: {fileID: 0}
-  Target: {fileID: 1749563368}
-  Custom: {fileID: 0}
-  Initialize:
-    Target: 1
---- !u!114 &1241495314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241495307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
 --- !u!1001 &1319626922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8346,9 +8105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Bridge.Authoring::BovineLabs.Bridge.Authoring.Camera.CameraMainAuthoring
   projectionCenterOffset: {x: 0, y: 0}
---- !u!4 &1997632929 stripped
+--- !u!4 &2099919126 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8877301828050784402, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8776849114931593044, guid: c41620d79634e69469224fca1b85afb4, type: 3}
   m_PrefabInstance: {fileID: 4624193673865762982}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3352460114801772263
@@ -8485,10 +8244,34 @@ PrefabInstance:
       propertyPath: Owner
       value: 
       objectReference: {fileID: 1387560016}
+    - target: {fileID: 759078734470323532, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: Owner
+      value: 
+      objectReference: {fileID: 1387560016}
+    - target: {fileID: 6151438458571927075, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Name
+      value: OnInputDash
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151438458571927075, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
     - target: {fileID: 6793188230401897841, guid: c41620d79634e69469224fca1b85afb4, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 588256448}
+    - target: {fileID: 8105688777622907198, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: m_SceneBindings.Array.data[0].value
+      value: 
+      objectReference: {fileID: 588256448}
+    - target: {fileID: 8105688777622907198, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].value
+      value: 
+      objectReference: {fileID: 1387560025}
+    - target: {fileID: 8105688777622907198, guid: c41620d79634e69469224fca1b85afb4, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 1387560025}
     - target: {fileID: 8810784878455987968, guid: c41620d79634e69469224fca1b85afb4, type: 3}
       propertyPath: m_Name
       value: Dash Force
@@ -8553,6 +8336,5 @@ SceneRoots:
   - {fileID: 1642187691}
   - {fileID: 1715107374}
   - {fileID: 1398704567}
-  - {fileID: 1241495310}
   - {fileID: 1749563369}
   - {fileID: 913748216}
