@@ -13,35 +13,8 @@ MonoBehaviour:
   m_Name: ObjectManagementSettings
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectManagementSettings
   objectDefinitions:
-  - {fileID: 11400000, guid: 11d1e9a121a52504dab7c3e6326fdc51, type: 2}
-  - {fileID: 11400000, guid: ba0f285cddce274449538243fbd397ad, type: 2}
-  - {fileID: 11400000, guid: a0bc27239270ee74ea8404457a0ede56, type: 2}
-  - {fileID: 11400000, guid: f3e304f6550d95b4f8fe99655bca6de6, type: 2}
-  - {fileID: 11400000, guid: 5c40cdb9b52e8b64b9e6eb206b91bf97, type: 2}
-  - {fileID: 11400000, guid: 450359ae976143b49a0235426deb076e, type: 2}
-  - {fileID: 11400000, guid: 6047f115f5e54484fbac716df8a2d44c, type: 2}
-  - {fileID: 11400000, guid: f5d003edb1ad6e4469aa6f8df4620114, type: 2}
-  - {fileID: 11400000, guid: d6be79dac3b1cb6408689dc96f542a3d, type: 2}
   - {fileID: 11400000, guid: 966017d83fc6017759e6f88f702e3cf3, type: 2}
-  - {fileID: 11400000, guid: b64832ec6ed4dc340bc796f946787f73, type: 2}
-  - {fileID: 11400000, guid: 9f3ed6c87a71f804cb7e469a22840d07, type: 2}
-  - {fileID: 11400000, guid: c1d5028aaf9630b41892d1103943c387, type: 2}
-  - {fileID: 11400000, guid: b0318ea5e41433b43b2aa55249efda22, type: 2}
-  - {fileID: 11400000, guid: a594f0d867f8d3f4197c7d9d9d344e85, type: 2}
   - {fileID: 11400000, guid: 98454e1957a48b913a2b3767612a630e, type: 2}
   - {fileID: 11400000, guid: 946b96625100ef50ab0ebac97053b151, type: 2}
-  - {fileID: 11400000, guid: 416809c4d0208434a8912e5541b659f0, type: 2}
-  - {fileID: 11400000, guid: 06f3585d946afcc479f34cfb5b177d08, type: 2}
-  - {fileID: 11400000, guid: 6e2254cc2058183489b4b87b305b6a37, type: 2}
-  - {fileID: 11400000, guid: d851bd07ff7909e439d62cfc6ddd590c, type: 2}
-  - {fileID: 11400000, guid: b892e945a753d824ea0f82313a0048c3, type: 2}
-  - {fileID: 11400000, guid: 41565a0b7e9c37a49a49e9699bf288dd, type: 2}
-  - {fileID: 11400000, guid: 9e71e59e18660224f8aa01100956825b, type: 2}
-  - {fileID: 11400000, guid: 64563ea3ff115674496a4ac7adf6d2cc, type: 2}
-  - {fileID: 11400000, guid: d41d9c9688be7e942a5cbb66b20f8d87, type: 2}
-  - {fileID: 11400000, guid: 9ed3d1d7b434c2b48af4b21cfc52c8f5, type: 2}
-  - {fileID: 11400000, guid: 27a3b77c823193847bf39111dbf9b5ce, type: 2}
-  - {fileID: 11400000, guid: ef8bf3b5c1511b943b5d7985b0f6fc63, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
-  - {fileID: 11400000, guid: 6543c0bf6fa12aa4ebb5a86c87de827c, type: 2}
   objectGroups: []
