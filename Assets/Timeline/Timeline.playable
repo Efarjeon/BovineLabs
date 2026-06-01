@@ -1043,14 +1043,17 @@ MonoBehaviour:
   entityToTeleport: 4
   entityToTeleportLink: {fileID: 0}
   radius: 10.26
-  teleportRelativeTo: 0
+  teleportRelativeTo: 3
   teleportRelativeToLink: {fileID: 0}
+  azimuthTarget: 3
+  azimuthTargetLink: {fileID: 0}
   azimuthCenter: 0
   azimuthHalfRange: 180
   elevationCenter: 0
-  elevationHalfRange: 30
-  referenceFrame: 0
-  facingMode: 2
+  elevationHalfRange: 28.4
+  facingMode: 0
+  facingTarget: 3
+  facingTargetLink: {fileID: 0}
   clearanceRadius: 0.5
   maxCandidates: 4
   obstacleMask:
@@ -2001,12 +2004,15 @@ MonoBehaviour:
   radius: 3
   teleportRelativeTo: 1
   teleportRelativeToLink: {fileID: 0}
+  azimuthTarget: 1
+  azimuthTargetLink: {fileID: 0}
   azimuthCenter: 0
   azimuthHalfRange: 180
   elevationCenter: 0
   elevationHalfRange: 30
-  referenceFrame: 0
   facingMode: 0
+  facingTarget: 1
+  facingTargetLink: {fileID: 0}
   clearanceRadius: 0.5
   maxCandidates: 16
   obstacleMask:
