@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 5c40cdb9b52e8b64b9e6eb206b91bf97, type: 2}
+  Definition: {fileID: 11400000, guid: 29353c090812d954ab85f9e29fc4642d, type: 2}
 --- !u!114 &3659349722527448516
 MonoBehaviour:
   m_ObjectHideFlags: 0
