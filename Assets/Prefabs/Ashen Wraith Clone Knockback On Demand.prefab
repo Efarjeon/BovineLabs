@@ -17,10 +17,10 @@ GameObject:
   - component: {fileID: 5239896608054041702}
   - component: {fileID: 7142032739411103710}
   - component: {fileID: -5549792584442428782}
-  - component: {fileID: 6568271148184966714}
-  - component: {fileID: -5518184970529411118}
+  - component: {fileID: -6434172106340286766}
+  - component: {fileID: 7352179240320370645}
   m_Layer: 0
-  m_Name: Ashen Wraith Clone Knockback
+  m_Name: Ashen Wraith Clone Knockback On Demand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,18 +187,39 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 4
+    duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: OnInputUnleash
+      Condition: {fileID: 11400000, guid: c84d95e1106e0cf448c93e96f6c9fe00, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
---- !u!114 &6568271148184966714
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!114 &-6434172106340286766
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,13 +228,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7144028553602046979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc74f86af1a4bcbb88866caa200aa0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fd37b89d98b5f0a38376bd938d1cf81, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateOnDeactivateAuthoring
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionCreateOnActivateAuthoring
   Spawns:
   - Definition: {fileID: 11400000, guid: 5c40cdb9b52e8b64b9e6eb206b91bf97, type: 2}
     Target: 0
---- !u!114 &-5518184970529411118
+--- !u!114 &7352179240320370645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,7 +243,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7144028553602046979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
   Target: 4

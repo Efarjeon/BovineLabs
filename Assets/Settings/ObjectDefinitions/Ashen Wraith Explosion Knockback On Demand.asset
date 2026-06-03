@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Ashen Wraith Explosion Knockback
+  m_Name: Ashen Wraith Explosion Knockback On Demand
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
   id: 14
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 6822324390281313853, guid: 95ac16dd701f65c4a841b4c92933d233, type: 3}
+  prefab: {fileID: 6822324390281313853, guid: fdc66c9327e769247a2287529c1739ba, type: 3}
