@@ -946,18 +946,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12ff77800bcb2f3b81016eb5d4c7c4b, type: 3}
   m_Name: InfluenceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.InfluenceClip
-  kind: 0
-  weight: 1
-  rectMin: {x: -5, y: -5}
-  rectSize: {x: 10, y: 10}
-  shellThickness: 1
-  circleCenter: {x: 0, y: 0}
-  outerRadius: 5
-  innerRadius: 3
-  capsuleA: {x: -3, y: 0}
-  capsuleB: {x: 3, y: 5}
-  capsuleRadius: 5
-  localOffset: {x: 0, y: 0, z: 0}
+  Kind: 6
+  Weight: 1
+  RectMin: {x: -5, y: -5}
+  RectSize: {x: 10, y: 10}
+  ShellThickness: 1
+  DiscCenter: {x: 0, y: 0}
+  DiscRadius: 5
+  AnnulusCenter: {x: 0, y: 0}
+  AnnulusOuterRadius: 5
+  AnnulusInnerRadius: 3
+  CapsuleStart: {x: -3, y: 0}
+  CapsuleEnd: {x: 3, y: 5}
+  CapsuleRadius: 5
+  EllipseCenter: {x: 0, y: 0}
+  EllipseRadii: {x: 5, y: 3}
+  RoundedRectMin: {x: -5, y: -3}
+  RoundedRectSize: {x: 10, y: 6}
+  RoundedRectRadius: 2
+  ThickLineStart: {x: -5, y: 0}
+  ThickLineEnd: {x: 5, y: 0}
+  ThickLineRadius: 1
+  LocalOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &-5304372104756700006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2018,18 +2028,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12ff77800bcb2f3b81016eb5d4c7c4b, type: 3}
   m_Name: InfluenceClip(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.InfluenceClip
-  kind: 0
-  weight: 1
-  rectMin: {x: -5, y: -5}
-  rectSize: {x: 10, y: 10}
-  shellThickness: 1
-  circleCenter: {x: 0, y: 0}
-  outerRadius: 5
-  innerRadius: 3
-  capsuleA: {x: -3, y: 0}
-  capsuleB: {x: 3, y: 5}
-  capsuleRadius: 5
-  localOffset: {x: 0, y: 0, z: 0}
+  Kind: 1
+  Weight: 1
+  RectMin: {x: -5, y: -5}
+  RectSize: {x: 10, y: 10}
+  ShellThickness: 1
+  DiscCenter: {x: 0, y: 0}
+  DiscRadius: 5
+  AnnulusCenter: {x: 0, y: 0}
+  AnnulusOuterRadius: 5
+  AnnulusInnerRadius: 3
+  CapsuleStart: {x: -3, y: 0}
+  CapsuleEnd: {x: 3, y: 5}
+  CapsuleRadius: 5
+  EllipseCenter: {x: 0, y: 0}
+  EllipseRadii: {x: 5, y: 3}
+  RoundedRectMin: {x: -5, y: -3}
+  RoundedRectSize: {x: 10, y: 6}
+  RoundedRectRadius: 2
+  ThickLineStart: {x: -5, y: 0}
+  ThickLineEnd: {x: 5, y: 0}
+  ThickLineRadius: 1
+  LocalOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &-2403160841444389379
 MonoBehaviour:
   m_ObjectHideFlags: 1
