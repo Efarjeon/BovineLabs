@@ -10,6 +10,9 @@
 [submodule "Packages/BovineLabs.Timeline.Core"]
 	path = Packages/BovineLabs.Timeline.Core
 	url = https://github.com/IAFahim/BovineLabs.Timeline.Core.git
+[submodule "Packages/BovineLabs.Timeline.Candidate"]
+	path = Packages/BovineLabs.Timeline.Candidate
+	url = https://github.com/IAFahim/BovineLabs.Timeline.Candidate.git
 [submodule "Packages/BovineLabs.Timeline.EntityLinks"]
 	path = Packages/BovineLabs.Timeline.EntityLinks
 	url = https://github.com/IAFahim/BovineLabs.Timeline.EntityLinks.git
@@ -31,6 +34,9 @@
 [submodule "Packages/BovineLabs.Timeline.UI"]
 	path = Packages/BovineLabs.Timeline.UI
 	url = https://github.com/IAFahim/BovineLabs.Timeline.UI.git
+[submodule "Packages/com.bovinelabs.reaction.addon"]
+	path = Packages/com.bovinelabs.reaction.addon
+	url = https://github.com/IAFahim/com.bovinelabs.reaction.addon.git
 [submodule "Packages/com.bovinelabs.timeline.parenting"]
 	path = Packages/com.bovinelabs.timeline.parenting
 	url = https://github.com/IAFahim/com.bovinelabs.timeline.parenting.git
@@ -40,3 +46,6 @@
 [submodule "Packages/com.rukhanka.animation"]
 	path = Packages/com.rukhanka.animation
 	url = https://github.com/IAFahim/com.rukhanka.animation.git
+[submodule "Packages/BovineLabs.Timeline.Grid.Influence"]
+	path = Packages/BovineLabs.Timeline.Grid.Influence
+	url = https://github.com/IAFahim/BovineLabs.Timeline.Grid.Influence.git

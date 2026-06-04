@@ -224,7 +224,7 @@ Camera:
     height: 0.9328537
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 18
+  field of view: 26.2
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -251,7 +251,7 @@ Transform:
   m_GameObject: {fileID: 146208193}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3314136, y: 0.46193975, z: -0.19134174, w: 0.8001032}
-  m_LocalPosition: {x: -11.291589, y: 14.488405, z: -6.519202}
+  m_LocalPosition: {x: -11.340661, y: 13.038405, z: -4.0175424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -653,15 +653,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: d655766f1b1fc0b4a95ebcca51fd7291, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: 763df2adfdba7ea7d9d6c770a02f9b6b, type: 3}
   _HierarchyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 4133967213
-      y: 1259139505
-      z: 2899043738
-      w: 422043413
+      x: 3660567399
+      y: 2062003167
+      z: 125595037
+      w: 3065639434
 --- !u!1 &1342076471
 GameObject:
   m_ObjectHideFlags: 0
