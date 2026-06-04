@@ -17,5 +17,5 @@ MonoBehaviour:
   ChunkPower: 4
   RetentionFrames: 300
   DoubleBuffered: 0
-  DecayPerMille: 0
+  DecayPerMille: 126
   SpreadDenominator: 5

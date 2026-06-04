@@ -45,6 +45,15 @@
       },
       "hash": "a09c68103ebba5104b7a3dc385056a8f1b5467e1"
     },
+    "com.bovinelabs.grove": {
+      "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.grove",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.bovinelabs.core": "1.6.1"
+      },
+      "hash": "6c5ed50823c9794834dd8b57b0080afb54f5f3e7"
+    },
     "com.bovinelabs.hitstop": {
       "version": "file:BovineLabs.HitStop",
       "depth": 0,
@@ -105,21 +114,6 @@
         "com.unity.mathematics": "1.3.2",
         "com.bovinelabs.timeline.core": "1.0.0",
         "com.rukhanka.animation": "1.0.0"
-      }
-    },
-    "com.bovinelabs.timeline.candidate": {
-      "version": "file:BovineLabs.Timeline.Candidate",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.burst": "1.8.11",
-        "com.unity.collections": "6.5.0",
-        "com.unity.entities": "6.5.0",
-        "com.unity.mathematics": "1.3.2",
-        "com.bovinelabs.core": "1.6.1",
-        "com.bovinelabs.reaction": "1.0.0",
-        "com.bovinelabs.timeline": "1.0.0",
-        "com.bovinelabs.timeline.core": "1.0.0"
       }
     },
     "com.bovinelabs.timeline.core": {
@@ -318,7 +312,7 @@
       }
     },
     "com.unity.dt.app-ui": {
-      "version": "2.2.0-pre.9",
+      "version": "2.2.0-pre.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
