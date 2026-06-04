@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 11d1e9a121a52504dab7c3e6326fdc51, type: 2}
+  Definition: {fileID: 11400000, guid: f7757c80d52c2ef419ef7f9eac96225b, type: 2}
 --- !u!114 &-8144065701294611228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,8 +191,8 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnInputUnleash
-      Condition: {fileID: 11400000, guid: c84d95e1106e0cf448c93e96f6c9fe00, type: 2}
+    - Name: OnInputTrigger
+      Condition: {fileID: 11400000, guid: 46bd9bd7d22fda24282ff550b7aee5c2, type: 2}
       Target: 2
       Operation: 1
       ComparisonMode: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionCreateOnActivateAuthoring
   Spawns:
   - Definition: {fileID: 11400000, guid: 5c40cdb9b52e8b64b9e6eb206b91bf97, type: 2}
-    Target: 0
+    Target: 3
 --- !u!114 &7352179240320370645
 MonoBehaviour:
   m_ObjectHideFlags: 0
