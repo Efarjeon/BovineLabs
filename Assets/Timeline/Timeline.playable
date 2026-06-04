@@ -946,7 +946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12ff77800bcb2f3b81016eb5d4c7c4b, type: 3}
   m_Name: InfluenceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.InfluenceClip
-  Kind: 6
+  originTarget: 2
+  originLink: {fileID: 0}
+  Kind: 5
   Weight: 1
   RectMin: {x: -5, y: -5}
   RectSize: {x: 10, y: 10}
@@ -1798,8 +1800,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -3635619655944061156}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -2028,7 +2030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12ff77800bcb2f3b81016eb5d4c7c4b, type: 3}
   m_Name: InfluenceClip(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.InfluenceClip
-  Kind: 1
+  originTarget: 2
+  originLink: {fileID: 0}
+  Kind: 2
   Weight: 1
   RectMin: {x: -5, y: -5}
   RectSize: {x: 10, y: 10}
@@ -2114,8 +2118,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -2072559440870963355}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
