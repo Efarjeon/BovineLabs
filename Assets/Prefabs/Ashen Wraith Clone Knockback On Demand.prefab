@@ -246,4 +246,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
-  Target: 4
+  Targets: {_typeName: UInt8, _data: 04}
