@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: -8148941382746961763}
@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: -8148941382746961763}
@@ -2590,6 +2590,7 @@ MonoBehaviour:
   - {fileID: 3358482928571307602}
   - {fileID: -1751968194663782901}
   - {fileID: -7634199713061766854}
+  - {fileID: 2071501284772150596}
   - {fileID: 4791619290203030576}
   - {fileID: 6486009319765817834}
   - {fileID: -3004747188421574965}
@@ -2598,7 +2599,6 @@ MonoBehaviour:
   - {fileID: 9180388455565498156}
   - {fileID: -8647597700772610839}
   - {fileID: 4747093303008644252}
-  - {fileID: 2071501284772150596}
   - {fileID: -815073957605109853}
   - {fileID: 1957736623728883310}
   - {fileID: 7292557190998576618}
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -4029,7 +4029,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
