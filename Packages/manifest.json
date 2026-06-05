@@ -6,7 +6,6 @@
     "com.bovinelabs.essence": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
     "com.bovinelabs.grid": "https://github.com/IAFahim/com.bovinelabs.grid.git",
     "com.bovinelabs.grove": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.grove",
-    "com.bovinelabs.hitstop": "https://github.com/IAFahim/BovineLabs.HitStop.git",
     "com.bovinelabs.quill": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
     "com.bovinelabs.reaction": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
     "com.bovinelabs.reaction.addon": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
