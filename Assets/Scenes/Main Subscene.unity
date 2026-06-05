@@ -2871,6 +2871,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.000000013125826
       objectReference: {fileID: 0}
+    - target: {fileID: 7921783443034814916, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
+      propertyPath: fallbackAnimationClip
+      value: 
+      objectReference: {fileID: 8252669403298163198, guid: 0dff3cbb0654179478f4a2b842b027b0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

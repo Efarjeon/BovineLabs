@@ -1437,7 +1437,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -3255,8 +3255,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridInfluenceClip
   Field: {fileID: 11400000, guid: 7a7f7ecb8a28a14469f87a98c9a2d6d7, type: 2}
   Stamp: {fileID: 11400000, guid: ac21954107a6e4627a7fef3cb1b14174, type: 2}
+  ExtraStamps: []
   Category: 1
   Polarity: 0
+  Rotation: 0
+  Falloff: 0
+  FalloffSteps: 3
+  FalloffSpacing: 2
   WeightMultiplier: 1
   LocalOffset: {x: 0, y: 0, z: 0}
   originTarget: 2
@@ -3575,8 +3580,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridInfluenceClip
   Field: {fileID: 11400000, guid: 7a7f7ecb8a28a14469f87a98c9a2d6d7, type: 2}
   Stamp: {fileID: 11400000, guid: ac21954107a6e4627a7fef3cb1b14174, type: 2}
+  ExtraStamps: []
   Category: 1
   Polarity: 1
+  Rotation: 0
+  Falloff: 0
+  FalloffSteps: 3
+  FalloffSpacing: 2
   WeightMultiplier: 4.08
   LocalOffset: {x: 0, y: 0, z: 0}
   originTarget: 2
