@@ -1387,6 +1387,31 @@ MonoBehaviour:
   Intrinsics:
   - {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
   Events: []
+--- !u!114 &-4578782756223452386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968625259221cfe9192dc57c5331defb, type: 3}
+  m_Name: GridInfluenceClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridInfluenceClip
+  Field: {fileID: 0}
+  Stamp: {fileID: 0}
+  ExtraStamps: []
+  Category: 0
+  Polarity: 0
+  Rotation: 0
+  Falloff: 0
+  FalloffSteps: 3
+  FalloffSpacing: 2
+  WeightMultiplier: 1
+  LocalOffset: {x: 0, y: 0, z: 0}
+  originTarget: 2
+  originLink: {fileID: 0}
 --- !u!114 &-4571502003578545383
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2747,6 +2772,99 @@ MonoBehaviour:
     x: 0
     y: 1
   blendDirectionComponentTarget: 0
+--- !u!114 &1801929962135858745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad62c7e39fd2683368cb7ff8111cb8f1, type: 3}
+  m_Name: Grid Influence Track (2)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridInfluenceTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 7292557190998576618}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -4578782756223452386}
+    m_Duration: 1
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 1801929962135858745}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: GridInfluenceClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
 --- !u!114 &1957736623728883310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4243,6 +4361,7 @@ MonoBehaviour:
   m_Children:
   - {fileID: 6555129779255046496}
   - {fileID: 5533054973063021078}
+  - {fileID: 1801929962135858745}
   m_Clips: []
   m_Markers:
     m_Objects: []

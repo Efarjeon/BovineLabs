@@ -54,18 +54,6 @@
       },
       "hash": "6c5ed50823c9794834dd8b57b0080afb54f5f3e7"
     },
-    "com.bovinelabs.hitstop": {
-      "version": "file:BovineLabs.HitStop",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.burst": "1.8.11",
-        "com.unity.entities": "6.5.0",
-        "com.unity.mathematics": "1.3.2",
-        "com.bovinelabs.core": "1.6.1",
-        "com.bovinelabs.reaction": "1.0.0"
-      }
-    },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
       "depth": 0,
