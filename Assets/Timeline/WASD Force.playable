@@ -257,7 +257,7 @@ MonoBehaviour:
     x: 0
     y: 0
   ReadKind: 0
-  ReadFrom: {fileID: 0}
+  ReadFrom: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 1
