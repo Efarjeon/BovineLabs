@@ -481,99 +481,6 @@ MonoBehaviour:
   localPosition: {x: 0, y: 0, z: 0}
   localRotation: {x: 0, y: 0, z: 0}
   restoreOnEnd: 0
---- !u!114 &-6555309319189992703
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b656064b824caaf618fe8479f8198b4b, type: 3}
-  m_Name: Candidate Clearance Filter Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Candidate.Authoring::BovineLabs.Timeline.Candidate.Authoring.CandidateClearanceFilterTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 0
-    m_ClipIn: 0
-    m_Asset: {fileID: -5991601443929051311}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -6555309319189992703}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: CandidateClearanceFilterClip
-  m_Markers:
-    m_Objects: []
-  resetOnDeactivate: 1
 --- !u!114 &-6521343165293420496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2627,7 +2534,6 @@ MonoBehaviour:
   - {fileID: -815073957605109853}
   - {fileID: 1957736623728883310}
   - {fileID: 7292557190998576618}
-  - {fileID: -6555309319189992703}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -3278,30 +3184,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: EssenceUIClip
-  m_Markers:
-    m_Objects: []
-  resetOnDeactivate: 1
---- !u!114 &3494638933629645501
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef062eeeab1dd8f32a33e35cc809caff, type: 3}
-  m_Name: Grid Flow Steering Track
-  m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridFlowSteeringTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 7292557190998576618}
-  m_Children: []
-  m_Clips: []
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
@@ -4386,7 +4268,6 @@ MonoBehaviour:
   - {fileID: 6555129779255046496}
   - {fileID: 5533054973063021078}
   - {fileID: 1801929962135858745}
-  - {fileID: 3494638933629645501}
   m_Clips: []
   m_Markers:
     m_Objects: []
