@@ -921,6 +921,21 @@ MonoBehaviour:
   m_Name: WorldTimeScaleClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Time.Authoring::BovineLabs.Timeline.Time.Authoring.WorldTimeScaleClip
   timeScale: 0.1
+--- !u!114 &-5191771991471149482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f7407d4651a6f768656fba02a15f3a, type: 3}
+  m_Name: UITextRevealClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.UITextRevealClip
+  TargetId: dialog-text
+  Text: Hello world
+  Mode: 0
 --- !u!114 &-5174208988558451568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1230,7 +1245,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -2660,12 +2675,107 @@ MonoBehaviour:
   - {fileID: 1957736623728883310}
   - {fileID: 7292557190998576618}
   - {fileID: -4978967763756956447}
+  - {fileID: 1411655887418069116}
+  - {fileID: 465495587968641025}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &465495587968641025
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589a9f75b275718798e7e416a9c416a6, type: 3}
+  m_Name: UI Text Reveal Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.UITextRevealTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.5333333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: -5191771991471149482}
+    m_Duration: 1
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 465495587968641025}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: UITextRevealClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
 --- !u!114 &486024511359720393
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2788,6 +2898,113 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   resetOnDeactivate: 1
+--- !u!114 &1411655887418069116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07597f55b61cf1c64820339123f740b1, type: 3}
+  m_Name: Uss Class Track
+  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.UssClassTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 4.05
+    m_ClipIn: 0
+    m_Asset: {fileID: 1459118790881944780}
+    m_Duration: 1
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 1411655887418069116}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: UssClassClip
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
+--- !u!114 &1459118790881944780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dac7358a2fd82f7bbf40277b139dae6, type: 3}
+  m_Name: UssClassClip
+  m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.UssClassClip
+  TargetId: damage-vignette
+  ClassName: damage-vignette--active
 --- !u!114 &1480703972713278779
 MonoBehaviour:
   m_ObjectHideFlags: 1
