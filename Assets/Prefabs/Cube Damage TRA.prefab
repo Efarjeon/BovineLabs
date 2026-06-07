@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6971068458614820567}
   - component: {fileID: -8009459995209707243}
   - component: {fileID: 3181375710768121530}
+  - component: {fileID: 5682996169388231425}
   m_Layer: 0
   m_Name: Cube Damage TRA
   m_TagString: Untagged
@@ -202,7 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: -50
+    Amount: -20
     Target: 1
 --- !u!114 &3181375710768121530
 MonoBehaviour:
@@ -222,6 +223,19 @@ MonoBehaviour:
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
     Bindings: []
+--- !u!114 &5682996169388231425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4872476574194499132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  Targets: {_typeName: UInt8, _data: }
 --- !u!1 &9023819211891863132
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +276,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9023819211891863132}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 32a2e322b054a384a8a4411e5878bf5d, type: 2}
   m_InitialState: 1
@@ -281,7 +295,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9023819211891863132}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c238a9d99814c3fb11798728c074d1a, type: 3}
   m_Name: 

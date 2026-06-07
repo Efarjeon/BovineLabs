@@ -7,14 +7,14 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.bridge": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.bridge",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.core": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
@@ -23,7 +23,7 @@
       "dependencies": {
         "com.unity.entities": "1.4.5"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.essence": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -33,7 +33,7 @@
         "com.bovinelabs.core": "1.4.4",
         "com.bovinelabs.reaction": "0.5.0"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.grid": {
       "version": "https://github.com/IAFahim/com.bovinelabs.grid.git",
@@ -52,7 +52,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
@@ -62,7 +62,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.entities.graphics": "1.4.15"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.reaction": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
@@ -71,7 +71,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.4.6"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.reaction.addon": {
       "version": "file:com.bovinelabs.reaction.addon",
@@ -89,7 +89,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.timeline": "1.8.11"
       },
-      "hash": "f148101c1ac045f33b6d4a6b4860d12154d18fa1"
+      "hash": "16dc3656c44e1e11e28c180c635bfe6a103304c6"
     },
     "com.bovinelabs.timeline.animation": {
       "version": "file:BovineLabs.Timeline.Animation",
@@ -251,7 +251,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "8e5f28e3ddf30c5728928a3a31db5954edffced5"
+      "hash": "850f7ff2a8d025842adc804d50a6a4bb5a3c2d0d"
     },
     "com.firealt.blinq": {
       "version": "https://github.com/Fire-Aalt/BLinq.git",
