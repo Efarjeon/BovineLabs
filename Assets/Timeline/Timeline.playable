@@ -552,7 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.UxmlViewClip
   UxmlKey: hud
   TargetId: minimap-container
-  Mode: 0
+  Mode: 1
 --- !u!114 &-5991601443929051311
 MonoBehaviour:
   m_ObjectHideFlags: 1
