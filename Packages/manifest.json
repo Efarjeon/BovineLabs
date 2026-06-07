@@ -34,6 +34,7 @@
     "com.unity.test-framework": "1.8.0",
     "com.unity.toolchain.linux-x86_64-linux": "1.1.0",
     "com.unity.ugui": "2.6.0",
+    "com.unity.visualeffectgraph": "17.6.0",
     "com.youngwoocho02.unity-cli-connector": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
     "com.unity.modules.terrainphysics": "1.0.0"
   }

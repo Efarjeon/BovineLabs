@@ -534,6 +534,15 @@
         "com.unity.modules.physics": "1.0.0"
       }
     },
+    "com.unity.visualeffectgraph": {
+      "version": "17.6.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "17.6.0",
+        "com.unity.render-pipelines.core": "17.6.0"
+      }
+    },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
       "depth": 0,

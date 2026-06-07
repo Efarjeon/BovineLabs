@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GridStamp
   m_EditorClassIdentifier: BovineLabs.Timeline.Grid.Influence.Authoring::BovineLabs.Timeline.Grid.Influence.Authoring.GridStampSchemaObject
   id: 1
-  Kind: 1
+  Kind: 5
   BaseWeight: 1
   RectMin: {x: -5, y: -5}
   RectSize: {x: 10, y: 10}
@@ -27,7 +27,7 @@ MonoBehaviour:
   CapsuleEnd: {x: 3, y: 5}
   CapsuleRadius: 5
   EllipseCenter: {x: 0, y: 0}
-  EllipseRadii: {x: 5, y: 3}
+  EllipseRadii: {x: 50, y: 50}
   RoundedRectMin: {x: -5, y: -3}
   RoundedRectSize: {x: 10, y: 6}
   RoundedRectRadius: 2

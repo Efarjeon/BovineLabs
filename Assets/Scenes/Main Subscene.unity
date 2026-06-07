@@ -807,6 +807,7 @@ GameObject:
   - component: {fileID: 1025364220}
   - component: {fileID: 1025364219}
   - component: {fileID: 1025364222}
+  - component: {fileID: 1025364223}
   m_Layer: 0
   m_Name: Raction
   m_TagString: Untagged
@@ -870,7 +871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 201455413}
   Source: {fileID: 0}
-  Target: {fileID: 0}
+  Target: {fileID: 1749563368}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -899,6 +900,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
   Targets: {_typeName: UInt8, _data: }
+--- !u!114 &1025364223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025364216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &1036715270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1650,8 @@ PlayableDirector:
     value: {fileID: 1360668512}
   - key: {fileID: 1801929962135858745, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
     value: {fileID: 588256451}
+  - key: {fileID: 4497018687995842795, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
+    value: {fileID: 1025364220}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1241495310
@@ -2855,7 +2871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7652762961717148818, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0012659617
+      value: -0.0012660027
       objectReference: {fileID: 0}
     - target: {fileID: 7652762961717148818, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
       propertyPath: m_LocalPosition.z
