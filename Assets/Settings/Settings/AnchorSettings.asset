@@ -15,7 +15,7 @@ MonoBehaviour:
   toolbarOnly: 0
   debugStyleSheets:
   - {fileID: -4733365628477956816, guid: 88be577c8659ef84788549a4ab693b73, type: 3}
-  startDestination: row
+  startDestination: hud
   views:
   - Key: home
     Asset: {fileID: 9197481963319205126, guid: a3a68b4cf0025f2df8fabe5c1dcc8393, type: 3}
@@ -23,5 +23,9 @@ MonoBehaviour:
     Asset: {fileID: 9197481963319205126, guid: 8f69b1c79b0847de8fd921dbb2133039, type: 3}
   - Key: row
     Asset: {fileID: 9197481963319205126, guid: 30177419f88d5eb8294504681f783988, type: 3}
+  - Key: hud
+    Asset: {fileID: 9197481963319205126, guid: 6684b1c6b7c937a7d8717f76de2d5bcc, type: 3}
+  - Key: minimap
+    Asset: {fileID: 9197481963319205126, guid: 56beb5a71103d2c96a51bb346058bf12, type: 3}
   actions: []
   animations: []

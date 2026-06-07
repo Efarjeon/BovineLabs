@@ -1652,8 +1652,6 @@ PlayableDirector:
     value: {fileID: 588256451}
   - key: {fileID: 4497018687995842795, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
     value: {fileID: 1025364220}
-  - key: {fileID: -586925212462417576, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1749563369}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1241495310
@@ -2496,11 +2494,6 @@ MonoBehaviour:
 --- !u!1 &1749563368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6451661644574034311, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
-  m_PrefabInstance: {fileID: 8763122180439853083}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1749563369 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5202540583985552405, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
   m_PrefabInstance: {fileID: 8763122180439853083}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1775309408
