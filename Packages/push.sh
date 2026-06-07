@@ -78,14 +78,25 @@ if [ ${#SUBMODULE_PATHS[@]} -gt 0 ]; then
 
         label="$(basename "$submod")"
 
-        if has_changes "$submod"; then
-            if commit_and_push "$submod" "$label"; then
-                ANY_SUBMODULE_PUSHED=true
-            else
-                ANY_SUBMODULE_FAILED=true
-            fi
-        else
+        if ! has_changes "$submod"; then
             ok "$label — clean"
+            continue
+        fi
+
+        # has_changes was true, but git add -A + re-check handles
+        # stale staged files that resolve to nothing (e.g. moved then deleted).
+        cd "$submod"
+        git add -A 2>/dev/null || true
+        if git diff --cached --quiet 2>/dev/null && git diff --quiet 2>/dev/null && \
+           [ -z "$(git ls-files --others --exclude-standard 2>/dev/null)" ]; then
+            ok "$label — clean (staged resolved)"
+            continue
+        fi
+
+        if commit_and_push "$submod" "$label"; then
+            ANY_SUBMODULE_PUSHED=true
+        else
+            ANY_SUBMODULE_FAILED=true
         fi
     done
 
