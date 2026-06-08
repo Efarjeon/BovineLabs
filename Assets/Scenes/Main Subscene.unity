@@ -1655,7 +1655,7 @@ PlayableDirector:
   - key: {fileID: 6815097664505921248, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
     value: {fileID: 1435240639}
   - key: {fileID: 5647217259397506390, guid: 6859290a3f49de0e19ca9bee321e85e9, type: 2}
-    value: {fileID: 1319626935}
+    value: {fileID: 1486671062}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1241495310
@@ -2340,6 +2340,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
+--- !u!95 &1486671062 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1146922766023240353, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
+  m_PrefabInstance: {fileID: 1360668509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1535064382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2063654119392266330, guid: 2cf96c7253b99a4f0b8878443af0fb1e, type: 3}
