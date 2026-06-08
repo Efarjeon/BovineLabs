@@ -713,9 +713,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
   Intrinsics:
-  - Intrinsic: {fileID: 0}
-    Amount: 0
-    Target: 0
+  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+    Amount: -30
+    Target: 1
 --- !u!114 &645032666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,14 +735,35 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: CurrentHealth
+      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+      Target: 1
+      Operation: 3
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &645032667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1692,6 +1713,8 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 2528949213886568159, guid: e2845dfe6a4ac0748972c1d2731c587a, type: 2}
+    value: {fileID: 419469888}
+  - key: {fileID: 4327603833563237706, guid: f188786174aff584ab121271320f2424, type: 2}
     value: {fileID: 419469888}
   m_ExposedReferences:
     m_References: []
