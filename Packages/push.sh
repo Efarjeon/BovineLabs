@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Note: This assumes the script is placed inside a subfolder like `scripts/`
+# If you place it at the root of your repo instead, change to: REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PACKAGES_DIR="$REPO_ROOT/Packages"
 DATETIME=$(date '+%Y-%m-%d %H:%M:%S')
@@ -9,153 +11,125 @@ DATETIME=$(date '+%Y-%m-%d %H:%M:%S')
 
 info()  { echo "  $*"; }
 ok()    { echo "  ✅ $*"; }
-warn()  { echo "  ⚠️  $*"; }
+warn()  { echo "  ⚠  $*"; }
 header(){ echo ""; echo "── $* ──"; }
 
-has_changes() {
-    local dir="$1"
-    cd "$dir"
-    # Check working tree, staged, and untracked
-    ! git diff --quiet 2>/dev/null || \
-    ! git diff --cached --quiet 2>/dev/null || \
-    [ -n "$(git ls-files --others --exclude-standard 2>/dev/null)" ]
-}
+# ── Phase 1: Packages ──
 
-has_unpushed() {
-    local dir="$1"
-    cd "$dir"
-    # Check if current branch is ahead of its upstream (has unpushed commits)
-    local upstream
-    upstream=$(git rev-parse --abbrev-ref '@{upstream}' 2>/dev/null) || return 1
-    [ -n "$(git rev-list "${upstream}..HEAD" 2>/dev/null)" ]
-}
+header "Phase 1: Packages"
 
-commit_and_push() {
-    local dir="$1"
-    local label="$2"
-    cd "$dir"
+ANY_PACKAGE_FAILED=false
 
-    if ! has_changes "$dir"; then
-        ok "$label — clean"
-        return 0
-    fi
-
-    # Stage all changes
-    git add -A
-
-    # Show what's being committed
-    info "Changes in $label:"
-    git status --short
-    echo ""
-
-    # Commit with timestamp
-    git commit -m "chore: auto-update [${DATETIME}]"
-
-    # Push
-    if git push origin 2>&1; then
-        ok "$label — pushed"
-        return 0
-    else
-        warn "$label — push failed"
-        return 1
-    fi
-}
-
-# ── Collect submodules ──
-
-# Get list of submodule paths from .gitmodules (if it exists)
-SUBMODULE_PATHS=()
-if [ -f "$REPO_ROOT/.gitmodules" ]; then
-    while IFS= read -r path; do
-        [ -n "$path" ] && SUBMODULE_PATHS+=("$REPO_ROOT/$path")
-    done < <(git -C "$REPO_ROOT" config --file "$REPO_ROOT/.gitmodules" --get-regexp path 2>/dev/null | awk '{print $2}')
+# Dynamically find ALL nested directories under PACKAGES_DIR that contain a .git
+# This completely bypasses .gitmodules and ensures nothing is left behind
+PACKAGE_PATHS=()
+if [ -d "$PACKAGES_DIR" ]; then
+    # Using -print0 and -z to safely handle folder names with spaces
+    while IFS= read -r -d '' git_path; do
+        if [ -n "$git_path" ]; then
+            PACKAGE_PATHS+=("$(dirname "$git_path")")
+        fi
+    done < <(find "$PACKAGES_DIR" -name ".git" -print0 2>/dev/null | sort -z)
 fi
 
-# ── Phase 1: Commit and push dirty submodules ──
-
-if [ ${#SUBMODULE_PATHS[@]} -gt 0 ]; then
-    header "Phase 1: Submodules"
-
-    ANY_SUBMODULE_PUSHED=false
-    ANY_SUBMODULE_FAILED=false
-
-    for submod in "${SUBMODULE_PATHS[@]}"; do
-        if [ ! -d "$submod/.git" ] && [ ! -f "$submod/.git" ]; then
-            warn "$(basename "$submod") — not a git repo, skipping"
-            continue
-        fi
-
-        label="$(basename "$submod")"
-
-        if ! has_changes "$submod"; then
-            if has_unpushed "$submod"; then
-                if git push origin 2>&1; then
-                    ok "$label — pushed (unpushed commits)"
-                    ANY_SUBMODULE_PUSHED=true
-                else
-                    warn "$label — push failed (unpushed commits)"
-                    ANY_SUBMODULE_FAILED=true
-                fi
-            else
-                ok "$label — clean"
-            fi
-            continue
-        fi
-
-        # has_changes was true, but git add -A + re-check handles
-        # stale staged files that resolve to nothing (e.g. moved then deleted).
-        cd "$submod"
+if [ ${#PACKAGE_PATHS[@]} -gt 0 ]; then
+    for pkg in "${PACKAGE_PATHS[@]}"; do
+        label="$(basename "$pkg")"
+        cd "$pkg"
+        
+        # Stage all local changes (new, modified, deleted)
         git add -A 2>/dev/null || true
-        if git diff --cached --quiet 2>/dev/null && git diff --quiet 2>/dev/null && \
-           [ -z "$(git ls-files --others --exclude-standard 2>/dev/null)" ]; then
-            ok "$label — clean (staged resolved)"
-            continue
+        
+        # If there are staged changes, commit them unconditionally
+        if ! git diff --cached --quiet 2>/dev/null; then
+            info "Changes in $label:"
+            git status --short
+            git commit -m "chore: auto-update [${DATETIME}]" >/dev/null
         fi
-
-        if commit_and_push "$submod" "$label"; then
-            ANY_SUBMODULE_PUSHED=true
+        
+        # Determine if we need to push (handles unpushed changes you forgot about)
+        NEEDS_PUSH=false
+        upstream=$(git rev-parse --abbrev-ref '@{upstream}' 2>/dev/null || echo "")
+        
+        if [ -z "$upstream" ]; then
+            # No upstream branch configured -> Needs push
+            NEEDS_PUSH=true
         else
-            ANY_SUBMODULE_FAILED=true
+            # Check if there are any unpushed commits
+            if [ -n "$(git rev-list "${upstream}..HEAD" 2>/dev/null)" ]; then
+                NEEDS_PUSH=true
+            fi
+        fi
+        
+        if [ "$NEEDS_PUSH" = true ]; then
+            # Push and set upstream automatically (-u)
+            if git push -u origin HEAD >/dev/null 2>&1; then
+                ok "$label — pushed"
+            else
+                warn "$label — push failed"
+                ANY_PACKAGE_FAILED=true
+            fi
+        else
+            ok "$label — clean & up to date"
         fi
     done
-
-    if [ "$ANY_SUBMODULE_FAILED" = true ]; then
-        echo ""
-        warn "Some submodules failed to push. Parent repo will NOT be committed."
-        exit 1
-    fi
+else
+    info "No packages found in $PACKAGES_DIR"
 fi
 
-# ── Phase 2: Commit and push parent repo ──
+# Stop execution to protect the parent repo if any package fails to push
+if [ "$ANY_PACKAGE_FAILED" = true ]; then
+    echo ""
+    warn "Some packages failed to push. Parent repo will NOT be committed."
+    exit 1
+fi
+
+# ── Phase 2: Parent repo ──
 
 header "Phase 2: Parent repo"
-cd "$PACKAGES_DIR"
+cd "$REPO_ROOT"
 
-if ! has_changes "$PACKAGES_DIR"; then
-    # Even if working tree looks clean, submodule pointer bumps show as staged
-    # after submodule pushes. Do a second check.
-    git add -A 2>/dev/null || true
-    if git diff --cached --quiet 2>/dev/null && git diff --quiet 2>/dev/null && \
-       [ -z "$(git ls-files --others --exclude-standard 2>/dev/null)" ]; then
-        ok "Parent repo — clean, nothing to commit."
-        exit 0
+# Stage all changes in the parent repo (including the updated package pointers)
+git add -A 2>/dev/null || true
+
+PARENT_HAS_CHANGES=false
+if ! git diff --cached --quiet 2>/dev/null; then
+    PARENT_HAS_CHANGES=true
+fi
+
+PARENT_NEEDS_PUSH=false
+upstream=$(git rev-parse --abbrev-ref '@{upstream}' 2>/dev/null || echo "")
+
+if [ -z "$upstream" ]; then
+    PARENT_NEEDS_PUSH=true
+else
+    if [ -n "$(git rev-list "${upstream}..HEAD" 2>/dev/null)" ]; then
+        PARENT_NEEDS_PUSH=true
     fi
 fi
 
-# Stage all (including updated submodule pointers)
-git add -A
+if [ "$PARENT_HAS_CHANGES" = false ] && [ "$PARENT_NEEDS_PUSH" = false ]; then
+    ok "Parent repo — clean & up to date, nothing to do."
+    echo ""
+    ok "Done!"
+    exit 0
+fi
 
-echo "📦 Changes to commit:"
-git status --short
-echo ""
+if [ "$PARENT_HAS_CHANGES" = true ]; then
+    echo "📦 Changes to commit in Parent Repo:"
+    git status --short
+    echo ""
+    git commit -m "chore: auto-update all packages [${DATETIME}]" >/dev/null
+    PARENT_NEEDS_PUSH=true
+fi
 
-git commit -m "chore: auto-update all packages [${DATETIME}]"
-
-if git push origin 2>&1; then
-    ok "Parent repo — pushed"
-else
-    warn "Parent repo — push failed"
-    exit 1
+if [ "$PARENT_NEEDS_PUSH" = true ]; then
+    if git push -u origin HEAD >/dev/null 2>&1; then
+        ok "Parent repo — pushed"
+    else
+        warn "Parent repo — push failed"
+        exit 1
+    fi
 fi
 
 echo ""
