@@ -2636,7 +2636,6 @@ MonoBehaviour:
   targetMode: 0
   targetOffset: {x: 0, y: 0, z: 0}
   strength: 1
-  stopThreshold: 0.1
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
@@ -3356,7 +3355,6 @@ MonoBehaviour:
   targetMode: 1
   targetRotationEuler: {x: 0, y: 0, z: 0}
   strength: 1
-  stopThreshold: 0
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
