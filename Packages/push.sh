@@ -21,6 +21,15 @@ has_changes() {
     [ -n "$(git ls-files --others --exclude-standard 2>/dev/null)" ]
 }
 
+has_unpushed() {
+    local dir="$1"
+    cd "$dir"
+    # Check if current branch is ahead of its upstream (has unpushed commits)
+    local upstream
+    upstream=$(git rev-parse --abbrev-ref '@{upstream}' 2>/dev/null) || return 1
+    [ -n "$(git rev-list "${upstream}..HEAD" 2>/dev/null)" ]
+}
+
 commit_and_push() {
     local dir="$1"
     local label="$2"
@@ -79,7 +88,17 @@ if [ ${#SUBMODULE_PATHS[@]} -gt 0 ]; then
         label="$(basename "$submod")"
 
         if ! has_changes "$submod"; then
-            ok "$label — clean"
+            if has_unpushed "$submod"; then
+                if git push origin 2>&1; then
+                    ok "$label — pushed (unpushed commits)"
+                    ANY_SUBMODULE_PUSHED=true
+                else
+                    warn "$label — push failed (unpushed commits)"
+                    ANY_SUBMODULE_FAILED=true
+                fi
+            else
+                ok "$label — clean"
+            fi
             continue
         fi
 

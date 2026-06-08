@@ -2701,6 +2701,7 @@ MonoBehaviour:
   - {fileID: 1411655887418069116}
   - {fileID: 465495587968641025}
   - {fileID: 6815097664505921248}
+  - {fileID: 5647217259397506390}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -4309,6 +4310,36 @@ MonoBehaviour:
   m_Name: NumberClip
   m_EditorClassIdentifier: Scripts.Authoring::NumberClip
   Number: 50
+--- !u!114 &5647217259397506390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc23e666d8994e9ab913095b745e57e8, type: 3}
+  m_Name: Rukhanka Animation Track (Duplicated)
+  m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.RukhankaAnimationTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  resetOnDeactivate: 1
+  LayerIndex: 0
+  trackOffset: 0
+  positionOffset: {x: 0, y: 0, z: 0}
+  eulerAnglesOffset: {x: 0, y: 0, z: 0}
+  avatarMask: {fileID: 0}
+  applyAvatarMask: 1
 --- !u!114 &5672766414000748912
 MonoBehaviour:
   m_ObjectHideFlags: 1

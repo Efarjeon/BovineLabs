@@ -115,6 +115,14 @@
         "com.unity.mathematics": "1.3.2"
       }
     },
+    "com.bovinelabs.timeline.distance": {
+      "version": "file:BovineLabs.Timeline.Distance",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.test-framework": "1.6.0"
+      }
+    },
     "com.bovinelabs.timeline.entitylinks": {
       "version": "file:BovineLabs.Timeline.EntityLinks",
       "depth": 0,
@@ -270,14 +278,6 @@
         "com.unity.entities.graphics": "1.4.16"
       },
       "hash": "8e537fb56271d2d9331614b75f2d864d78950e35"
-    },
-    "com.splinemesherpro.bovinelabstimelinedistance": {
-      "version": "file:BovineLabs.Timeline.Distance",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.test-framework": "1.6.0"
-      }
     },
     "com.unity.burst": {
       "version": "1.8.29",
