@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3472365831687096514}
   - component: {fileID: 5124713160568182722}
   - component: {fileID: 9046866925348940883}
+  - component: {fileID: 8232253957420621451}
   m_Layer: 0
   m_Name: Clone Explode Knockback on Demand
   m_TagString: Untagged
@@ -139,7 +140,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 1
+    Target: 0
 --- !u!114 &3072953626427056967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +163,7 @@ MonoBehaviour:
     conditions:
     - Name: OnInputTrigger
       Condition: {fileID: 11400000, guid: 90d290f28aa29a24992e08f33fabb18b, type: 2}
-      Target: 3
+      Target: 2
       Operation: 1
       ComparisonMode: 0
       Value: 1
@@ -233,4 +234,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionCreateOnActivateAuthoring
   Spawns:
   - Definition: {fileID: 11400000, guid: 9ebed10ae4c67f749b1515ba54e7f59a, type: 2}
-    Target: 3
+    Target: 2
+--- !u!114 &8232253957420621451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339626701617652219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
