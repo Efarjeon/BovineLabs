@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3072953626427056967}
   - component: {fileID: 2301393048732259549}
   - component: {fileID: 3472365831687096514}
+  - component: {fileID: 3134450906704332122}
   m_Layer: 0
   m_Name: Clone
   m_TagString: Untagged
@@ -197,3 +198,15 @@ MonoBehaviour:
   Rotation: 0
   Scale: 0
   ApplyInitialTransform: 1
+--- !u!114 &3134450906704332122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339626701617652219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring

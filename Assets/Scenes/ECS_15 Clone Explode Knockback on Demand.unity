@@ -143,7 +143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66454001}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnDashInitiated
+    - Name: OnDashStart
       Condition: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
       Target: 3
       Operation: 1
@@ -2008,9 +2008,9 @@ Transform:
   - {fileID: 5271235804338903054}
   - {fileID: 3626614005233098522}
   - {fileID: 4972292315047049234}
+  - {fileID: 66454002}
   - {fileID: 616003527}
   - {fileID: 1245716433}
-  - {fileID: 66454002}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7679477254127085523
