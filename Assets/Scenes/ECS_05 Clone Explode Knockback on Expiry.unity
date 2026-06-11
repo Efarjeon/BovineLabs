@@ -592,7 +592,9 @@ MonoBehaviour:
     InitialTime: 0
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
-    Bindings: []
+    Bindings:
+    - Track: {fileID: 0}
+      Target: 0
 --- !u!114 &522279381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1568,7 +1570,7 @@ MonoBehaviour:
         Category19: 0
         Category20: 0
         Category21: 0
-        Category22: 1
+        Category22: 0
         Category23: 0
         Category24: 0
         Category25: 0

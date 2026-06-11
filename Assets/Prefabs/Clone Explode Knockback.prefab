@@ -15,12 +15,11 @@ GameObject:
   - component: {fileID: 2404779941617573852}
   - component: {fileID: -7930407315392981627}
   - component: {fileID: 3072953626427056967}
+  - component: {fileID: 2301393048732259549}
   - component: {fileID: 3472365831687096514}
-  - component: {fileID: 5124713160568182722}
-  - component: {fileID: 9046866925348940883}
-  - component: {fileID: 4895777045498566428}
+  - component: {fileID: -1048332463548535775}
   m_Layer: 0
-  m_Name: Clone Explode Knockback on Demand
+  m_Name: Clone Explode Knockback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 0b04570d2775500468cd918b65f57d9a, type: 2}
+  Definition: {fileID: 11400000, guid: 385bd472fd8aba943b58310e9bcbfb3f, type: 2}
 --- !u!114 &2404779941617573852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,38 +156,30 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 4
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: OnInputTrigger
-      Condition: {fileID: 11400000, guid: 90d290f28aa29a24992e08f33fabb18b, type: 2}
-      Target: 2
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
+--- !u!114 &2301393048732259549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339626701617652219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
+  Targets: {_typeName: UInt8, _data: 04}
 --- !u!114 &3472365831687096514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,13 +192,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
-  From: 3
+  From: 0
   To: 1
   Position: 2
   Rotation: 0
   Scale: 0
   ApplyInitialTransform: 1
---- !u!114 &5124713160568182722
+--- !u!114 &-1048332463548535775
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,34 +207,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5339626701617652219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc74f86af1a4bcbb88866caa200aa0d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
-  Targets: {_typeName: UInt8, _data: 04}
---- !u!114 &9046866925348940883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5339626701617652219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fd37b89d98b5f0a38376bd938d1cf81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionCreateOnActivateAuthoring
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionCreateOnDeactivateAuthoring
   Spawns:
-  - Definition: {fileID: 11400000, guid: 9ebed10ae4c67f749b1515ba54e7f59a, type: 2}
+  - Definition: {fileID: 11400000, guid: 705323468997fdc48a1df017bd6c73b7, type: 2}
     Target: 3
---- !u!114 &4895777045498566428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5339626701617652219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
