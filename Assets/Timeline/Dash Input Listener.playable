@@ -41,7 +41,7 @@ MonoBehaviour:
       MaxGapTicks: 0
     Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
     Value: 1
-    Repeatable: 0
+    Repeatable: 1
   RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
 --- !u!114 &6879606518895790655
 MonoBehaviour:
