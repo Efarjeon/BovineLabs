@@ -136,7 +136,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 1
+    Target: 3
 --- !u!114 &-3111226255455583890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,9 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2b761f37c14d76a08b75971388e6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.InitializeTransformAuthoring
-  From: 0
+  From: 3
   To: 1
   Position: 1
-  Rotation: 0
-  Scale: 0
+  Rotation: 1
+  Scale: 1
   ApplyInitialTransform: 1
