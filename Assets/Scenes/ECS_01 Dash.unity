@@ -1336,6 +1336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dash
       objectReference: {fileID: 0}
+    - target: {fileID: 7709908786281954619, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
+      propertyPath: Active.duration
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
