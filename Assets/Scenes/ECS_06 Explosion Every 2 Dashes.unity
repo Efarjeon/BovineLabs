@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 2261186124155219439}
   Source: {fileID: 118752963}
-  Target: {fileID: 0}
+  Target: {fileID: 687338779983907083}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -1742,7 +1742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7709908786281954619, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
       propertyPath: Active.duration
-      value: 0
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
