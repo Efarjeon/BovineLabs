@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 2246655520549382373}
   - component: {fileID: 414259000994194649}
   - component: {fileID: 2725083023771445197}
-  - component: {fileID: 1724088303365123493}
-  - component: {fileID: 2147307148596877884}
+  - component: {fileID: -8645485397510447702}
+  - component: {fileID: 1383014967243138228}
   m_Layer: 0
-  m_Name: Projectile Basic Damage (Effect)
+  m_Name: Projectile Frost Stacks + Slow (Effect)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,38 +142,17 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 4
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: CurrentHealth
-      Condition: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-      Target: 1
-      Operation: 4
-      ComparisonMode: 0
-      Value: 0
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &2725083023771445197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,8 +165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: 75e40e6c33dd7a74c98ae82a7a2f97b3, type: 2}
---- !u!114 &1724088303365123493
+  Definition: {fileID: 11400000, guid: 524b43072fc5d424abe5b3bbc3e38d65, type: 2}
+--- !u!114 &-8645485397510447702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,14 +175,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 3484133133648912362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
-    Amount: -30
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
+  Stats:
+  - StatSchema: {fileID: 11400000, guid: 6f4e99e86398435b9bfbba86099a8177, type: 2}
     Target: 1
---- !u!114 &2147307148596877884
+    ValueType: 0
+    Fixed:
+      ModifyType: 1
+      Value: 40
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+  - StatSchema: {fileID: 11400000, guid: 76ab5bda60828ae4fa2d7a98f307eebb, type: 2}
+    Target: 1
+    ValueType: 0
+    Fixed:
+      ModifyType: 0
+      Value: 400
+    Linear:
+      ModifyType: 0
+      ConditionSchemaObject: {fileID: 0}
+      FromMin: 0
+      FromMax: 0
+      ToMin: 0
+      ToMax: 0
+    Range:
+      ModifyType: 0
+      Min: 0
+      Max: 0
+--- !u!114 &1383014967243138228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,7 +222,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3484133133648912362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
   Targets: {_typeName: UInt8, _data: 04}

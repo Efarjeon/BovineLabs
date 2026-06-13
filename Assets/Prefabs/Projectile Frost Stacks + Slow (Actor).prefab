@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6288144475973198423}
   - component: {fileID: 8214574011162605432}
   m_Layer: 0
-  m_Name: Projectile Basic Damage (Actor)
+  m_Name: Projectile Frost Stacks + Slow (Actor)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed242f3cb14047c9ad0857651462c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinitionAuthoring
-  Definition: {fileID: 11400000, guid: b57daab06a5e0844098249fae3885232, type: 2}
+  Definition: {fileID: 11400000, guid: 215c0069d7d590141a00b3ed574281ab, type: 2}
 --- !u!114 &-813284957602191044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,13 +406,17 @@ PlayableDirector:
   m_GameObject: {fileID: 4273225666213067645}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 01de42427cc39e247a1d2b095bf36b1a, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 70eee48190fb4e64090e4e700bb64982, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 5348602458621365388, guid: 01de42427cc39e247a1d2b095bf36b1a, type: 2}
+    value: {fileID: 2922921968947852059}
+  - key: {fileID: 5348602458621365388, guid: 70eee48190fb4e64090e4e700bb64982, type: 2}
+    value: {fileID: 2922921968947852059}
+  - key: {fileID: 8222006242722049688, guid: 70eee48190fb4e64090e4e700bb64982, type: 2}
     value: {fileID: 2922921968947852059}
   m_ExposedReferences:
     m_References: []
