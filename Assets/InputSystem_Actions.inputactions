@@ -95,6 +95,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Unleash",
+                    "type": "Button",
+                    "id": "fc63f6f6-cd72-4a2c-9aa8-d72d1799be62",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -502,6 +511,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f9a1e9c2-ef96-4871-9d9f-2f956fe4d37b",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Unleash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
