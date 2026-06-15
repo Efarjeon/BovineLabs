@@ -190,6 +190,8 @@ PlayableDirector:
     value: {fileID: 896690560}
   - key: {fileID: -5365309928854676472, guid: 8c118c2afdf5f184bbfdc792569f6b53, type: 2}
     value: {fileID: 896690560}
+  - key: {fileID: 3730906335695049367, guid: 8c118c2afdf5f184bbfdc792569f6b53, type: 2}
+    value: {fileID: 896690560}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &253572437
@@ -645,6 +647,25 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
+    - Name: Stagger Point Lock
+      Condition: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 3
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
@@ -846,6 +867,7 @@ GameObject:
   - component: {fileID: 1336742667}
   - component: {fileID: 1336742666}
   - component: {fileID: 1336742669}
+  - component: {fileID: 1336742670}
   m_Layer: 0
   m_Name: Reaction Stagger Fade Timer Starter
   m_TagString: Untagged
@@ -964,6 +986,22 @@ MonoBehaviour:
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
     Bindings: []
+--- !u!114 &1336742670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336742664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
+    Amount: 1
+    Target: 2
 --- !u!1 &1385613392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: IntrinsicDefaults.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: StatDefaults.Array.data[1].Stat
@@ -1888,6 +1926,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[3].Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[1].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: 6aa93114ad67f344e9a74230633d2d20, type: 2}
@@ -1895,6 +1937,10 @@ PrefabInstance:
       propertyPath: IntrinsicDefaults.Array.data[2].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: ef5f495eea3ede74c9e8480343ce77e1, type: 2}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[3].Intrinsic
+      value: 
+      objectReference: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
     - target: {fileID: 7144574665269127433, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: m_Mass
       value: 0.7
