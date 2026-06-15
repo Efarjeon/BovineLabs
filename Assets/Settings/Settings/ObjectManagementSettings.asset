@@ -31,5 +31,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 75e40e6c33dd7a74c98ae82a7a2f97b3, type: 2}
   - {fileID: 11400000, guid: 215c0069d7d590141a00b3ed574281ab, type: 2}
   - {fileID: 11400000, guid: 524b43072fc5d424abe5b3bbc3e38d65, type: 2}
+  - {fileID: 11400000, guid: 88eeb4da7db7354479d64121cca3af9d, type: 2}
+  - {fileID: 11400000, guid: 37bd8ebeb3e98ce4d93f4f86f4a126d7, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
   objectGroups: []
