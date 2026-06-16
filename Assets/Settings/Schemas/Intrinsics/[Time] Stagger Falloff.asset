@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36ac892a84ab4fcfad4f0a55f02d0cda, type: 3}
-  m_Name: Stagger Fade Timer
+  m_Name: '[Time] Stagger Falloff'
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.IntrinsicSchemaObject
   isGlobal: 0
   key:
@@ -18,4 +18,4 @@ MonoBehaviour:
   defaultValue: 0
   range: {x: 0, y: 5}
   minStat: {fileID: 0}
-  maxStat: {fileID: 11400000, guid: d8dc4567d718f8d4a9230f067a73405f, type: 2}
+  maxStat: {fileID: 0}

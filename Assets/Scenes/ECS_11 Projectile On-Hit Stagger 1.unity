@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 201108893}
   - component: {fileID: 201108894}
   m_Layer: 0
-  m_Name: Stagger Fade
+  m_Name: Timeline Stagger Fade Timer Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,7 +592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1226102249
 Transform:
   m_ObjectHideFlags: 0
@@ -628,12 +628,12 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Is Stagger Deprecating
-      Condition: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
+    - Name: Stagger Point Decay Start
+      Condition: {fileID: 11400000, guid: 51e139f985fd29c44b4cb95b85959369, type: 2}
       Target: 2
       Operation: 1
       ComparisonMode: 0
-      Value: 0
+      Value: 1
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -723,7 +723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1300228503
 Transform:
   m_ObjectHideFlags: 0
@@ -848,8 +848,9 @@ GameObject:
   - component: {fileID: 1336742667}
   - component: {fileID: 1336742666}
   - component: {fileID: 1336742669}
+  - component: {fileID: 1336742670}
   m_Layer: 0
-  m_Name: Time Stagger Fade
+  m_Name: Reaction Stagger Fade Timer Starter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -890,12 +891,12 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Stagger Points
-      Condition: {fileID: 11400000, guid: 6aa93114ad67f344e9a74230633d2d20, type: 2}
+    - Name: StaggerRecoveryStart
+      Condition: {fileID: 11400000, guid: 1902edab63cee474eb10ddd9e7a25957, type: 2}
       Target: 2
-      Operation: 3
+      Operation: 1
       ComparisonMode: 0
-      Value: 0
+      Value: 1
       CustomValue:
         rid: -2
       MinComparisonMode: 0
@@ -906,7 +907,7 @@ MonoBehaviour:
       ValueMax: 0
       CustomValueMax:
         rid: -2
-      Features: 3
+      Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
     conditionLogic:
@@ -966,6 +967,22 @@ MonoBehaviour:
     DisableTimelineOnDeactivate: 0
     ResetWhenActive: 0
     Bindings: []
+--- !u!114 &1336742670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336742664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
+    Amount: 1
+    Target: 2
 --- !u!1 &1385613392
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1385613393
 Transform:
   m_ObjectHideFlags: 0
@@ -1009,7 +1026,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: f16914668059fd74f9f514cc8780ddbd, type: 2}
   m_InitialState: 0
-  m_WrapMode: 1
+  m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -1127,7 +1144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1580110282
 Transform:
   m_ObjectHideFlags: 0
@@ -1883,7 +1900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[1].Value
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[2].Value
