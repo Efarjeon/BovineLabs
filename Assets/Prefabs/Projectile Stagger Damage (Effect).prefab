@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 414259000994194649}
   - component: {fileID: 2725083023771445197}
   - component: {fileID: 1724088303365123493}
-  - component: {fileID: 2147307148596877884}
+  - component: {fileID: 6357341778060164780}
   m_Layer: 0
   m_Name: Projectile Stagger Damage (Effect)
   m_TagString: Untagged
@@ -145,14 +145,35 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: Is Immune To Stagger
+      Condition: {fileID: 11400000, guid: 693605669a286014785a2b0386a750d1, type: 2}
+      Target: 1
+      Operation: 1
+      ComparisonMode: 0
+      Value: 0
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &2725083023771445197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,10 +203,10 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: 6aa93114ad67f344e9a74230633d2d20, type: 2}
     Amount: 25
     Target: 1
-  - Intrinsic: {fileID: 11400000, guid: ef5f495eea3ede74c9e8480343ce77e1, type: 2}
-    Amount: 5
+  - Intrinsic: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
+    Amount: -1
     Target: 1
---- !u!114 &2147307148596877884
+--- !u!114 &6357341778060164780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,7 +215,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3484133133648912362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Script: {fileID: 11500000, guid: ae4be56f1f506bc01bd1d6ac56dd054b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
   Targets: {_typeName: UInt8, _data: 04}
