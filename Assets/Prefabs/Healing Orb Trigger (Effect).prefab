@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2985112292223722903}
   - component: {fileID: 2709766374740418064}
   - component: {fileID: 7989517309425549055}
+  - component: {fileID: 1885703436077639181}
   m_Layer: 0
   m_Name: Healing Orb Trigger (Effect)
   m_TagString: Untagged
@@ -155,7 +156,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 0
+    duration: 0.1
     cancellable: 0
   Conditions:
     conditions:
@@ -233,3 +234,16 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
     Amount: 20
     Target: 1
+--- !u!114 &1885703436077639181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5176330558274253539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093b5893d65d9b432949bba13028352e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
+  Targets: {_typeName: UInt8, _data: 0304}

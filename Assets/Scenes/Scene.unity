@@ -250,7 +250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146208193}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3314136, y: 0.46193975, z: -0.19134176, w: 0.8001031}
+  m_LocalRotation: {x: 0.3314136, y: 0.46193975, z: -0.19134174, w: 0.8001032}
   m_LocalPosition: {x: -11.291589, y: 13.038405, z: -6.519202}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -666,15 +666,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: 5e06c3556d2db5045a018e22e4f3d22c, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: b4a60196ba1958a40a8faa3d556d7c63, type: 3}
   _HierarchyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 1430020325
-      y: 1079759574
-      z: 585633957
-      w: 3257745230
+      x: 1762683467
+      y: 1250267563
+      z: 3551197344
+      w: 919066197
 --- !u!1 &1342076471
 GameObject:
   m_ObjectHideFlags: 0
