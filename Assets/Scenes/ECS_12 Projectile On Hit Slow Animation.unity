@@ -1136,7 +1136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: StatDefaults.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: IntrinsicDefaults.Array.size
@@ -1151,11 +1151,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: e1440abaa63647a8af7fdb02b72a040a, type: 2}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: StatDefaults.Array.data[3].Stat
+      value: 
+      objectReference: {fileID: 11400000, guid: e1440abaa63647a8af7fdb02b72a040a, type: 2}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: StatDefaults.Array.data[4].Stat
+      value: 
+      objectReference: {fileID: 11400000, guid: 508e9e6b8316c854daa1f691413e6530, type: 2}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: StatDefaults.Array.data[1].Value
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: StatDefaults.Array.data[2].Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: StatDefaults.Array.data[3].Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: StatDefaults.Array.data[4].Value
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5552992300395254532, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
@@ -1174,6 +1190,14 @@ PrefabInstance:
       propertyPath: IntrinsicDefaults.Array.data[2].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: 6aa93114ad67f344e9a74230633d2d20, type: 2}
+    - target: {fileID: 7144574665269127433, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: m_MotionType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7144574665269127433, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
+      propertyPath: m_InitialLinearVelocity.z
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8591489944361600759, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.20062982

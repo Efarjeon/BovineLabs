@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -813284957602191044}
   - component: {fileID: 6288144475973198423}
   - component: {fileID: 8214574011162605432}
+  - component: {fileID: 1954574357304794389}
   m_Layer: 0
   m_Name: Projectile 50% Crit (Actor)
   m_TagString: Untagged
@@ -98,6 +99,18 @@ MonoBehaviour:
   Rotation: 1
   Scale: 0
   ApplyInitialTransform: 1
+--- !u!114 &1954574357304794389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545230650990898100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374892803943bc04cb79933b2eeba006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.PhysicsStates.StatefulTriggerEventAuthoring
 --- !u!1 &2567263202637601922
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +419,7 @@ PlayableDirector:
   m_GameObject: {fileID: 4273225666213067645}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 01de42427cc39e247a1d2b095bf36b1a, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 0651a01c78763044faa47b8eb376356d, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -414,7 +427,9 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 5348602458621365388, guid: 01de42427cc39e247a1d2b095bf36b1a, type: 2}
     value: {fileID: 2922921968947852059}
-  - key: {fileID: 4524158520851030582, guid: 01de42427cc39e247a1d2b095bf36b1a, type: 2}
+  - key: {fileID: 1534691580584626330, guid: 0651a01c78763044faa47b8eb376356d, type: 2}
+    value: {fileID: 2922921968947852059}
+  - key: {fileID: -7016857561435647645, guid: 0651a01c78763044faa47b8eb376356d, type: 2}
     value: {fileID: 2922921968947852059}
   m_ExposedReferences:
     m_References: []

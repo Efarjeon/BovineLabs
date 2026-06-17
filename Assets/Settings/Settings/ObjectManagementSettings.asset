@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectManagementSettings
   objectDefinitions:
   - {fileID: 11400000, guid: 7e0bf3eb483f7ab4caffa9395e055215, type: 2}
+  - {fileID: 11400000, guid: c92d6912eae94b74b81509b1f5a939cd, type: 2}
   - {fileID: 11400000, guid: 9ebed10ae4c67f749b1515ba54e7f59a, type: 2}
   - {fileID: 11400000, guid: 705323468997fdc48a1df017bd6c73b7, type: 2}
   - {fileID: 11400000, guid: f06166cb2fd6bc447b485941de2d23d4, type: 2}
@@ -34,7 +35,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ad2e0a0861cfc094ba8c32bc654f65b8, type: 2}
   - {fileID: 11400000, guid: 215c0069d7d590141a00b3ed574281ab, type: 2}
   - {fileID: 11400000, guid: 524b43072fc5d424abe5b3bbc3e38d65, type: 2}
+  - {fileID: 11400000, guid: a43218ee3bde66e4d867cc07b7a59492, type: 2}
+  - {fileID: 11400000, guid: 933929aa524a0db42a9c6c988e3e9979, type: 2}
   - {fileID: 11400000, guid: 88eeb4da7db7354479d64121cca3af9d, type: 2}
   - {fileID: 11400000, guid: 37bd8ebeb3e98ce4d93f4f86f4a126d7, type: 2}
+  - {fileID: 11400000, guid: ec7e5effe1fcff8448d9a4e37c8879d5, type: 2}
   - {fileID: 11400000, guid: 9e38df8b35f84594e9d43655037fb8fe, type: 2}
   objectGroups: []

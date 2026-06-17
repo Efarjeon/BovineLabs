@@ -206,6 +206,9 @@ MonoBehaviour:
   - Intrinsic: {fileID: 11400000, guid: 16512921a75e2e24ab5eefe7b4d57e69, type: 2}
     Amount: -1
     Target: 1
+  - Intrinsic: {fileID: 11400000, guid: ef5f495eea3ede74c9e8480343ce77e1, type: 2}
+    Amount: 5
+    Target: 1
 --- !u!114 &6357341778060164780
 MonoBehaviour:
   m_ObjectHideFlags: 0
