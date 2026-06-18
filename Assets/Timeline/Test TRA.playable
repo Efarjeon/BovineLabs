@@ -128,13 +128,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
   objectDefinition: {fileID: 11400000, guid: c92d6912eae94b74b81509b1f5a939cd, type: 2}
   triggerState: 1
-  positionMode: 0
+  positionMode: 2
   positionOffset: {x: 0, y: 0, z: 0}
   positionOffsetSpace: 4
   rotationMode: 2
   rotationOffset: {x: 0, y: 0, z: 0}
   assignParent: 0
   assignParentLink: {fileID: 0}
-  targetLinkOverride: {fileID: 0}
-  ignoreTarget: 2
+  targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  ignoreTarget: 0
   requireLinks: []
