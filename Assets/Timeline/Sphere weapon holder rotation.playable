@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
   m_Name: PhysicsForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
-  mode: 1
+  mode: 0
   directionMode: 0
   linearForce: {x: 0, y: 0, z: 0}
   space: 4
@@ -26,7 +26,7 @@ MonoBehaviour:
   seed: 0
   latchDirection: 1
   resetVelocityOnFire: 0
-  angularForce: {x: 0, y: 2, z: 0}
+  angularForce: {x: 0, y: 0, z: 5}
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
@@ -77,7 +77,7 @@ MonoBehaviour:
   seed: 0
   latchDirection: 1
   resetVelocityOnFire: 0
-  angularForce: {x: 0, y: -15, z: 0}
+  angularForce: {x: 5, y: 0, z: 0}
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}
