@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Destroy Simulator (Effect)
+  m_Name: Spawned Enemy 3
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 29
+  id: 31
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 5781767793372311974, guid: c1280b090124a404c9c933cd72398289, type: 3}
+  prefab: {fileID: 8252461465728122035, guid: 0ac150bab02b6594e82fe8cb301445c7, type: 3}

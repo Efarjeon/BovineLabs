@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsTriggerInstantiateClip
   objectDefinition: {fileID: 11400000, guid: c92d6912eae94b74b81509b1f5a939cd, type: 2}
   triggerState: 1
-  positionMode: 2
+  positionMode: 0
   positionOffset: {x: 0, y: 0, z: 0}
   positionOffsetSpace: 4
   rotationMode: 2
