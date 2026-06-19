@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
   m_Name: PhysicsForceClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
-  mode: 0
+  mode: 1
   directionMode: 0
   linearForce: {x: 0, y: 0, z: 0}
   space: 4
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aba63af082349e5a32124c19e05b78c, type: 3}
   m_Name: PhysicsForceClip(Clone)(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
-  mode: 0
+  mode: 1
   directionMode: 0
   linearForce: {x: 0, y: 0, z: 0}
   space: 4

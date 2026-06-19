@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3988441466958504084
+--- !u!114 &-1473805286815947173
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24,10 +24,10 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 1457560713539526650}
+    m_Asset: {fileID: 1433712677069613207}
     m_Duration: 1
     m_TimeScale: 1
-    m_ParentTrack: {fileID: -3988441466958504084}
+    m_ParentTrack: {fileID: -1473805286815947173}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 0
@@ -103,18 +103,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: Rot Movement
+  m_Name: Arvex Pos
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.TimelineAsset
   m_Version: 0
   m_Tracks:
-  - {fileID: -3988441466958504084}
+  - {fileID: -1473805286815947173}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &1457560713539526650
+--- !u!114 &1433712677069613207
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +137,7 @@ MonoBehaviour:
   Drag: 0
   DecayRate: 0
   Mode: 0
-  IgnoreParentRotation: 0
-  KeepLastPosition: 1
+  IgnoreParentRotation: 1
+  KeepLastPosition: 0
   LocalSpace: 0
   CameraRelative: 1

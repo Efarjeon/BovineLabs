@@ -49,6 +49,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 522463514120889983, guid: 9b14c1a49ecbfcb409d068007bd925f2, type: 2}
     value: {fileID: 2792979573366550072}
+  - key: {fileID: 399140900599646554, guid: 9b14c1a49ecbfcb409d068007bd925f2, type: 2}
+    value: {fileID: 2792979573366550072}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &5346365877051647336
@@ -71,7 +73,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1318939266442664849
 Transform:
   m_ObjectHideFlags: 0
@@ -164,7 +166,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5346365877051647336}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
   m_Name: 

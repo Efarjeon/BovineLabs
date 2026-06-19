@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.agni.arvex.sword": {
+      "version": "https://github.com/SadmanShafin/arvex-sword-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.6.0"
+      },
+      "hash": "9934679a12088feeb111077c6cf55cc5dbd15d78"
+    },
     "com.bovinelabs.anchor": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
       "depth": 0,

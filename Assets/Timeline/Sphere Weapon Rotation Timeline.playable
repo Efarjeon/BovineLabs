@@ -138,6 +138,6 @@ MonoBehaviour:
   DecayRate: 0
   Mode: 0
   IgnoreParentRotation: 1
-  KeepLastPosition: 1
-  LocalSpace: 1
+  KeepLastPosition: 0
+  LocalSpace: 0
   CameraRelative: 1
