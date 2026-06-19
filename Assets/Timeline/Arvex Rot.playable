@@ -48,6 +48,10 @@ MonoBehaviour:
   KeepLastPosition: 1
   LocalSpace: 0
   CameraRelative: 1
+  EventRouteTo: 2
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &7948091967534609165
 MonoBehaviour:
   m_ObjectHideFlags: 1
