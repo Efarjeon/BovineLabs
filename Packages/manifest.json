@@ -41,6 +41,7 @@
     "com.unity.ugui": "2.6.0",
     "com.unity.visualeffectgraph": "17.6.0",
     "com.youngwoocho02.unity-cli-connector": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
-    "com.unity.modules.terrainphysics": "1.0.0"
+    "com.unity.modules.terrainphysics": "1.0.0",
+    "com.agni.arvex.swordtimelinecompilation": "https://github.com/SadmanShafin/sword-timeline-compilation-unity-package.git"
   }
 }

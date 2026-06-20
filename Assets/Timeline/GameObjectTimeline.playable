@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a05f1979bc48fb82d10004d6168758, type: 3}
   m_Name: RukhankaAnimationClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Animation.Authoring::BovineLabs.Timeline.Animation.Authoring.RukhankaAnimationClip
-  animationClipHolder: {fileID: -8374786901400609120, guid: e3ec418b9dabccb4f83fb674c6f3a1df, type: 3}
+  animationClipHolder: {fileID: -8374786901400609120, guid: 4fa3aa661d3b5064e86e0d713d0e277b, type: 3}
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 1
@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -1990509968891695399}
-    m_Duration: 1.1666667461395264
+    m_Duration: 0.6666666865348816
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1261264723684688809}
     m_EaseInDuration: 0
