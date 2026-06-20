@@ -7,7 +7,14 @@
       "dependencies": {
         "com.unity.render-pipelines.universal": "17.6.0"
       },
-      "hash": "9934679a12088feeb111077c6cf55cc5dbd15d78"
+      "hash": "4e23add5fa1468f5c1182ee0f96124e1cbe77515"
+    },
+    "com.agni.greatdualblade.animset": {
+      "version": "https://github.com/SadmanShafin/greatdualblade-animset-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5508e21fc6b8eb0a70b1e90ffb4c6b949e44bfb5"
     },
     "com.bovinelabs.anchor": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
