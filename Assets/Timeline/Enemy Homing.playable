@@ -15,18 +15,18 @@ MonoBehaviour:
   uniformAxes: 1
   tuning:
     Proportional:
-      x: 10
-      y: 10
-      z: 10
+      x: 8
+      y: 8
+      z: 8
     Derivative:
-      x: 1
-      y: 1
-      z: 1
+      x: 4
+      y: 4
+      z: 4
     Integral:
-      x: 2
-      y: 2
-      z: 2
-    MaxOutput: 100
+      x: 5
+      y: 5
+      z: 5
+    MaxOutput: 80
   trackingTarget: 1
   targetMode: 0
   targetOffset: {x: 0, y: 0, z: 0}

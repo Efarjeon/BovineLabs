@@ -3635,7 +3635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1461512423
 Transform:
   m_ObjectHideFlags: 0
@@ -5431,7 +5431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1862657861
 Transform:
   m_ObjectHideFlags: 0
@@ -5916,7 +5916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
   Create:
-  - Definition: {fileID: 11400000, guid: 7deae4fcdaab5c24aabe9f8a6f89d40a, type: 2}
+  - Definition: {fileID: 11400000, guid: 9f3e527c9c6cf9f4ab268cf00152d3e0, type: 2}
     Target: 2
     DestroyOnDisabled: 0
 --- !u!114 &1877467433
@@ -6067,7 +6067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1880501177
 Transform:
   m_ObjectHideFlags: 0

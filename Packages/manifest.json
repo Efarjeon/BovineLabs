@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.agni.arvex.sword": "https://github.com/SadmanShafin/arvex-sword-unity-package.git",
+    "com.agni.arvex.swordtimelinecompilation": "https://github.com/SadmanShafin/sword-timeline-compilation-unity-package.git",
     "com.agni.greatdualblade.animset": "https://github.com/SadmanShafin/greatdualblade-animset-unity-package.git",
     "com.bovinelabs.anchor": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
     "com.bovinelabs.bridge": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.bridge",
@@ -41,7 +42,7 @@
     "com.unity.ugui": "2.6.0",
     "com.unity.visualeffectgraph": "17.6.0",
     "com.youngwoocho02.unity-cli-connector": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
-    "com.unity.modules.terrainphysics": "1.0.0",
-    "com.agni.arvex.swordtimelinecompilation": "https://github.com/SadmanShafin/sword-timeline-compilation-unity-package.git"
+    "jp.keijiro.klak.timeline.particle-system-control": "https://github.com/IAFahim/TimelineParticleControl.git#upm",
+    "com.unity.modules.terrainphysics": "1.0.0"
   }
 }
