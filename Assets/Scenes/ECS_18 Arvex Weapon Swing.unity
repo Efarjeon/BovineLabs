@@ -1097,6 +1097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1640533109}
     m_Modifications:
+    - target: {fileID: 142151740061735919, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Target
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2938140442011930198, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1137,6 +1141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3647024627436118023, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7990453796408645337, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: m_Name
       value: Unleash - Basic Damage
@@ -1144,23 +1152,38 @@ PrefabInstance:
     - target: {fileID: 8544898435697702205, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: Owner
       value: 
-      objectReference: {fileID: 1950060331}
+      objectReference: {fileID: 1453443261}
     - target: {fileID: 8544898435697702205, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: Source
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1950060331}
     - target: {fileID: 8544898435697702205, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: Target
       value: 
       objectReference: {fileID: 1345664546}
+    - target: {fileID: 8596067184970255118, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8666077027137663372, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      propertyPath: Create.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8666077027137663372, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
       propertyPath: Create.Array.data[0].Target
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8666077027137663372, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      propertyPath: Create.Array.data[0].Definition
+      value: 
+      objectReference: {fileID: 11400000, guid: b57daab06a5e0844098249fae3885232, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3647024627436118023, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1845804312}
   m_SourcePrefab: {fileID: 100100000, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
 --- !u!1001 &924286267
 PrefabInstance:
@@ -2977,7 +3000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb54ea4f67dc17342bcd49954c53502d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Hybrid::Unity.Physics.Authoring.PhysicsDebugDisplayAuthoring
-  DrawColliders: 1
+  DrawColliders: 0
   DrawColliderEdges: 0
   DrawColliderAabbs: 0
   DrawMassProperties: 0
@@ -3437,7 +3460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1577620435
 Transform:
   m_ObjectHideFlags: 0
@@ -6475,6 +6498,24 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References: []
+--- !u!1 &1845804306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3647024627436118023, guid: 8b5159ea9293a0f4ea2b43575ada1eab, type: 3}
+  m_PrefabInstance: {fileID: 891263355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1845804312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845804306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &1851716399
 GameObject:
   m_ObjectHideFlags: 0
@@ -6687,7 +6728,7 @@ Transform:
   m_GameObject: {fileID: 1950060331}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6.52, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

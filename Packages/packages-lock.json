@@ -16,6 +16,13 @@
       "dependencies": {},
       "hash": "7663d38810760569dfd41d92f9e7b021c25db7b2"
     },
+    "com.agni.dualswordanimationpack": {
+      "version": "https://github.com/SadmanShafin/dual-sword-animation-pack-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7994e53f80930f776dc73d7f5fad6fbb0ae82d63"
+    },
     "com.agni.greatdualblade.animset": {
       "version": "file:com.agni.greatdualblade.animset",
       "depth": 0,
@@ -29,14 +36,14 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.bridge": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.bridge",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.core": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.core",
@@ -45,7 +52,7 @@
       "dependencies": {
         "com.unity.entities": "1.4.5"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.essence": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.essence",
@@ -55,7 +62,7 @@
         "com.bovinelabs.core": "1.4.4",
         "com.bovinelabs.reaction": "0.5.0"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.grid": {
       "version": "https://github.com/IAFahim/com.bovinelabs.grid.git",
@@ -74,7 +81,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.6.1"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.quill": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.quill",
@@ -84,7 +91,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.entities.graphics": "1.4.15"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.reaction": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.reaction",
@@ -93,7 +100,7 @@
       "dependencies": {
         "com.bovinelabs.core": "1.4.6"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.reaction.addon": {
       "version": "https://github.com/IAFahim/com.bovinelabs.reaction.addon.git",
@@ -128,7 +135,7 @@
         "com.bovinelabs.core": "1.6.0",
         "com.unity.timeline": "1.8.11"
       },
-      "hash": "8471614cff62af63419812c8da42f70c7ba895d4"
+      "hash": "e6b321a4159a2c4dabe4889adefdb1783521f65e"
     },
     "com.bovinelabs.timeline.animation": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Animation.git",
@@ -181,7 +188,7 @@
       "dependencies": {
         "com.unity.test-framework": "1.6.0"
       },
-      "hash": "bf8555c470ca8eb6c7e9d128a309456b7c76686f"
+      "hash": "ce9da8182b933b2f250fc7ff790ecc08fc2e76de"
     },
     "com.bovinelabs.timeline.grid.influence": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Grid.Influence.git",
@@ -241,7 +248,7 @@
         "com.bovinelabs.timeline": "1.0.0",
         "com.bovinelabs.timeline.core": "1.0.0"
       },
-      "hash": "ab84a19cfb878449485e58392b535b2c5d20c304"
+      "hash": "1dd11b46ded26e658ec078699fe668f9d94b20aa"
     },
     "com.bovinelabs.timeline.time": {
       "version": "https://github.com/IAFahim/BovineLabs.Timeline.Time.git",
