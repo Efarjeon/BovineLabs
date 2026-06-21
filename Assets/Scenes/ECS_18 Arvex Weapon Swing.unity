@@ -6336,11 +6336,23 @@ PrefabInstance:
       value: Dash
       objectReference: {fileID: 0}
     - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].key
+      value: 
+      objectReference: {fileID: -8355039785918080397, guid: aa6039390d6700b428ddcd364ec0e258, type: 2}
+    - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 1345664551}
     - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
       propertyPath: m_SceneBindings.Array.data[1].value
+      value: 
+      objectReference: {fileID: 1345664551}
+    - target: {fileID: 8309695472426609020, guid: c3f2007451934ce4aa34a54884f0f958, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 1345664551}
     m_RemovedComponents: []
