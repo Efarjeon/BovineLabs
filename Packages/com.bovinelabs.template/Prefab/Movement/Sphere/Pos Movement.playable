@@ -139,7 +139,7 @@ MonoBehaviour:
   Mode: 0
   IgnoreParentRotation: 1
   KeepLastPosition: 0
-  LocalSpace: 1
+  LocalSpace: 0
   CameraRelative: 1
   EventRouteTo: 4
   EventRouteLink: {fileID: 0}
