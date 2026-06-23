@@ -887,7 +887,7 @@ MonoBehaviour:
   ReadRootFrom: 2
   ConsumerLink: {fileID: 11400000, guid: a31b484df79a0368a9134adf3d1c5af9, type: 2}
   Action: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  EventRouteTo: 1
+  EventRouteTo: 4
   EventRouteLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
-  OnInputStart: {fileID: 11400000, guid: 06427d71bb3b44ee8f2f9d99e11aa8e0, type: 2}
+  OnInputStart: {fileID: 0}
   OnInputEnd: {fileID: 11400000, guid: 85b00a1d07281e4499f27348059b8c09, type: 2}
