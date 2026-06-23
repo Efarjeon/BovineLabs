@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
   mode: 0
   directionMode: 0
-  linearForce: {x: 0, y: 0, z: 300}
+  linearForce: {x: 0, y: 0, z: 120}
   space: 4
   magnitude: 10
   directionTarget: 1
