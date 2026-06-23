@@ -3987,17 +3987,21 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1758459538841851250, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2253995266610160949, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: m_PrefabInstanceID
       value: 71610495
       objectReference: {fileID: 0}
     - target: {fileID: 2525072499945299669, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.056638345
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2525072499945299669, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.13736424
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2525072499945299669, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4049,7 +4053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8257339211080155906, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[0].Value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8257339211080155906, guid: 09e73bdc29f2b8b4a8a57a068fdc6523, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[2].Intrinsic
