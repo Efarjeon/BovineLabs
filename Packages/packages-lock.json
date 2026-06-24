@@ -16,6 +16,13 @@
       "dependencies": {},
       "hash": "7663d38810760569dfd41d92f9e7b021c25db7b2"
     },
+    "com.agni.brutaldoubleaxe.animset": {
+      "version": "https://github.com/SadmanShafin/brutal-double-axe-anim-set-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ea60c2090ebbf38f67cb38a4d69c5350d6a1abc2"
+    },
     "com.agni.dualswordanimationpack": {
       "version": "https://github.com/SadmanShafin/dual-sword-animation-pack-unity-package.git",
       "depth": 0,
@@ -28,6 +35,13 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.agni.lutha": {
+      "version": "https://github.com/SadmanShafin/lutha-unity-package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0c8fe50278eb6395207010a065b728a7d74e22af"
     },
     "com.bovinelabs.anchor": {
       "version": "https://github.com/IAFahim/tertle-monorepo.git?path=com.bovinelabs.anchor",
