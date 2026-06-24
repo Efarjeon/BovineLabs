@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 7206786643252485211}
   - component: {fileID: 188174658890708277}
   - component: {fileID: 838123262180897601}
+  - component: {fileID: 5670708451642885248}
   m_Layer: 0
   m_Name: Physics
   m_TagString: Untagged
@@ -764,6 +765,18 @@ MonoBehaviour:
   Root: {fileID: 133207047375813550}
   Schemas:
   - {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
+--- !u!114 &5670708451642885248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366203431144431231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f66c154a8f55b11bae142913b54e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Timeline.Transform.Authoring::BovineLabs.Timeline.Transform.Authoring.InitializeSourceTransformAuthoring
 --- !u!1 &8900671901790581161
 GameObject:
   m_ObjectHideFlags: 0
