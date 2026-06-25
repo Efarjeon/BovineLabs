@@ -575,9 +575,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 292358201371313379, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194154166108380353, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516802972979431564, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
     - target: {fileID: 1847893914436020998, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_Name
       value: Player_XX
+      objectReference: {fileID: 0}
+    - target: {fileID: 2529134723201193487, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2535488459819772808, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: StatDefaults.Array.size
@@ -595,6 +611,26 @@ PrefabInstance:
       propertyPath: IntrinsicDefaults.Array.data[0].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: a2c8bd61e59f4d298796af28322b0fdb, type: 2}
+    - target: {fileID: 3538662205697582117, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240604013328772838, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667958902801317299, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908672665033772312, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702161343372970779, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
     - target: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -895,13 +931,22 @@ PrefabInstance:
       propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category31
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8332056912352405047, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8772386852086223861, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       propertyPath: m_GravityFactor
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9168660749274329457, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+      propertyPath: m_PrefabInstanceID
+      value: 443391099
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4454951518309930566, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
+    - {fileID: 1199471964412040281, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7509363276189378629, guid: 039a120e35f036f48b7e9685c30f21f9, type: 3}
       insertIndex: -1
@@ -1811,7 +1856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb54ea4f67dc17342bcd49954c53502d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Physics.Hybrid::Unity.Physics.Authoring.PhysicsDebugDisplayAuthoring
-  DrawColliders: 1
+  DrawColliders: 0
   DrawColliderEdges: 0
   DrawColliderAabbs: 0
   DrawMassProperties: 0
