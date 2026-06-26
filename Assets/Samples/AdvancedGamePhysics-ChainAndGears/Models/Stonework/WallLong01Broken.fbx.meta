@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b2dd8ac6386f73e408f8f2381388758f
 ModelImporter:
-  serializedVersion: 24500
+  serializedVersion: 24600
   internalIDToNameTable:
   - first:
       1: 100000
@@ -56,6 +56,7 @@ ModelImporter:
     materialName: 1
     materialSearch: 2
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -87,6 +88,8 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
     importPhysicalCameras: 0
     importVisibility: 0
     importBlendShapes: 0
@@ -108,6 +111,8 @@ ModelImporter:
     generateMeshLods: 0
     meshLodGenerationFlags: 0
     maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

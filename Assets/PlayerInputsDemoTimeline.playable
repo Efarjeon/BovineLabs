@@ -27,6 +27,10 @@ MonoBehaviour:
   KeepLastPosition: 0
   LocalSpace: 0
   CameraRelative: 1
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &-328092118893704949
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -254,9 +258,14 @@ MonoBehaviour:
     - Action: {fileID: -3072405102054997809, guid: 052faaac586de48259a63d0c4782560b, type: 3}
       Mode: 0
       Phase: 1
+      MaxGapTicks: 0
     Condition: {fileID: 11400000, guid: 2684cb1bdadf4b32b86c765e719a4118, type: 2}
     Value: 1
-  RouteTo: {fileID: 11400000, guid: 78738cbf2e7bbf31abafc569826e9631, type: 2}
+    Repeatable: 1
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
 --- !u!114 &3399049473298492624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -288,6 +297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96f5e7867ca4bacae2858448e525bb8, type: 3}
   m_Name: InputBufferWindowClip
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputBufferWindowClip
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
   AllowedActions: []
 --- !u!114 &8065824574951365426
 MonoBehaviour:

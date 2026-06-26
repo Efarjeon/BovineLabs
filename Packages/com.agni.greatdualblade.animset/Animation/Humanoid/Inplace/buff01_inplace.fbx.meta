@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 0691e54cfe8f800499910e00f5b54478
+AssetOrigin:
+  serializedVersion: 1
+  productId: 198205
+  packageName: Great DualBlade AnimSet
+  packageVersion: 1.31
+  assetPath: Assets/GreatDualBlade_animset/Animation/Humanoid/Inplace/buff01_inplace.fbx
+  uploadId: 709389
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24600
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -9,6 +16,7 @@ ModelImporter:
     materialName: 0
     materialSearch: 1
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -16,8 +24,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -54,7 +60,7 @@ ModelImporter:
       keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      bodyMask: {_typeName: unsigned int, _data: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000}
       curves: []
       events: []
       transformMask: []
@@ -69,6 +75,8 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -87,6 +95,11 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -106,6 +119,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 1
   humanDescription:
@@ -711,8 +725,7 @@ ModelImporter:
     - name: Bip001 L Finger42
       parentName: Bip001 L Finger41
       position: {x: -0.02977356, y: 0, z: 0.000000009536743}
-      rotation: {x: -0.0000000018667592, y: -0.0000000012745636, z: -0.0032202841,
-        w: 0.9999948}
+      rotation: {x: -0.0000000018667592, y: -0.0000000012745636, z: -0.0032202841, w: 0.9999948}
       scale: {x: 1, y: 1, z: 1}
     - name: Wp_Sword001
       parentName: Bip001 L Hand
@@ -827,8 +840,7 @@ ModelImporter:
     - name: Bip001 R Finger41
       parentName: Bip001 R Finger4
       position: {x: -0.035138626, y: 0, z: 0}
-      rotation: {x: -0.0000000065730323, y: -0.0000000044619903, z: -0.011946662,
-        w: 0.99992865}
+      rotation: {x: -0.0000000065730323, y: -0.0000000044619903, z: -0.011946662, w: 0.99992865}
       scale: {x: 1, y: 1.0000001, z: 1}
     - name: Bip001 R Finger42
       parentName: Bip001 R Finger41
@@ -867,8 +879,7 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6f7b0d859e52aa9409225d219503159d,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6f7b0d859e52aa9409225d219503159d, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
@@ -880,10 +891,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 198205
-  packageName: Great DualBlade AnimSet
-  packageVersion: 1.31
-  assetPath: Assets/GreatDualBlade_animset/Animation/Humanoid/Inplace/buff01_inplace.fbx
-  uploadId: 709389

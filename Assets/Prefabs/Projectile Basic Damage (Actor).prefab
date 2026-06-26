@@ -450,35 +450,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 0}
-      Target: 0
-      Operation: 0
-      ComparisonMode: 0
-      Value: 0
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 0
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!1 &6906922541062920239
 GameObject:
   m_ObjectHideFlags: 0

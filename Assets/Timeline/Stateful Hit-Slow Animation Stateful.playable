@@ -138,3 +138,4 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 0}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0

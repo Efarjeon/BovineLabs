@@ -1111,7 +1111,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Stagger Fade Timer
+    - Name: '[Time] Stagger Falloff'
       Condition: {fileID: 11400000, guid: ef5f495eea3ede74c9e8480343ce77e1, type: 2}
       Target: 2
       Operation: 1
@@ -2147,6 +2147,7 @@ MonoBehaviour:
   PlayerId: 0
   Controllable: 0
   OverrideTrigger: 1
+  OverrideAction: {fileID: 0}
   ReleaseIdleSeconds: 0.25
   HistoryLimit: 64
   TrackDirection: 0

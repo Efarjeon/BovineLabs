@@ -146,7 +146,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: Hit Counts
+    - Name: BloodParticleCount
       Condition: {fileID: 11400000, guid: 21e280aa6cbdd91539ff3727faf7d7c1, type: 2}
       Target: 2
       Operation: 4

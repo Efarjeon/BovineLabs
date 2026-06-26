@@ -16,6 +16,7 @@ MonoBehaviour:
   linearVelocity: {x: 2, y: 0, z: 0}
   angularVelocity: {x: 0, y: 0, z: 0}
   space: 4
+  resetVelocityOnFire: 0
   strengthStat: {fileID: 0}
   readStatFrom: 4
   readStatLink: {fileID: 0}

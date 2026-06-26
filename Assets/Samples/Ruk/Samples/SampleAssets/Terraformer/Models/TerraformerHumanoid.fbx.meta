@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: aedfe16664ada87499a275ded2fbfe4f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298480
+  packageName: Rukhanka Animation System 2
+  packageVersion: 2.9.0
+  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/SampleAssets/Terraformer/Models/TerraformerHumanoid.fbx
+  uploadId: 897522
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24600
   internalIDToNameTable:
   - first:
       1: 100000
@@ -1380,6 +1387,7 @@ ModelImporter:
     materialName: 1
     materialSearch: 2
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -1387,8 +1395,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -1433,7 +1439,7 @@ ModelImporter:
       keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      bodyMask: {_typeName: unsigned int, _data: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000}
       curves: []
       events: []
       transformMask:
@@ -1657,6 +1663,8 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
     importPhysicalCameras: 1
     importVisibility: 0
     importBlendShapes: 0
@@ -1675,6 +1683,11 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
@@ -1694,6 +1707,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
   referencedClips: []
   importAnimation: 0
   humanDescription:
@@ -2951,10 +2965,3 @@ ModelImporter:
   userData: bd43111b93063e144819fd4957629add
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 298480
-  packageName: Rukhanka Animation System 2
-  packageVersion: 2.9.0
-  assetPath: Packages/com.rukhanka.animation/Samples~/Samples/SampleAssets/Terraformer/Models/TerraformerHumanoid.fbx
-  uploadId: 897522

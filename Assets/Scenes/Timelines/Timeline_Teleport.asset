@@ -131,12 +131,16 @@ MonoBehaviour:
   radius: 5
   teleportRelativeTo: 1
   teleportRelativeToLink: {fileID: 0}
+  azimuthTarget: 1
+  azimuthTargetLink: {fileID: 0}
+  referenceFrame: 0
   azimuthCenter: 0
   azimuthHalfRange: 180
   elevationCenter: 0
   elevationHalfRange: 30
-  referenceFrame: 0
   facingMode: 0
+  facingTarget: 1
+  facingTargetLink: {fileID: 0}
   clearanceRadius: 0.5
   maxCandidates: 4
   obstacleMask:

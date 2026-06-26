@@ -1780,54 +1780,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: ba054a0e675c8054c9861386223cd0af, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
-    - Name: Null
-      Condition: {fileID: 11400000, guid: b6750ac22773cee4cb3098799a056c03, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &3279849961721671180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1930,35 +1890,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: 0f72803bfdbe9eb418ce94da4cb5a298, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &5903414243938507273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2702,35 +2641,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: dccbcc44312e9144298416ac09b4608e, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &4654109382615740483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4024,25 +3942,6 @@ MonoBehaviour:
       Features: 1
       DestroyIfTargetDestroyed: 0
       CancelActive: 0
-    - Name: Null
-      Condition: {fileID: 11400000, guid: be774f3d464062a43923068ec5de00a1, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
@@ -4154,35 +4053,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: a04b0c1964480d84aa9f6ee97c11147a, type: 2}
-      Target: 1
-      Operation: 4
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &1688370534400222617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4673,35 +4551,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: 28ecb508887efc045b8b0f67a46564ea, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &5350267644460460962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4804,35 +4661,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: cf76a8ab63ef08948b55d28bc1527bec, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &4105704630737225232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5016,35 +4852,14 @@ MonoBehaviour:
     duration: 0
     cancellable: 0
   Conditions:
-    conditions:
-    - Name: Null
-      Condition: {fileID: 11400000, guid: abb48ab04951f384e9d1c8ba03d94b4b, type: 2}
-      Target: 1
-      Operation: 1
-      ComparisonMode: 0
-      Value: 1
-      CustomValue:
-        rid: -2
-      MinComparisonMode: 0
-      ValueMin: 0
-      CustomValueMin:
-        rid: -2
-      MaxComparisonMode: 0
-      ValueMax: 0
-      CustomValueMax:
-        rid: -2
-      Features: 1
-      DestroyIfTargetDestroyed: 0
-      CancelActive: 0
+    conditions: []
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+    RefIds: []
 --- !u!114 &2699866225283639713
 MonoBehaviour:
   m_ObjectHideFlags: 0

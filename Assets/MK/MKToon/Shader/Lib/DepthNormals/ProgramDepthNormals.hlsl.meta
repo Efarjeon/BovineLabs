@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 4187e68dca58e494d8d34f2aee5d0d0a
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures: []
-  nonModifiableTextures: []
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 178415
@@ -14,3 +7,8 @@ AssetOrigin:
   packageVersion: 3.4.2B
   assetPath: Assets/MK/MKToon/Shader/Lib/DepthNormals/ProgramDepthNormals.hlsl
   uploadId: 925760
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

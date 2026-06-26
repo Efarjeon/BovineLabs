@@ -141,3 +141,7 @@ MonoBehaviour:
   KeepLastPosition: 0
   LocalSpace: 0
   CameraRelative: 1
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}

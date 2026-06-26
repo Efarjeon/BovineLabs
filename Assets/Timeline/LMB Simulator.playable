@@ -28,6 +28,7 @@ MonoBehaviour:
   applyToLink: {fileID: 0}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &-3527295426302068869
 MonoBehaviour:
   m_ObjectHideFlags: 1

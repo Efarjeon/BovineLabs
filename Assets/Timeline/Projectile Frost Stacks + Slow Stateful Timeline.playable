@@ -24,6 +24,7 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &-6628739871322238826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -48,6 +49,7 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

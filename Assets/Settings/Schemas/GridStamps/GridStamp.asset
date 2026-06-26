@@ -34,3 +34,7 @@ MonoBehaviour:
   ThickLineStart: {x: -5, y: 0}
   ThickLineEnd: {x: 5, y: 0}
   ThickLineRadius: 1
+  SectorCenter: {x: 0, y: 0}
+  SectorRadius: 6
+  SectorFacingDegrees: 90
+  SectorHalfAngleDegrees: 30

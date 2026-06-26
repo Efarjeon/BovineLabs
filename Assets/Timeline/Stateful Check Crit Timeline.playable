@@ -139,6 +139,7 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 0}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &1534691580584626330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -256,3 +257,4 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 0}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0

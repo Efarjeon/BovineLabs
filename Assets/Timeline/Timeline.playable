@@ -173,6 +173,10 @@ MonoBehaviour:
   KeepLastPosition: 1
   LocalSpace: 0
   CameraRelative: 1
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &-8370034099660768068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,6 +205,7 @@ MonoBehaviour:
   applyToLink: {fileID: 0}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &-8148941382746961763
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -872,6 +877,10 @@ MonoBehaviour:
   KeepLastPosition: 0
   LocalSpace: 0
   CameraRelative: 1
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &-5400162286282681467
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1053,6 +1062,7 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   ignoreTarget: 0
   requireLinks: []
+  hitMode: 0
 --- !u!114 &-5118882707515442699
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1201,6 +1211,7 @@ MonoBehaviour:
   teleportRelativeToLink: {fileID: 0}
   azimuthTarget: 3
   azimuthTargetLink: {fileID: 0}
+  referenceFrame: 1
   azimuthCenter: 0
   azimuthHalfRange: 180
   elevationCenter: 0
@@ -1452,6 +1463,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acb458f06bc41f98dd5b0cae8cf891f, type: 3}
   m_Name: EssenceUIClip(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUIClip
+  Source:
+    Mode: 0
+    Player: 0
+    Route: 0
+    Link: {fileID: 0}
   Stats:
   - {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
   Intrinsics:
@@ -1473,7 +1489,6 @@ MonoBehaviour:
   Stamp: {fileID: 0}
   ExtraStamps: []
   Composite: {fileID: 0}
-  Category: 0
   Polarity: 0
   Rotation: 0
   Falloff: 0
@@ -1483,6 +1498,7 @@ MonoBehaviour:
   LocalOffset: {x: 0, y: 0, z: 0}
   originTarget: 2
   originLink: {fileID: 0}
+  Category: 0
 --- !u!114 &-4571502003578545383
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2069,6 +2085,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acb458f06bc41f98dd5b0cae8cf891f, type: 3}
   m_Name: EssenceUIClip(Clone)
   m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUIClip
+  Source:
+    Mode: 0
+    Player: 0
+    Route: 0
+    Link: {fileID: 0}
   Stats:
   - {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
   Intrinsics:
@@ -2086,6 +2107,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acb458f06bc41f98dd5b0cae8cf891f, type: 3}
   m_Name: EssenceUIClip
   m_EditorClassIdentifier: BovineLabs.Timeline.UI.Authoring::BovineLabs.Timeline.UI.Authoring.EssenceUIClip
+  Source:
+    Mode: 0
+    Player: 0
+    Route: 0
+    Link: {fileID: 0}
   Stats:
   - {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
   Intrinsics:
@@ -2315,6 +2341,7 @@ MonoBehaviour:
   teleportRelativeToLink: {fileID: 0}
   azimuthTarget: 1
   azimuthTargetLink: {fileID: 0}
+  referenceFrame: 1
   azimuthCenter: 0
   azimuthHalfRange: 180
   elevationCenter: 0
@@ -3376,9 +3403,14 @@ MonoBehaviour:
     - Action: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
       Mode: 0
       Phase: 0
+      MaxGapTicks: 0
     Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
     Value: 1
-  RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+    Repeatable: 1
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
 --- !u!114 &3215472544210726175
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3591,6 +3623,7 @@ MonoBehaviour:
   targetLinkOverride: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
   ignoreTarget: 2
   requireLinks: []
+  hitMode: 0
 --- !u!114 &3742618853116167990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3648,7 +3681,6 @@ MonoBehaviour:
   Stamp: {fileID: 11400000, guid: ac21954107a6e4627a7fef3cb1b14174, type: 2}
   ExtraStamps: []
   Composite: {fileID: 0}
-  Category: 1
   Polarity: 0
   Rotation: 0
   Falloff: 0
@@ -3658,6 +3690,7 @@ MonoBehaviour:
   LocalOffset: {x: 0, y: 0, z: 0}
   originTarget: 2
   originLink: {fileID: 0}
+  Category: 1
 --- !u!114 &4304008739173729860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3757,6 +3790,10 @@ MonoBehaviour:
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   avatarMask: {fileID: 0}
   applyAvatarMask: 1
+  ExitIdleClip: {fileID: 0}
+  BlendInDuration: 0.25
+  BlendOutDuration: 0.25
+  FallbackPlaybackMode: 0
 --- !u!114 &4497018687995842795
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4067,7 +4104,6 @@ MonoBehaviour:
   Stamp: {fileID: 11400000, guid: ac21954107a6e4627a7fef3cb1b14174, type: 2}
   ExtraStamps: []
   Composite: {fileID: 0}
-  Category: 0
   Polarity: 0
   Rotation: 0
   Falloff: 0
@@ -4077,6 +4113,7 @@ MonoBehaviour:
   LocalOffset: {x: 0, y: 0, z: 0}
   originTarget: 2
   originLink: {fileID: 0}
+  Category: 0
 --- !u!114 &5310386309778359708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4107,6 +4144,7 @@ MonoBehaviour:
     y: 0
   ReadKind: 1
   ReadFrom: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
+  maxSpeed: 5
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 0
@@ -4340,6 +4378,10 @@ MonoBehaviour:
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   avatarMask: {fileID: 0}
   applyAvatarMask: 1
+  ExitIdleClip: {fileID: 0}
+  BlendInDuration: 0.25
+  BlendOutDuration: 0.25
+  FallbackPlaybackMode: 0
 --- !u!114 &5672766414000748912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4469,6 +4511,13 @@ MonoBehaviour:
   magnitude: 100
   directionTarget: 1
   directionTargetLink: {fileID: 0}
+  coneAzimuthCenter: 0
+  coneAzimuthHalfRange: 30
+  coneElevationCenter: 0
+  coneElevationHalfRange: 15
+  seed: 0
+  latchDirection: 1
+  resetVelocityOnFire: 0
   angularForce: {x: 0, y: 0, z: 0}
   strengthStat: {fileID: 0}
   readStatFrom: 4
@@ -4528,6 +4577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96f5e7867ca4bacae2858448e525bb8, type: 3}
   m_Name: InputBufferWindowClip
   m_EditorClassIdentifier: BovineLabs.Timeline.PlayerInputs.Authoring::BovineLabs.Timeline.PlayerInputs.Authoring.InputBufferWindowClip
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
   AllowedActions:
   - {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!114 &6486009319765817834
@@ -4733,6 +4784,7 @@ MonoBehaviour:
     y: 0.7
   ReadKind: 1
   ReadFrom: {fileID: 11400000, guid: c868fab23b9ed69fcafbf52732dcf4cf, type: 2}
+  maxSpeed: 5
   positionOffset: {x: 0, y: 0, z: 0}
   eulerAnglesOffset: {x: 0, y: 0, z: 0}
   removeStartOffset: 0

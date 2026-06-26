@@ -319,7 +319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.EntityLinks.Authoring::BovineLabs.EntityLinks.Authoring.EntityTagsMonoBehavior
-  entityLinkTagSchema: {fileID: 11400000, guid: 76647808ebb7b0bbb904a697f563fa51, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!114 &191613265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,10 +690,7 @@ MonoBehaviour:
   Owner: {fileID: 547519298}
   Source: {fileID: 547519298}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!1 &547519298
@@ -838,7 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Bovinelabs.Timeline.Entity.Links.Authoring::Bovinelabs.Timeline.Entity.Links.Authoring.EntityTagAuthoring
-  entityLinkTagSchema: {fileID: 11400000, guid: 82c8b7806cd430c0cbb4e26755d8cdee, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!114 &547519309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,6 +899,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Bovinelabs.Timeline.PlayerInputs.Authoring::Bovinelabs.Timeline.PlayerInputs.Authoring.InputConsumerAuthoring
   PlayerId: 0
+  Controllable: 0
+  OverrideTrigger: 1
+  OverrideAction: {fileID: 0}
+  ReleaseIdleSeconds: 0.25
+  HistoryLimit: 64
+  TrackDirection: 0
+  DirectionAction: {fileID: 0}
+  DirectionDeadZone: 0.3
+  DirectionFacing: 1
 --- !u!4 &619819019
 Transform:
   m_ObjectHideFlags: 0
@@ -1037,7 +1045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.EntityLinks.Authoring::BovineLabs.EntityLinks.Authoring.EntityTagsMonoBehavior
-  entityLinkTagSchema: {fileID: 11400000, guid: e171bfe1e0df23080a0cd0d1e36236d2, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!114 &856893513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1706,10 +1715,7 @@ MonoBehaviour:
   Owner: {fileID: 547519298}
   Source: {fileID: 0}
   Target: {fileID: 547519298}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!1 &1007598383
@@ -1850,7 +1856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.EntityLinks.Authoring::BovineLabs.EntityLinks.Authoring.EntityTagsMonoBehavior
-  entityLinkTagSchema: {fileID: 11400000, guid: 5df108c067f9d2dea9be654acd6799f7, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!114 &1019947925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1963,10 +1970,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!1 &1100798939
@@ -2076,7 +2080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Bovinelabs.Timeline.EntityLinks.Authoring::Bovinelabs.Timeline.EntityLinks.Authoring.EntityTagAuthoring
-  entityLinkTagSchema: {fileID: 11400000, guid: 6b27ddd61cc53ac27aa8b2fb413538da, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!1 &1319239833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,10 +2115,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 619819017}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!114 &1319239837
@@ -2250,7 +2252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.EntityLinks.Authoring::BovineLabs.EntityLinks.Authoring.EntityTagsMonoBehavior
-  entityLinkTagSchema: {fileID: 11400000, guid: 396eae5308942e2c5a06a0975df02c43, type: 2}
+  Root: {fileID: 0}
+  Schemas: []
 --- !u!114 &1336369582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2266,10 +2269,7 @@ MonoBehaviour:
   Owner: {fileID: 547519298}
   Source: {fileID: 1007598383}
   Target: {fileID: 0}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!114 &1336369583
@@ -2642,10 +2642,7 @@ MonoBehaviour:
   Owner: {fileID: 0}
   Source: {fileID: 0}
   Target: {fileID: 957161709}
-  Custom:
-    Enable: 0
-    Target0: {fileID: 0}
-    Target1: {fileID: 0}
+  Custom: {fileID: 0}
   Initialize:
     Target: 1
 --- !u!21 &1636332401

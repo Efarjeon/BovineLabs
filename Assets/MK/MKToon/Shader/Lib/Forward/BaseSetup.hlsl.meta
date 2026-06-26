@@ -1,12 +1,5 @@
 fileFormatVersion: 2
 guid: 7411061d39c72884ea43d2017816ff0e
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures: []
-  nonModifiableTextures: []
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 178415
@@ -14,3 +7,8 @@ AssetOrigin:
   packageVersion: 3.4.2B
   assetPath: Assets/MK/MKToon/Shader/Lib/Forward/BaseSetup.hlsl
   uploadId: 925760
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

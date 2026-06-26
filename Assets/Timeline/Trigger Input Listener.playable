@@ -114,7 +114,10 @@ MonoBehaviour:
     Condition: {fileID: 11400000, guid: 90d290f28aa29a24992e08f33fabb18b, type: 2}
     Value: 1
     Repeatable: 1
-  RouteTo: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
+  ReadRootFrom: 2
+  ConsumerLink: {fileID: 0}
+  EventRouteTo: 4
+  EventRouteLink: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

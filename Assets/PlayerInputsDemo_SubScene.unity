@@ -403,7 +403,13 @@ MonoBehaviour:
   PlayerId: 0
   Controllable: 1
   OverrideTrigger: 1
+  OverrideAction: {fileID: 0}
   ReleaseIdleSeconds: 0.25
+  HistoryLimit: 64
+  TrackDirection: 0
+  DirectionAction: {fileID: 0}
+  DirectionDeadZone: 0.3
+  DirectionFacing: 1
 --- !u!114 &1003453129
 MonoBehaviour:
   m_ObjectHideFlags: 0

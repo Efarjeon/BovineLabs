@@ -1612,6 +1612,7 @@ MonoBehaviour:
   PlayerId: 0
   Controllable: 0
   OverrideTrigger: 1
+  OverrideAction: {fileID: 0}
   ReleaseIdleSeconds: 0.25
   HistoryLimit: 64
   TrackDirection: 0

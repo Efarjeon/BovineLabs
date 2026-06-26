@@ -1,10 +1,5 @@
 fileFormatVersion: 2
 guid: b1309bc3df153d14ea849de1ab18afaf
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 198205
@@ -12,3 +7,8 @@ AssetOrigin:
   packageVersion: 1.31
   assetPath: Assets/GreatDualBlade_animset/Animation Asset Description.pdf
   uploadId: 709389
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

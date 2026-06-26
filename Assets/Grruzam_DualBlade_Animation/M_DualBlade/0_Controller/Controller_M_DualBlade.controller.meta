@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: 4b1106bf85f614a478609a98ff66cefa
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 230582
@@ -13,3 +7,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/Grruzam_DualBlade_Animation/M_DualBlade/0_Controller/Controller_M_DualBlade.controller
   uploadId: 521129
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

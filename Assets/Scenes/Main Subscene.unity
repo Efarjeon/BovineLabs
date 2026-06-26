@@ -968,7 +968,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnInputJump
+    - Name: OnInputDash
       Condition: {fileID: 11400000, guid: 5f3b5168811f23d4e87bdf30fd357d9f, type: 2}
       Target: 2
       Operation: 1
