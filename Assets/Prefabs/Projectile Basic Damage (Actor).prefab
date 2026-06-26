@@ -332,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5167302813494960374
 Transform:
   m_ObjectHideFlags: 0
@@ -359,11 +359,13 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: c14faa05a29900a4da4840db535905b6, type: 2}
   m_InitialState: 1
-  m_WrapMode: 1
+  m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 6898371337782885125, guid: c14faa05a29900a4da4840db535905b6, type: 2}
+    value: {fileID: 8730312152121098667}
+  - key: {fileID: -1595395396030436899, guid: c14faa05a29900a4da4840db535905b6, type: 2}
     value: {fileID: 8730312152121098667}
   m_ExposedReferences:
     m_References: []
