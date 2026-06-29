@@ -6208,7 +6208,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 669e811c97769e34ca037176b31850ed, type: 2}
   m_InitialState: 1
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -8078,7 +8078,7 @@ MonoBehaviour:
     cancellable: 0
   Conditions:
     conditions:
-    - Name: OnHitStaggerDecayStart
+    - Name: StaggerDecayStart
       Condition: {fileID: 11400000, guid: 626fd801d0e93744ab0b0abc644c3b32, type: 2}
       Target: 2
       Operation: 1
