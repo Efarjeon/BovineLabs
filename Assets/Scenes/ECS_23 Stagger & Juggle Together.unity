@@ -7406,7 +7406,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4591788351118785080, guid: 358d04df8c66014449ccc16139e880b8, type: 3}
       propertyPath: m_Name
-      value: Stagger Point Decay Tester_1
+      value: Stagger Points Decay
       objectReference: {fileID: 0}
     - target: {fileID: 4593801583465223556, guid: 358d04df8c66014449ccc16139e880b8, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
@@ -11713,7 +11713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854896153}
   m_Layer: 0
-  m_Name: Reset Stagger Deprecation
+  m_Name: Stagger Deprecation Resetter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13041,7 +13041,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4591788351118785080, guid: 358d04df8c66014449ccc16139e880b8, type: 3}
       propertyPath: m_Name
-      value: Stagger Point Decay Tester_1
+      value: Stagger Deprecation Start
       objectReference: {fileID: 0}
     - target: {fileID: 4593801583465223556, guid: 358d04df8c66014449ccc16139e880b8, type: 3}
       propertyPath: m_SceneBindings.Array.size

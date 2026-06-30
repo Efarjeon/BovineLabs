@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6239236920729950409}
   - component: {fileID: 3751320469793590257}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
