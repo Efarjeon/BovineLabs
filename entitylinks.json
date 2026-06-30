@@ -1,0 +1,83 @@
+{
+  "result": {
+    "schemas": [
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Movement Body Link.asset",
+        "guid": "c868fab23b9ed69fcafbf52732dcf4cf",
+        "id": 1,
+        "idUsable": true,
+        "name": "Movement Body Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Input Consumer Link.asset",
+        "guid": "a31b484df79a0368a9134adf3d1c5af9",
+        "id": 2,
+        "idUsable": true,
+        "name": "Input Consumer Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Root Link.asset",
+        "guid": "c0c683033c37a137fae122e6ee8300c9",
+        "id": 3,
+        "idUsable": true,
+        "name": "Root Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Left Sword Link.asset",
+        "guid": "a83fe61ae6391c5d19028cc5f30e8892",
+        "id": 4,
+        "idUsable": true,
+        "name": "Left Sword Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Inventory Link.asset",
+        "guid": "96bb4bf9a72b79107b9a3364ad113187",
+        "id": 5,
+        "idUsable": true,
+        "name": "Inventory Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Hitbox Shape Link.asset",
+        "guid": "fdc917c702d570b128ea4dd26d8b6667",
+        "id": 6,
+        "idUsable": true,
+        "name": "Hitbox Shape Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Hurtbox Shape Link.asset",
+        "guid": "641cab2303fadabb1ae2a42f48de41f5",
+        "id": 7,
+        "idUsable": true,
+        "name": "Hurtbox Shape Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Essence Link.asset",
+        "guid": "107f0f9aa8c3327da9d3b31dc6c772b8",
+        "id": 8,
+        "idUsable": true,
+        "name": "Essence Link"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Rig Link.asset",
+        "guid": "73894a8c0db0ec65d8f0111f200c61f1",
+        "id": 9,
+        "idUsable": true,
+        "name": "Rig Link"
+      },
+      {
+        "assetPath": "Assets/DemoConsumerLink.asset",
+        "guid": "f26ef3260a817393fbfd7d2d8d5634c1",
+        "id": 10,
+        "idUsable": true,
+        "name": "DemoConsumerLink"
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/EntityLinks/Parry Link.asset",
+        "guid": "e1f8d620c4617464dbd3a1344ff0b21b",
+        "id": 17,
+        "idUsable": true,
+        "name": "Parry Link"
+      }
+    ]
+  }
+}

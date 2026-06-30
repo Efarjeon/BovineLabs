@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.IntrinsicSchemaObject
   isGlobal: 0
   key:
-    Value: 81
-  defaultValue: 0
+    Value: 89
+  defaultValue: 1
   range: {x: 0, y: 1}
   minStat: {fileID: 0}
   maxStat: {fileID: 0}

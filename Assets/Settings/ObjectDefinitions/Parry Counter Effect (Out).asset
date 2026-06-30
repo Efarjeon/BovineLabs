@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: On Dash Chance to Explode
+  m_Name: Parry Counter Effect (Out)
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 14
+  id: 43
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 6069311313521816522, guid: 8d6a09396b99a4f40a41ea5029662fc8, type: 3}
+  prefab: {fileID: 5366294505734718189, guid: f61560d7b36471547b54750e5e54c3bb, type: 3}

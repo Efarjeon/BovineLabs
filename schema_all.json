@@ -1,0 +1,3972 @@
+{
+  "result": {
+    "events": [
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/GetupAfterJuggleState.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 174,
+        "name": "GetupAfterJuggleState",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnArmorHit.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 7,
+        "name": "OnArmorHit",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnArmorStackConsumed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 108,
+        "name": "OnArmorStackConsumed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnArmorStackGained.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 127,
+        "name": "OnArmorStackGained",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnAugmentBanished.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 85,
+        "name": "OnAugmentBanished",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnAugmentChanceControlled.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 77,
+        "name": "OnAugmentChanceControlled",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnAugmentCorrupted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 1,
+        "name": "OnAugmentCorrupted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnAugmentForged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 6,
+        "name": "OnAugmentForged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnAugmentFused.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 47,
+        "name": "OnAugmentFused",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBarrelDestroyed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 30,
+        "name": "OnBarrelDestroyed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBaseDayPassed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 67,
+        "name": "OnBaseDayPassed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBillionSlashTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 133,
+        "name": "OnBillionSlashTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBiomeCleared.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 116,
+        "name": "OnBiomeCleared",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBiomeEntered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 118,
+        "name": "OnBiomeEntered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBlazeExplosion.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 124,
+        "name": "OnBlazeExplosion",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBossPhaseChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 137,
+        "name": "OnBossPhaseChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBreakawayTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 52,
+        "name": "OnBreakawayTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBuildingConstructed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 89,
+        "name": "OnBuildingConstructed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnBuildingUpgraded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 88,
+        "name": "OnBuildingUpgraded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnChainLightningBounce.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 33,
+        "name": "OnChainLightningBounce",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnChargeAttackInitiated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 130,
+        "name": "OnChargeAttackInitiated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnChargeAttackReleased.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 142,
+        "name": "OnChargeAttackReleased",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnChestOpened.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 131,
+        "name": "OnChestOpened",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnClimaxReached.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 65,
+        "name": "OnClimaxReached",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCloneAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 106,
+        "name": "OnCloneAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCloneExpired.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 17,
+        "name": "OnCloneExpired",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCloneSpawned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 35,
+        "name": "OnCloneSpawned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCombatStateChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 56,
+        "name": "OnCombatStateChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnComboBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 2,
+        "name": "OnComboBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnComboIncrement.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 23,
+        "name": "OnComboIncrement",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnComboPointGained.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 111,
+        "name": "OnComboPointGained",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionCollapse.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 50,
+        "name": "OnCompanionCollapse",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionDispatched.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 63,
+        "name": "OnCompanionDispatched",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionFatigueChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 11,
+        "name": "OnCompanionFatigueChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionFriendshipChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 38,
+        "name": "OnCompanionFriendshipChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionHealed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 96,
+        "name": "OnCompanionHealed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionMoraleChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 120,
+        "name": "OnCompanionMoraleChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionPassiveTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 132,
+        "name": "OnCompanionPassiveTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionReturned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 148,
+        "name": "OnCompanionReturned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionSummoned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 37,
+        "name": "OnCompanionSummoned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionTraitAdded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 102,
+        "name": "OnCompanionTraitAdded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCompanionTraitRemoved.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 93,
+        "name": "OnCompanionTraitRemoved",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCounterStrikeAvailable.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 128,
+        "name": "OnCounterStrikeAvailable",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnCriticalHit.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 145,
+        "name": "OnCriticalHit",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDamageTaken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 45,
+        "name": "OnDamageTaken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDashCompleted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 39,
+        "name": "OnDashCompleted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDashInitiated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 162,
+        "name": "OnDashInitiated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDashStart.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 26,
+        "name": "OnDashStart",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDashThroughTornado.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 32,
+        "name": "OnDashThroughTornado",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDebuffApplied.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 129,
+        "name": "OnDebuffApplied",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDebuffExpired.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 110,
+        "name": "OnDebuffExpired",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDestructibleWallBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 51,
+        "name": "OnDestructibleWallBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDialogueChoiceSelected.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 34,
+        "name": "OnDialogueChoiceSelected",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDodgePerfect.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 27,
+        "name": "OnDodgePerfect",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnDoomTimerThresholdReached.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 9,
+        "name": "OnDoomTimerThresholdReached",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEarthClimaxLevelTwo.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 12,
+        "name": "OnEarthClimaxLevelTwo",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnElementStackApplied.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 18,
+        "name": "OnElementStackApplied",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnElixirCrafted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 90,
+        "name": "OnElixirCrafted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyAdvanceStopped.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 70,
+        "name": "OnEnemyAdvanceStopped",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyBarrierDeployed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 123,
+        "name": "OnEnemyBarrierDeployed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyBerserkEntered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 136,
+        "name": "OnEnemyBerserkEntered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyDeath.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 21,
+        "name": "OnEnemyDeath",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyHealthLow.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 41,
+        "name": "OnEnemyHealthLow",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyNimbleRoll.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 141,
+        "name": "OnEnemyNimbleRoll",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyOTG.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 143,
+        "name": "OnEnemyOTG",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemySpawn.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 43,
+        "name": "OnEnemySpawn",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyStunned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 98,
+        "name": "OnEnemyStunned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnemyTeleport.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 112,
+        "name": "OnEnemyTeleport",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnEnvironmentalPuzzleSolved.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 22,
+        "name": "OnEnvironmentalPuzzleSolved",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnExecutionPrompt.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 53,
+        "name": "OnExecutionPrompt",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnExecutionTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 46,
+        "name": "OnExecutionTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnFatalBlowIntercepted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 10,
+        "name": "OnFatalBlowIntercepted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnFireEndTick.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 134,
+        "name": "OnFireEndTick",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnFireTick.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 149,
+        "name": "OnFireTick",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnFlawlessRoomClear.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 66,
+        "name": "OnFlawlessRoomClear",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGadgetUpgraded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 71,
+        "name": "OnGadgetUpgraded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGasCloudSpawned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 97,
+        "name": "OnGasCloudSpawned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGearCrafted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 75,
+        "name": "OnGearCrafted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGearUpgraded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 76,
+        "name": "OnGearUpgraded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGeneratedPowerTick.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 109,
+        "name": "OnGeneratedPowerTick",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGrabCompleted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 94,
+        "name": "OnGrabCompleted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnGrabInitiated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 100,
+        "name": "OnGrabInitiated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHazardTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 55,
+        "name": "OnHazardTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHealingGenerated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 84,
+        "name": "OnHealingGenerated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHealReceived.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 58,
+        "name": "OnHealReceived",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHeavyAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 62,
+        "name": "OnHeavyAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHit.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 153,
+        "name": "OnHit",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitDampenJuggle.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 169,
+        "name": "OnHitDampenJuggle",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitDestroy.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 160,
+        "name": "OnHitDestroy",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitForeverJuggle.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 167,
+        "name": "OnHitForeverJuggle",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitReactionAnimation1.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 165,
+        "name": "OnHitReactionAnimation1",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitSimpleJuggle.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 166,
+        "name": "OnHitSimpleJuggle",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitStaggerFadeTimerStart.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 171,
+        "name": "OnHitStaggerFadeTimerStart",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHitStaggerTimerReset.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 172,
+        "name": "OnHitStaggerTimerReset",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHookAttached.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 49,
+        "name": "OnHookAttached",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnHookLaunched.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 60,
+        "name": "OnHookLaunched",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnImpaleBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 107,
+        "name": "OnImpaleBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnImpaleSpawned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 113,
+        "name": "OnImpaleSpawned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInfluenceShifted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 19,
+        "name": "OnInfluenceShifted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputDash.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 150,
+        "name": "OnInputDash",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputHeavyAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 164,
+        "name": "OnInputHeavyAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputMove.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 25,
+        "name": "OnInputMove",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputMoveEnd.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 159,
+        "name": "OnInputMoveEnd",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputMoveStart.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 158,
+        "name": "OnInputMoveStart",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputPrimary.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 175,
+        "name": "OnInputPrimary",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputQuickAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 159,
+        "name": "OnInputQuickAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputSecondary.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 163,
+        "name": "OnInputSecondary",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputTrigger.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 154,
+        "name": "OnInputTrigger",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnInputUnleash.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 156,
+        "name": "OnInputUnleash",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnIntelGathered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 86,
+        "name": "OnIntelGathered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnItemChargesChanged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 91,
+        "name": "OnItemChargesChanged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnItemUsed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 146,
+        "name": "OnItemUsed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnJuggleInitiated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 144,
+        "name": "OnJuggleInitiated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnKnockdownStandup.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 168,
+        "name": "OnKnockdownStandup",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLegionFrozen.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 83,
+        "name": "OnLegionFrozen",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLightAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 4,
+        "name": "OnLightAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLightTetherBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 147,
+        "name": "OnLightTetherBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLightTetherCreated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 103,
+        "name": "OnLightTetherCreated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLootCollected.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 72,
+        "name": "OnLootCollected",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnLoreDiscovered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 64,
+        "name": "OnLoreDiscovered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMarkApplied.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 135,
+        "name": "OnMarkApplied",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMarkConsumed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 114,
+        "name": "OnMarkConsumed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMaterialRefined.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 79,
+        "name": "OnMaterialRefined",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMediumAttack.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 121,
+        "name": "OnMediumAttack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMemoryConsolidated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 80,
+        "name": "OnMemoryConsolidated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnMemoryConverted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 138,
+        "name": "OnMemoryConverted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnNimbleRecovery.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 42,
+        "name": "OnNimbleRecovery",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnNodeConquered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 5,
+        "name": "OnNodeConquered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnNodeRewardRevealed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 74,
+        "name": "OnNodeRewardRevealed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnOverchargeSacrificed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 31,
+        "name": "OnOverchargeSacrificed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnOverkillTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 20,
+        "name": "OnOverkillTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnPardehUpTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 81,
+        "name": "OnPardehUpTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnParryTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 54,
+        "name": "OnParryTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnPerfectParry.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 40,
+        "name": "OnPerfectParry",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnPlatformUnlocked.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 87,
+        "name": "OnPlatformUnlocked",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnPlayerLevelUp.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 69,
+        "name": "OnPlayerLevelUp",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnPowerAllocated.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 68,
+        "name": "OnPowerAllocated",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnProvisionalHealthConsumed.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 119,
+        "name": "OnProvisionalHealthConsumed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnProvisionalHealthGained.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 104,
+        "name": "OnProvisionalHealthGained",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRageModeEntered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 101,
+        "name": "OnRageModeEntered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRageModeExited.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 105,
+        "name": "OnRageModeExited",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRitualSabotaged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 78,
+        "name": "OnRitualSabotaged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRoomRewardRerolled.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 61,
+        "name": "OnRoomRewardRerolled",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRunEnded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 57,
+        "name": "OnRunEnded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRuneShrineInteracted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 82,
+        "name": "OnRuneShrineInteracted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnRunStarted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 44,
+        "name": "OnRunStarted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShatter.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 28,
+        "name": "OnShatter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShieldBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 139,
+        "name": "OnShieldBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShieldDamaged.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 92,
+        "name": "OnShieldDamaged",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShieldDecayTick.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 95,
+        "name": "OnShieldDecayTick",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShopPurchase.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 73,
+        "name": "OnShopPurchase",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnShrineInteracted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 29,
+        "name": "OnShrineInteracted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnSlowMotionTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 126,
+        "name": "OnSlowMotionTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnSoulHarvested.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 99,
+        "name": "OnSoulHarvested",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnSpatialEnter.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 152,
+        "name": "OnSpatialEnter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnSpatialExit.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 151,
+        "name": "OnSpatialExit",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnStaggerApplied.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 3,
+        "name": "OnStaggerApplied",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnStaggerBroken.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 48,
+        "name": "OnStaggerBroken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnSynergyTriggered.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 24,
+        "name": "OnSynergyTriggered",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTalentUnlocked.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 125,
+        "name": "OnTalentUnlocked",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTalentUpgraded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 122,
+        "name": "OnTalentUpgraded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTargetAcquired.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 13,
+        "name": "OnTargetAcquired",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTargetFrozen.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 140,
+        "name": "OnTargetFrozen",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTargetRooted.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 117,
+        "name": "OnTargetRooted",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTeleportToWeapon.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 14,
+        "name": "OnTeleportToWeapon",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTornadoExpired.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 16,
+        "name": "OnTornadoExpired",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTornadoSpawned.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 15,
+        "name": "OnTornadoSpawned",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTraitDeveloped.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 36,
+        "name": "OnTraitDeveloped",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnTrapUpgraded.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 115,
+        "name": "OnTrapUpgraded",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnWallSplat.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 59,
+        "name": "OnWallSplat",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/OnWeaponThrown.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 8,
+        "name": "OnWeaponThrown",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/Shafin Event Prac.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 155,
+        "name": "Shafin Event Prac",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/Spawner Pulse.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 161,
+        "name": "Spawner Pulse",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/Stagger Point Decay Start.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 158,
+        "name": "Stagger Point Decay Start",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/StaggerDecayStart.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 170,
+        "name": "StaggerDecayStart",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/StaggerFadeResetter.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 173,
+        "name": "StaggerFadeResetter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Events/StaggerRecoveryStart.asset",
+        "conditionType": "event",
+        "customDataType": null,
+        "isEvent": true,
+        "isGlobal": false,
+        "key": 157,
+        "name": "StaggerRecoveryStart",
+        "registered": true
+      }
+    ],
+    "intrinsics": [
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/[Time] Stagger Falloff.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 75,
+        "max": 5,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "[Time] Stagger Falloff",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ActiveClones.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 60,
+        "max": 1000,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "ActiveClones",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ArmorStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 18,
+        "max": 100,
+        "maxStat": "MaxArmorStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "ArmorStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BaseTime.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 45,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "BaseTime",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BladeTempest.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 5,
+        "max": 5,
+        "maxStat": "MaxBladeTempest",
+        "min": 0,
+        "minStat": null,
+        "name": "BladeTempest",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BlazeStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 10,
+        "max": 5,
+        "maxStat": "MaxBlazeStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "BlazeStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BleedStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 66,
+        "max": 99,
+        "maxStat": "MaxBleedStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "BleedStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BloodParticleCount.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 202,
+        "max": 100,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "BloodParticleCount",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/BossPhase.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 49,
+        "max": 10,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "BossPhase",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Can Attack.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 83,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Can Attack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Can Dash.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 49,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Can Dash",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Can Run.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 83,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Can Run",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ChargeTime.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 201,
+        "max": 1000,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "ChargeTime",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CheckpointsPassed.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 46,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "CheckpointsPassed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ChillStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 11,
+        "max": 5,
+        "maxStat": "MaxChillStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "ChillStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ComboPoints.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 6,
+        "max": 100,
+        "maxStat": "MaxComboPoints",
+        "min": 0,
+        "minStat": null,
+        "name": "ComboPoints",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CompanionCurrentHp.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 100,
+        "isGlobal": false,
+        "key": 53,
+        "max": 999999,
+        "maxStat": "CompanionMaxHp",
+        "min": 0,
+        "minStat": null,
+        "name": "CompanionCurrentHp",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CompanionFatigue.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 19,
+        "max": 100,
+        "maxStat": "MaxFatigue",
+        "min": 0,
+        "minStat": null,
+        "name": "CompanionFatigue",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CompanionFriendship.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 20,
+        "max": 3,
+        "maxStat": null,
+        "min": -3,
+        "minStat": null,
+        "name": "CompanionFriendship",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CompanionMorale.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 50,
+        "isGlobal": false,
+        "key": 21,
+        "max": 100,
+        "maxStat": "MaxCompanionMorale",
+        "min": 0,
+        "minStat": null,
+        "name": "CompanionMorale",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CompanionTraumas.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 68,
+        "max": 99,
+        "maxStat": "MaxInjuries",
+        "min": 0,
+        "minStat": null,
+        "name": "CompanionTraumas",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ConsecutiveMissionsSurvived.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 70,
+        "max": 9999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "ConsecutiveMissionsSurvived",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CurrentAugmentCount.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 48,
+        "max": 20,
+        "maxStat": "MaxAugmentCapacity",
+        "min": 0,
+        "minStat": null,
+        "name": "CurrentAugmentCount",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CurrentHealth.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 100,
+        "isGlobal": false,
+        "key": 200,
+        "max": 9999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "CurrentHealth",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/CurrentShield.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 4,
+        "max": 999999,
+        "maxStat": "MaxShield",
+        "min": 0,
+        "minStat": null,
+        "name": "CurrentShield",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/DamageTaken.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 203,
+        "max": 9999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "DamageTaken",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Dash Counter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 2,
+        "max": 9000,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Dash Counter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/DashCharges.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 9,
+        "max": 10,
+        "maxStat": "MaxDashCharges",
+        "min": 0,
+        "minStat": null,
+        "name": "DashCharges",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/DeityFavor.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 56,
+        "max": 100,
+        "maxStat": "MaxDeityFavor",
+        "min": 0,
+        "minStat": null,
+        "name": "DeityFavor",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/DoomTimer.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 47,
+        "max": 9999,
+        "maxStat": "DoomThreshold",
+        "min": 0,
+        "minStat": null,
+        "name": "DoomTimer",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Dreamshards.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 22,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Dreamshards",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/DriveGauge.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 62,
+        "max": 9999,
+        "maxStat": "MaxDrive",
+        "min": 0,
+        "minStat": null,
+        "name": "DriveGauge",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Elixirs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 64,
+        "max": 99,
+        "maxStat": "MaxElixirs",
+        "min": 0,
+        "minStat": null,
+        "name": "Elixirs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/EnemyCurrentHp.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 100,
+        "isGlobal": false,
+        "key": 54,
+        "max": 999999,
+        "maxStat": "EnemyMaxHp",
+        "min": 0,
+        "minStat": null,
+        "name": "EnemyCurrentHp",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/EnemyResilienceMeter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 100,
+        "isGlobal": false,
+        "key": 55,
+        "max": 100,
+        "maxStat": "MaxEnemyResilience",
+        "min": 0,
+        "minStat": null,
+        "name": "EnemyResilienceMeter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/EnhanceOrbs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 39,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "EnhanceOrbs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ExchangeOrbs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 40,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "ExchangeOrbs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ExecuteCharges.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 3,
+        "isGlobal": false,
+        "key": 59,
+        "max": 99,
+        "maxStat": "MaxExecutes",
+        "min": 0,
+        "minStat": null,
+        "name": "ExecuteCharges",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/FireTic.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 1,
+        "max": 2147483647,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "FireTic",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Fuel.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 63,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Fuel",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Gems.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 25,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Gems",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/GeneratedPower.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 44,
+        "max": 999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "GeneratedPower",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/GoldenOrbs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 38,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "GoldenOrbs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/GustStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 13,
+        "max": 5,
+        "maxStat": "MaxGustStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "GustStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/HealingPoolLiquid.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 43,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "HealingPoolLiquid",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Husks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 29,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Husks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ImpaleClimaxStored.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 51,
+        "max": 3,
+        "maxStat": "MaxImpaleClimaxStored",
+        "min": 0,
+        "minStat": null,
+        "name": "ImpaleClimaxStored",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/InfluenceImmrit.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 72,
+        "max": 100,
+        "maxStat": "MaxInfluence",
+        "min": 0,
+        "minStat": null,
+        "name": "InfluenceImmrit",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/InfluenceNyx.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 71,
+        "max": 100,
+        "maxStat": "MaxInfluence",
+        "min": 0,
+        "minStat": null,
+        "name": "InfluenceNyx",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Intel.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 30,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Intel",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Attacking.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 88,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Attacking",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Dashing.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 81,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Dashing",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Getting Up.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 88,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Getting Up",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Immune To Stagger.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 78,
+        "max": 0,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Immune To Stagger",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is In Hit Reaction.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 87,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is In Hit Reaction",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is In Mid Air Juggle.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 86,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is In Mid Air Juggle",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Juggled.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 85,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Juggled",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Running.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 79,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Running",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Is Stagger Deprecating.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 77,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Is Stagger Deprecating",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ItemCharges.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 61,
+        "max": 99,
+        "maxStat": "MaxItemCapacity",
+        "min": 0,
+        "minStat": null,
+        "name": "ItemCharges",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/L Counter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 80,
+        "max": 4,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "L Counter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/LitStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 17,
+        "max": 100,
+        "maxStat": "MaxLitStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "LitStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/MarkStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 52,
+        "max": 99,
+        "maxStat": "MaxMarkStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "MarkStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Memories.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 32,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Memories",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Metals.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 27,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Metals",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Momentum.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 7,
+        "max": 100,
+        "maxStat": "MaxMomentum",
+        "min": 0,
+        "minStat": null,
+        "name": "Momentum",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Parry Counter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 84,
+        "max": 1,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Parry Counter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ParryCharges.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 3,
+        "isGlobal": false,
+        "key": 58,
+        "max": 99,
+        "maxStat": "MaxParries",
+        "min": 0,
+        "minStat": null,
+        "name": "ParryCharges",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/PlagueXP.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 69,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "PlagueXP",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Potions.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 65,
+        "max": 99,
+        "maxStat": "MaxPotions",
+        "min": 0,
+        "minStat": null,
+        "name": "Potions",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/PowerCores.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 37,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "PowerCores",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/PowerShards.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 24,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "PowerShards",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ProvisionalHealth.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 3,
+        "max": 999999,
+        "maxStat": "Max Health",
+        "min": 0,
+        "minStat": null,
+        "name": "ProvisionalHealth",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/R Counter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 1,
+        "isGlobal": false,
+        "key": 82,
+        "max": 3,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "R Counter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/RecentDamagePool.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 50,
+        "max": 99999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "RecentDamagePool",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/RefinedMineralBars.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 34,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "RefinedMineralBars",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/RerollOrbs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 36,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "RerollOrbs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ResolveStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 14,
+        "max": 10,
+        "maxStat": "MaxResolveStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "ResolveStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/RetributionStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 12,
+        "max": 5,
+        "maxStat": "MaxRetributionStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "RetributionStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Salvage.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 23,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Salvage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ScorchedStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 67,
+        "max": 99,
+        "maxStat": "MaxScorchedStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "ScorchedStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Scrolls.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 31,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Scrolls",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/ShadeStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 15,
+        "max": 5,
+        "maxStat": "MaxShadeStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "ShadeStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/SkillPoints.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 42,
+        "max": 999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "SkillPoints",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Soulbark.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 28,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Soulbark",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/SoulInfusedGems.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 33,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "SoulInfusedGems",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/SoulOrbs.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 35,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "SoulOrbs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/SpatialStayFrame.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 4,
+        "isGlobal": false,
+        "key": 74,
+        "max": 2147483647,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "SpatialStayFrame",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Stagger Points.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 76,
+        "max": 100,
+        "maxStat": "Stagger Points Max",
+        "min": 0,
+        "minStat": null,
+        "name": "Stagger Points",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/StaggerAmount.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 204,
+        "max": 9999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "StaggerAmount",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/StaggerMeter.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 8,
+        "max": 999999,
+        "maxStat": "EnemyMaxStagger",
+        "min": 0,
+        "minStat": null,
+        "name": "StaggerMeter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/Stones.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 26,
+        "max": 999999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "Stones",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/StyleScore.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 73,
+        "max": 100,
+        "maxStat": "MaxStyleScore",
+        "min": 0,
+        "minStat": null,
+        "name": "StyleScore",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/SunderStacks.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 16,
+        "max": 100,
+        "maxStat": "MaxSunderStacks",
+        "min": 0,
+        "minStat": null,
+        "name": "SunderStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/TalentPoints.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 0,
+        "isGlobal": false,
+        "key": 41,
+        "max": 999,
+        "maxStat": null,
+        "min": 0,
+        "minStat": null,
+        "name": "TalentPoints",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Intrinsics/WeaponThrowCharges.asset",
+        "conditionType": "intrinsic",
+        "defaultValue": 4,
+        "isGlobal": false,
+        "key": 57,
+        "max": 99,
+        "maxStat": "MaxWeaponThrows",
+        "min": 0,
+        "minStat": null,
+        "name": "WeaponThrowCharges",
+        "registered": true
+      }
+    ],
+    "stats": [
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Animation Speed.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 118,
+        "name": "Animation Speed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AntiBarrierDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 101,
+        "name": "AntiBarrierDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AntiDashDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 100,
+        "name": "AntiDashDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AntiHealDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 99,
+        "name": "AntiHealDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AoESize.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 88,
+        "name": "AoESize",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ArmorPenetration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 54,
+        "name": "ArmorPenetration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AttackPower.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 112,
+        "name": "AttackPower",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/AttackSpeed.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 8,
+        "name": "AttackSpeed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/BaseWorkPerformance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 22,
+        "name": "BaseWorkPerformance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/BindingDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 102,
+        "name": "BindingDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/BuffDurationMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 43,
+        "name": "BuffDurationMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/BurnChance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 45,
+        "name": "BurnChance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ChannelTime.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 92,
+        "name": "ChannelTime",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ChargeDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 111,
+        "name": "ChargeDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CleaveFreezeFrameCount.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 96,
+        "name": "CleaveFreezeFrameCount",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CloneDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 89,
+        "name": "CloneDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CollisionDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 109,
+        "name": "CollisionDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ComboCounter.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 106,
+        "name": "ComboCounter",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ComboDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 59,
+        "name": "ComboDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CompanionAggression.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 25,
+        "name": "CompanionAggression",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CompanionMaxHp.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 32,
+        "name": "CompanionMaxHp",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CooldownReduction.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 18,
+        "name": "CooldownReduction",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CriticalChance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 6,
+        "name": "CriticalChance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/CriticalDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 7,
+        "name": "CriticalDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 114,
+        "name": "DamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DamageReflection.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 52,
+        "name": "DamageReflection",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DamageTakenMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 51,
+        "name": "DamageTakenMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DashDistance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 17,
+        "name": "DashDistance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DebuffDurationMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 44,
+        "name": "DebuffDurationMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DisplacementAmplifier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 95,
+        "name": "DisplacementAmplifier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DoomThreshold.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 35,
+        "name": "DoomThreshold",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/DoTDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 42,
+        "name": "DoTDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/EarthDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 39,
+        "name": "EarthDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ElementalDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 5,
+        "name": "ElementalDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/EnemyMaxHp.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 33,
+        "name": "EnemyMaxHp",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/EnemyMaxStagger.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 34,
+        "name": "EnemyMaxStagger",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ExecutionDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 58,
+        "name": "ExecutionDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ExperienceMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 55,
+        "name": "ExperienceMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FatigueRate.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 23,
+        "name": "FatigueRate",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FatigueRecoveryRate.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 24,
+        "name": "FatigueRecoveryRate",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FireDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 36,
+        "name": "FireDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FireTicDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 12,
+        "name": "FireTicDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FireTicPerStack.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 3,
+        "name": "FireTicPerStack",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FreezeChance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 46,
+        "name": "FreezeChance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Frost Stacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 115,
+        "name": "Frost Stacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FrostDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 37,
+        "name": "FrostDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/FuryDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 103,
+        "name": "FuryDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/HealingReceivedMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 50,
+        "name": "HealingReceivedMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/HitboxSize.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 9,
+        "name": "HitboxSize",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/IFramesMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 93,
+        "name": "IFramesMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/InjuryDevelopmentRate.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 27,
+        "name": "InjuryDevelopmentRate",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/JuggleFloat.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 110,
+        "name": "JuggleFloat",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/KnockbackMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 11,
+        "name": "KnockbackMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Lifesteal.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 49,
+        "name": "Lifesteal",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/LightDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 40,
+        "name": "LightDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/LMBStackClimax.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 104,
+        "name": "LMBStackClimax",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/LootDropMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 56,
+        "name": "LootDropMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Luck.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 57,
+        "name": "Luck",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Max Health.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 1,
+        "name": "Max Health",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxArmorStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 30,
+        "name": "MaxArmorStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxAugmentCapacity.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 20,
+        "name": "MaxAugmentCapacity",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxBladeTempest.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 19,
+        "name": "MaxBladeTempest",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxBlazeStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 73,
+        "name": "MaxBlazeStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxBleedStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 65,
+        "name": "MaxBleedStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxChillStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 74,
+        "name": "MaxChillStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxClones.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 72,
+        "name": "MaxClones",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxComboPoints.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 29,
+        "name": "MaxComboPoints",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxCompanionMorale.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 82,
+        "name": "MaxCompanionMorale",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxDashCharges.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 70,
+        "name": "MaxDashCharges",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxDeityFavor.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 85,
+        "name": "MaxDeityFavor",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxDrive.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 64,
+        "name": "MaxDrive",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxElixirs.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 86,
+        "name": "MaxElixirs",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxEnemyResilience.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 83,
+        "name": "MaxEnemyResilience",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxExecutes.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 63,
+        "name": "MaxExecutes",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxFatigue.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 31,
+        "name": "MaxFatigue",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxGustStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 75,
+        "name": "MaxGustStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxImpaleClimaxStored.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 81,
+        "name": "MaxImpaleClimaxStored",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxInfluence.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 84,
+        "name": "MaxInfluence",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxInjuries.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 67,
+        "name": "MaxInjuries",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxItemCapacity.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 21,
+        "name": "MaxItemCapacity",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxLitStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 68,
+        "name": "MaxLitStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxMarkStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 80,
+        "name": "MaxMarkStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxMomentum.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 71,
+        "name": "MaxMomentum",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxParries.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 62,
+        "name": "MaxParries",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxPotions.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 87,
+        "name": "MaxPotions",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxResolveStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 77,
+        "name": "MaxResolveStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxRetributionStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 76,
+        "name": "MaxRetributionStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxScorchedStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 66,
+        "name": "MaxScorchedStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxShadeStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 78,
+        "name": "MaxShadeStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxShield.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 28,
+        "name": "MaxShield",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxStaggerResistance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 15,
+        "name": "MaxStaggerResistance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxStyleScore.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 69,
+        "name": "MaxStyleScore",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxSunderStacks.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 79,
+        "name": "MaxSunderStacks",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MaxWeaponThrows.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 61,
+        "name": "MaxWeaponThrows",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/MovementSpeedMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 113,
+        "name": "MovementSpeedMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ParryDuration.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 91,
+        "name": "ParryDuration",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ProjectileSpeed.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 90,
+        "name": "ProjectileSpeed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Resilience.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 14,
+        "name": "Resilience",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ResourceOutputMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 26,
+        "name": "ResourceOutputMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/RMBStackClimax.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 105,
+        "name": "RMBStackClimax",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Root.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 97,
+        "name": "Root",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ShadowDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 41,
+        "name": "ShadowDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ShatterMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 107,
+        "name": "ShatterMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ShieldDecayRate.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 53,
+        "name": "ShieldDecayRate",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/SlowMo.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 94,
+        "name": "SlowMo",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Speed.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 2,
+        "name": "Speed",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Stagger Points Max.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 117,
+        "name": "Stagger Points Max",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Stagger Recovery Max.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 116,
+        "name": "Stagger Recovery Max",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/StaggerChance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 48,
+        "name": "StaggerChance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/StaggerDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 10,
+        "name": "StaggerDamageMultiplier",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/StaggerRegenerationRate.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 60,
+        "name": "StaggerRegenerationRate",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/StatusChance.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 47,
+        "name": "StatusChance",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Stun.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 98,
+        "name": "Stun",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/ThornsArmor.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 16,
+        "name": "ThornsArmor",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/TrapDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 108,
+        "name": "TrapDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/Vitality.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 13,
+        "name": "Vitality",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/WeaponDamage.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 4,
+        "name": "WeaponDamage",
+        "registered": true
+      },
+      {
+        "assetPath": "Assets/Settings/Schemas/Stats/WindDamageMultiplier.asset",
+        "conditionType": "stat",
+        "isGlobal": false,
+        "key": 38,
+        "name": "WindDamageMultiplier",
+        "registered": true
+      }
+    ]
+  }
+}

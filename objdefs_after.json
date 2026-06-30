@@ -1,0 +1,395 @@
+{
+  "result": {
+    "definitions": [
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/2x Dash Explosion.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "2x Dash Explosion",
+        "id": 13,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/2x Dash Explosion.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Attack Force Simulator (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Attack Force Simulator (Effect)",
+        "id": 28,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Attack Simulator (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode Hitbox Knockback on Demand.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode Hitbox Knockback on Demand",
+        "id": 11,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode Knockback Hitbox on Demand.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode Hitbox Knockback.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode Hitbox Knockback",
+        "id": 10,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode Knockback Hitbox.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode Hitbox.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode Hitbox",
+        "id": 8,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode Hitbox.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode Knockback on Demand.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode Knockback on Demand",
+        "id": 12,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode Knockback on Demand.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode Knockback.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode Knockback",
+        "id": 9,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode Knockback.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone Explode.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone Explode",
+        "id": 7,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone Explode.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Clone.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Clone",
+        "id": 6,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Clone.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Cube Damage TRA.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Cube Damage TRA",
+        "id": 5,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Cube Damage TRA.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Damage Simulator 20 (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Damage Simulator 20 (Effect)",
+        "id": 34,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Damage Simulator (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Damaging Dash (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Damaging Dash (Effect)",
+        "id": 15,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Damaging Dash (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Destroy Simulator (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Destroy Simulator (Effect)",
+        "id": 29,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Destroy Simulator (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Enemy with Essence Placeholder.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Enemy with Essence Placeholder",
+        "id": 36,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Enemy with Essence Placeholder.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Fireball.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Fireball",
+        "id": 4,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Fireball_Prefab.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Healing Orb Trigger (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Healing Orb Trigger (Effect)",
+        "id": 24,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Healing Orb Trigger (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Melee Basic Damage (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Melee Basic Damage (Actor)",
+        "id": 35,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Melee Basic Damage (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Parry Counter Effect (in).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Parry Counter Effect (in)",
+        "id": 44,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Parry Counter Effect (In).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Parry Counter Effect (Out).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Parry Counter Effect (Out)",
+        "id": 43,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Parry Counter Effect (Out).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Player After Image.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Player After Image",
+        "id": 3,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Arvex_RIG2.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Player Clone.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Player Clone",
+        "id": 37,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Player Clone.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Player.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Player",
+        "id": 2,
+        "idUsable": true,
+        "prefab": "Packages/com.bovinelabs.template/Prefab/Player/Player_XX.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Basic Damage (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Basic Damage (Actor)",
+        "id": 16,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Basic Damage (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Basic Damage (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Basic Damage (Effect)",
+        "id": 17,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Basic Damage (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Crit 50% (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Crit 50% (Actor)",
+        "id": 22,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile 50% Crit (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Crit 50% (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Crit 50% (Effect)",
+        "id": 23,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile 50% Crit (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Frost Stacks + Slow (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Frost Stacks + Slow (Actor)",
+        "id": 18,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Frost Stacks + Slow (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Frost Stacks + Slow (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Frost Stacks + Slow (Effect)",
+        "id": 19,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Frost Stacks + Slow (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Hit-Slow Animation (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Hit-Slow Animation (Actor)",
+        "id": 26,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Hit-Slow Animation (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Hit-Slow Animation (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Hit-Slow Animation (Effect)",
+        "id": 27,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Hit-Slow Animation (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Looping Juggle (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Looping Juggle (Actor)",
+        "id": 38,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Looping Juggle (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Resetting Juggle (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Resetting Juggle (Actor)",
+        "id": 39,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Resetting Juggle (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Stagger (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Stagger (Effect)",
+        "id": 21,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Stagger Damage (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Projectile Stagger + Damage (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Projectile Stagger + Damage (Actor)",
+        "id": 20,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Projectile Stagger Damage (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Quick Attack (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Quick Attack (Effect)",
+        "id": 25,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Quick Attack 1 (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Spawned Enemy 1.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Spawned Enemy 1",
+        "id": 30,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Spawned Enemy 1.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Spawned Enemy 2.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Spawned Enemy 2",
+        "id": 33,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Spawned Enemy 2.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Spawned Enemy 3.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Spawned Enemy 3",
+        "id": 31,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Spawned Enemy 3.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Spawned Enemy 4.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Spawned Enemy 4",
+        "id": 32,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Spawned Enemy 4.prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Stagger Fade Timer Reset (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Stagger Fade Timer Reset (Effect)",
+        "id": 42,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Hit Reactions, Stagger and Juggle/Stagger/Stagger Fade Timer Reset (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Staggering Hit (Actor).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Staggering Hit (Actor)",
+        "id": 40,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Staggering Hit (Actor).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/Staggering Hit (Effect).asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "Staggering Hit (Effect)",
+        "id": 41,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/Staggering Hit (Effect).prefab"
+      },
+      {
+        "assetPath": "Assets/Settings/ObjectDefinitions/TRA.asset",
+        "backLink": "OK",
+        "backLinkOk": true,
+        "friendlyName": "TRA",
+        "id": 1,
+        "idUsable": true,
+        "prefab": "Assets/Prefabs/TRA.prefab"
+      }
+    ],
+    "duplicateIds": [],
+    "zeroIdPaths": []
+  }
+}

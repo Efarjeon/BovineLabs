@@ -16,9 +16,9 @@ MonoBehaviour:
   key:
     Value: 200
   defaultValue: 100
-  range: {x: 0, y: 100}
+  range: {x: 0, y: 9999}
   minStat: {fileID: 0}
-  maxStat: {fileID: 11400000, guid: 8d4eb6003a4fef5b18d84bc4a801d67f, type: 2}
+  maxStat: {fileID: 0}
 --- !u!114 &11400001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,3 +31,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: CurrentHealth_Event
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Conditions.ConditionEventObject
+  isGlobal: 0
+  conditionType: 1
+  Event:
+    _trigger: {fileID: 0}
