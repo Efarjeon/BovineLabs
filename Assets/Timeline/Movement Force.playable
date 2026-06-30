@@ -248,9 +248,9 @@ MonoBehaviour:
   LocalSpace: 1
   CameraRelative: 1
   EventRouteTo: 4
-  EventRouteLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
-  OnAxisStart: {fileID: 11400000, guid: 06427d71bb3b44ee8f2f9d99e11aa8e0, type: 2}
-  OnAxisStop: {fileID: 11400000, guid: 85b00a1d07281e4499f27348059b8c09, type: 2}
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &-2440910364249716072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -528,9 +528,9 @@ MonoBehaviour:
   LocalSpace: 1
   CameraRelative: 1
   EventRouteTo: 4
-  EventRouteLink: {fileID: 11400000, guid: 107f0f9aa8c3327da9d3b31dc6c772b8, type: 2}
-  OnAxisStart: {fileID: 11400000, guid: 06427d71bb3b44ee8f2f9d99e11aa8e0, type: 2}
-  OnAxisStop: {fileID: 11400000, guid: 85b00a1d07281e4499f27348059b8c09, type: 2}
+  EventRouteLink: {fileID: 0}
+  OnAxisStart: {fileID: 0}
+  OnAxisStop: {fileID: 0}
 --- !u!114 &6082014058486930613
 MonoBehaviour:
   m_ObjectHideFlags: 1
