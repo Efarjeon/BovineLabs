@@ -1473,7 +1473,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 6879606518895790655, guid: 38e5d992f0e6515448b6da8da1923a4a, type: 2}
-    value: {fileID: 7679477254127085523}
+    value: {fileID: 7679477254127085524}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &687338781378424229
@@ -1679,6 +1679,7 @@ GameObject:
   - component: {fileID: 7679477254127085523}
   - component: {fileID: 745107537183188864}
   - component: {fileID: 2204513690716465854}
+  - component: {fileID: 7679477254127085524}
   m_Layer: 0
   m_Name: Input Consumer
   m_TagString: Untagged
@@ -1851,6 +1852,24 @@ MonoBehaviour:
   DirectionAction: {fileID: 0}
   DirectionDeadZone: 0.3
   DirectionFacing: 1
+--- !u!114 &7679477254127085524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4734911207409109388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 0}
+  Custom: {fileID: 0}
+  Initialize:
+    Target: 1
 --- !u!114 &7685704670644560006
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -944,6 +944,16 @@ PlayableDirector:
     value: {fileID: 1312315619}
   - key: {fileID: 3513136604258446665, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
     value: {fileID: 8467582525931659483}
+  - key: {fileID: -397467996028610908, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
+    value: {fileID: 8467582525931659483}
+  - key: {fileID: 1919463768473553397, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
+    value: {fileID: 8772386852448866190}
+  - key: {fileID: 2396168225850034254, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
+    value: {fileID: 8772386852448866190}
+  - key: {fileID: 1529983788488247993, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
+    value: {fileID: 8467582525931659483}
+  - key: {fileID: -2587512788387153713, guid: 51d20856c02df2549b8051eff05f0dfc, type: 2}
+    value: {fileID: 8467582525931659483}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &1312315614
@@ -1769,7 +1779,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 6879606518895790655, guid: 38e5d992f0e6515448b6da8da1923a4a, type: 2}
-    value: {fileID: 7679477254127085523}
+    value: {fileID: 7679477254127085524}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &2063583721
@@ -1795,6 +1805,8 @@ GameObject:
   - component: {fileID: 4972292315047049234}
   - component: {fileID: 8772386852448866190}
   - component: {fileID: 7685704670644560006}
+  - component: {fileID: 8772386852448866192}
+  - component: {fileID: 8772386852448866191}
   m_Layer: 0
   m_Name: Movement Physics
   m_TagString: Untagged
@@ -1974,6 +1986,7 @@ MonoBehaviour:
   Links:
   - {fileID: 1640363865208470794}
   - {fileID: 2204513690716465854}
+  - {fileID: 8772386852448866191}
   - {fileID: 2725607065655427045}
 --- !u!1 &4734911207409109388
 GameObject:
@@ -1987,6 +2000,7 @@ GameObject:
   - component: {fileID: 7679477254127085523}
   - component: {fileID: 745107537183188864}
   - component: {fileID: 2204513690716465854}
+  - component: {fileID: 7679477254127085524}
   m_Layer: 0
   m_Name: Input Consumer
   m_TagString: Untagged
@@ -2090,6 +2104,24 @@ MonoBehaviour:
   DirectionAction: {fileID: 0}
   DirectionDeadZone: 0.3
   DirectionFacing: 1
+--- !u!114 &7679477254127085524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4734911207409109388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
+  Owner: {fileID: 0}
+  Source: {fileID: 0}
+  Target: {fileID: 0}
+  Custom: {fileID: 0}
+  Initialize:
+    Target: 1
 --- !u!114 &7685704670644560006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +2465,33 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!114 &8772386852448866191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687338781378424229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efe9de47a2b428a9e9c878aafd123d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Timeline.EntityLinks.Authoring::BovineLabs.Timeline.EntityLinks.Authoring.EntityLinkSourceAuthoring
+  Root: {fileID: 3997087507703941344}
+  Schemas: []
+--- !u!114 &8772386852448866192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687338781378424229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
