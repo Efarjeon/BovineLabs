@@ -5878,11 +5878,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 90b4a8172faa4a740b50172f6bb68f64, type: 2}
     - target: {fileID: 5773388184847573864, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0023700744
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5773388184847573864, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.20066309
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5773388184847573864, guid: 6219f4f97c628bb489af81e0b636bf33, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12617,6 +12617,22 @@ PrefabInstance:
       propertyPath: Owner
       value: 
       objectReference: {fileID: 1085350698}
+    - target: {fileID: 7809654288427647142, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
+      propertyPath: Timelines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809654288427647142, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
+      propertyPath: Timelines.Array.data[1].Director
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809654288427647142, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
+      propertyPath: Timelines.Array.data[1].InitialTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809654288427647142, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
+      propertyPath: Timelines.Array.data[1].ResetWhenActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7862261388246575168, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
       propertyPath: m_Name
       value: Reaction
