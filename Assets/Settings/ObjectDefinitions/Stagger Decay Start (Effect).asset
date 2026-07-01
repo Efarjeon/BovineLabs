@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6030fde919e1488ea7e5855f39cf1cd3, type: 3}
-  m_Name: Projectile Stagger + Damage (Actor)
+  m_Name: Stagger Decay Start (Effect)
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.ObjectManagement.ObjectDefinition
-  id: 20
+  id: 14
   friendlyName: 
   description: 
   categories: 0
-  prefab: {fileID: 1545230650990898100, guid: 1914cfb290bd0c54c92695416ebc3a18, type: 3}
+  prefab: {fileID: 8895156547844247581, guid: e6545a32d72def04ea33b6b6fea97043, type: 3}
