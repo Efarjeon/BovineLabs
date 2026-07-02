@@ -256,6 +256,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: 'managedReferences[-2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Name
+      value: Enemy Spawn Tokens
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Operation
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 6585066423301057406, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Owner
       value: 
@@ -263,7 +303,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5757533519823971643, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1679263480}
   m_SourcePrefab: {fileID: 100100000, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
 --- !u!1 &963767316
 GameObject:
@@ -516,7 +559,9 @@ MonoBehaviour:
   StatDefaultGroups: []
   StatsCanBeModified: 1
   AddIntrinsics: 1
-  IntrinsicDefaults: []
+  IntrinsicDefaults:
+  - Intrinsic: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+    Value: 5
   IntrinsicDefaultGroups: []
   Initialize:
     CopyFrom: 3
@@ -854,11 +899,32 @@ MonoBehaviour:
         Tag07: 0
     m_SerializedVersion: 1
   m_SerializedVersion: 3
+--- !u!1 &1679263472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5757533519823971643, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+  m_PrefabInstance: {fileID: 815317163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1679263479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539991024744895396, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
   m_PrefabInstance: {fileID: 815317163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1679263480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679263472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
+  Intrinsics:
+  - Intrinsic: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+    Amount: -1
+    Target: 2
 --- !u!1 &1715107373
 GameObject:
   m_ObjectHideFlags: 0
