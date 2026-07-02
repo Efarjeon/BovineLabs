@@ -12368,10 +12368,86 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1901781719}
     m_Modifications:
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Name
+      value: Is Getting Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 90b4a8172faa4a740b50172f6bb68f64, type: 2}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Operation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 319975571158164713, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 512922271445799913, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
       propertyPath: Owner
       value: 
       objectReference: {fileID: 1901781715}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Name
+      value: Is Getting Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 90b4a8172faa4a740b50172f6bb68f64, type: 2}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Operation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786758925992674446, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 3897263484487173034, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
