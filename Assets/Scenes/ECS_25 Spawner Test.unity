@@ -277,18 +277,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
       value: Enemy Spawn Tokens
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Name
+      value: Spawn Randomizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Name
+      value: Spawn Randomizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Target
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Features
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -300,7 +328,31 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Operation
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Operation
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValue
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -309,6 +361,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMin
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6585066423301057406, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -789,7 +857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1341109963
 Transform:
   m_ObjectHideFlags: 0
@@ -819,9 +887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
   Active:
     trigger: 0
-    cooldown: 3
+    cooldown: 0
     cooldownAfterDuration: 0
-    duration: 3
+    duration: 0
     cancellable: 0
   Conditions:
     conditions:
@@ -842,7 +910,7 @@ MonoBehaviour:
       CustomValueMax:
         rid: -2
       Features: 1
-      DestroyIfTargetDestroyed: 0
+      DestroyIfTargetDestroyed: 1
       CancelActive: 0
     conditionLogic:
       expression: 
@@ -892,27 +960,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1341109962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
+  m_Script: {fileID: 11500000, guid: baddbaf9d465492f893085a6710849e4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionStatAuthoring
-  Stats:
-  - StatSchema: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
+  Create:
+  - Definition: {fileID: 11400000, guid: a23dbd741871f6142b7602d143a0d8cc, type: 2}
     Target: 2
-    ValueType: 2
-    Fixed:
-      ModifyType: 0
-      Value: 0
-    Linear:
-      ModifyType: 0
-      ConditionSchemaObject: {fileID: 0}
-      FromMin: 0
-      FromMax: 0
-      ToMin: 0
-      ToMax: 0
-    Range:
-      ModifyType: 0
-      Min: 0
-      Max: 300
+    DestroyOnDisabled: 0
 --- !u!1 &1416051330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,22 +1481,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
       value: Enemy Spawn Tokens
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Name
+      value: Spawn Randomizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Name
+      value: Spawn Randomizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Value
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Value
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Target
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Target
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Features
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Features
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -1454,7 +1540,31 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Operation
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Condition
+      value: 
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].Operation
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValue
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -1463,6 +1573,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].CustomValueMin
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMax
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[2].CustomValueMin
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6585066423301057406, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
@@ -1476,37 +1602,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5757533519823971643, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1748540466}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
 --- !u!4 &1748540464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539991024744895396, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
   m_PrefabInstance: {fileID: 1748540463}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1748540465 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5757533519823971643, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
-  m_PrefabInstance: {fileID: 1748540463}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1748540466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748540465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d132318fd4a94957947f32561bd4f38f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: BovineLabs.Essence.Authoring::BovineLabs.Essence.Authoring.Actions.ActionIntrinsicAuthoring
-  Intrinsics:
-  - Intrinsic: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
-    Amount: -2
-    Target: 2
 --- !u!1 &1775309408
 GameObject:
   m_ObjectHideFlags: 0
