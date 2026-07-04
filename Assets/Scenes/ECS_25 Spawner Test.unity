@@ -327,11 +327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
-      value: Enemy Spawn Tokens
+      value: Spawn Randomizer
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Name
@@ -340,6 +340,14 @@ PrefabInstance:
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Name
       value: Spawn Randomizer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[0].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
+      propertyPath: Conditions.conditions.Array.data[1].Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Value
@@ -359,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Features
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Features
@@ -372,10 +380,10 @@ PrefabInstance:
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Condition
       value: 
-      objectReference: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Operation
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Condition
@@ -383,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Operation
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Condition
@@ -641,11 +649,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
-      value: Enemy Spawn Tokens
+      value: Spawn Randomizer
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Name
@@ -657,11 +665,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Value
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Value
-      value: 200
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Value
@@ -681,7 +689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Features
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Features
@@ -694,10 +702,10 @@ PrefabInstance:
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Condition
       value: 
-      objectReference: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Operation
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Condition
@@ -705,7 +713,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Operation
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Condition
@@ -934,7 +942,7 @@ GameObject:
   - component: {fileID: 1341109965}
   - component: {fileID: 1341109968}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1567,11 +1575,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Name
-      value: Enemy Spawn Tokens
+      value: Spawn Randomizer
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Name
@@ -1583,11 +1591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Value
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Value
-      value: 100
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Value
@@ -1607,7 +1615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Features
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Features
@@ -1620,10 +1628,10 @@ PrefabInstance:
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Condition
       value: 
-      objectReference: {fileID: 11400000, guid: 0c724322acd453645a630b10105e266a, type: 2}
+      objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[0].Operation
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Condition
@@ -1631,7 +1639,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[1].Operation
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5957172240752180474, guid: 0f2c58578e8e07841a23fcced019df93, type: 3}
       propertyPath: Conditions.conditions.Array.data[2].Condition

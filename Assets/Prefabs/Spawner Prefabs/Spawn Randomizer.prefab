@@ -300,8 +300,8 @@ MonoBehaviour:
       ToMax: 0
     Range:
       ModifyType: 0
-      Min: 0
-      Max: 299
+      Min: 1
+      Max: 4
 --- !u!114 &1148505300704960054
 MonoBehaviour:
   m_ObjectHideFlags: 0
