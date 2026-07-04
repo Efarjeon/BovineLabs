@@ -81,7 +81,7 @@ MonoBehaviour:
     trigger: 0
     cooldown: 0
     cooldownAfterDuration: 0
-    duration: 5
+    duration: 3
     cancellable: 0
   Conditions:
     conditions: []
@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 6667401643427437618}
   - component: {fileID: 1148505300704960054}
   - component: {fileID: -2752907662102332355}
+  - component: {fileID: 6855039395402430781}
   m_Layer: 0
   m_Name: Spawn Randomizer
   m_TagString: Untagged
@@ -245,7 +246,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 3
+    Target: 1
 --- !u!114 &1124325359392810115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,9 +261,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
   Active:
     trigger: 0
-    cooldown: 0.15
+    cooldown: 3
     cooldownAfterDuration: 0
-    duration: 3
+    duration: 0
     cancellable: 0
   Conditions:
     conditions: []
@@ -280,7 +281,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8602758216669197263}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72f40eccefaf4b1d9a64964f08d866b8, type: 3}
   m_Name: 
@@ -328,3 +329,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnActivateAuthoring
   Targets: {_typeName: UInt8, _data: 04}
+--- !u!114 &6855039395402430781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8602758216669197263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 0}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
