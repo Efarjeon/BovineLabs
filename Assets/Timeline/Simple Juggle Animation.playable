@@ -79,17 +79,17 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.5333333889643352
+    m_Start: 0.6666666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 3361702344884178998}
-    m_Duration: 0.5333333333333333
+    m_Duration: 0.13333333333333341
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3399832232081923106}
     m_EaseInDuration: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 3565860168594140583}
-    m_Duration: 0.55
+    m_Duration: 0.8
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2293864307677882953}
     m_EaseInDuration: 0
@@ -383,10 +383,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimelineEssenceIntrinsicClip
   - m_Version: 1
-    m_Start: 0.8
+    m_Start: 1.55
     m_ClipIn: 0
     m_Asset: {fileID: -7706177833843999080}
-    m_Duration: 0.01666666666666672
+    m_Duration: 0.016666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3148153176811862427}
     m_EaseInDuration: 0
@@ -476,10 +476,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.3833333333333333
+    m_Start: 2.783333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -1195837987610462161}
-    m_Duration: 0.016666762034098337
+    m_Duration: 0.016666666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3347266614535671868}
     m_EaseInDuration: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46cd83fd3ac57cee8bbb6917743282b6, type: 3}
   m_Name: PhysicsDragClip
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsDragClip
-  linearDrag: 30
+  linearDrag: 10
   angularDrag: 5
   strengthStat: {fileID: 0}
   readStatFrom: 4
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Timeline.Physics.Authoring::BovineLabs.Timeline.Physics.Authoring.PhysicsForceClip
   mode: 0
   directionMode: 0
-  linearForce: {x: 0, y: 0, z: -35}
+  linearForce: {x: 0, y: 0, z: -12}
   space: 4
   magnitude: 10
   directionTarget: 1
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.3
+    m_Start: 0.21666666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -4989459178713158810}
     m_Duration: 0.016666666666666666
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimelineEssenceIntrinsicClip
   - m_Version: 1
-    m_Start: 0.7333333333333334
+    m_Start: 1.3833333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -4321311421545396480}
     m_Duration: 0.01666666666666672
@@ -781,8 +781,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 5161545787908142503}
-    m_Duration: 1.4000000953674316
-    m_TimeScale: 1
+    m_Duration: 2.8000001907348633
+    m_TimeScale: 0.5
     m_ParentTrack: {fileID: 4616711461457350239}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
