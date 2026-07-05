@@ -1,0 +1,11 @@
+{
+  "name": "com.agni.flameknight",
+  "version": "1.0.0",
+  "displayName": "FlameKnight",
+  "description": "FlameKnight package.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Agni"
+  },
+  "_fingerprint": "5d581ea9730f868eb05025b843b9a66d357039b1"
+}

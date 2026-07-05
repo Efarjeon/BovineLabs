@@ -30,11 +30,10 @@
       "hash": "7994e53f80930f776dc73d7f5fad6fbb0ae82d63"
     },
     "com.agni.flameknight": {
-      "version": "https://github.com/vex-studio/flameknight-unity-package.git",
+      "version": "file:com.agni.flameknight",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "5d581ea9730f868eb05025b843b9a66d357039b1"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.agni.flameknightv2": {
       "version": "https://github.com/vex-studio/flameknight-v2-unity-package.git",

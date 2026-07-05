@@ -886,7 +886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Actions.ActionCreateAuthoring
   Create:
   - Definition: {fileID: 11400000, guid: 8bc4994332934a948bc5d74de956d448, type: 2}
-    Target: 1
+    Target: 2
     DestroyOnDisabled: 0
 --- !u!114 &1763531501
 MonoBehaviour:
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.ReactionAuthoring
   Active:
     trigger: 0
-    cooldown: 0
+    cooldown: 4
     cooldownAfterDuration: 0
     duration: 0
     cancellable: 0
@@ -1184,15 +1184,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e46922349eb5144bb396aa0f5d85f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1325,14 +1325,20 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 1943511464}
+  - key: {fileID: 0}
+    value: {fileID: 1943511464}
+  - key: {fileID: 0}
+    value: {fileID: 8772386852803324704}
+  - key: {fileID: 0}
+    value: {fileID: 8772386852803324707}
   - key: {fileID: -8850280739835865688, guid: fa5621049d50f7e42ae17e39d10d7da5, type: 2}
     value: {fileID: 1943511464}
   - key: {fileID: -759445691584547168, guid: fa5621049d50f7e42ae17e39d10d7da5, type: 2}
     value: {fileID: 1943511464}
   - key: {fileID: -6225336924203447873, guid: fa5621049d50f7e42ae17e39d10d7da5, type: 2}
     value: {fileID: 8772386852803324704}
-  - key: {fileID: -7801137720736165718, guid: fa5621049d50f7e42ae17e39d10d7da5, type: 2}
-    value: {fileID: 8772386852803324707}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &687338779983907083
