@@ -53,9 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
-  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
-  spriteGeometrySubdivision: -1
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
@@ -105,7 +103,7 @@ TextureImporter:
     spriteID: 
     internalID: 0
     vertices: []
-    indices: {_typeName: int, _data: }
+    indices: 
     edges: []
     weights: []
     secondaryTextures: []

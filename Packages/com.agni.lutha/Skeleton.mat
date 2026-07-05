@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 10
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -21,30 +21,38 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Skeleton
-  m_Shader: {fileID: -6465566751694194690, guid: 32ea7846f763cb340950fafed798ecf6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6c046203321edf34fb092959a05e5b4a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USE_VERTEX_COLOR
+  - _MK_ALBEDO_MAP
+  - _MK_EMISSION_MAP
+  - _MK_ENVIRONMENT_REFLECTIONS_AMBIENT
+  - _MK_LIGHT_CEL
+  - _MK_NORMAL_MAP
+  - _MK_RECEIVE_SHADOWS
+  - _MK_SPECULAR_ISOTROPIC
   m_InvalidKeywords:
   - _EMISSION
+  - _ENABLERUKHANKA_ON
+  - _MK_ARTISTIC_ANIMATION_STUTTER
+  - _MK_WRAPPED_DIFFUSE
+  - _NORMALMAP
+  - _RECEIVESHADOWS_ON
+  - _WRAPPEDLIGHTING_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     IGNOREPROJECTOR: False
-  disabledShaderPasses:
-  - MOTIONVECTORS
+    RenderType: Opaque
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AlbedoMap:
-        m_Texture: {fileID: 2800000, guid: a6cd1a61a4acc3d4fa3bb01576b8f89b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseColorMap:
         m_Texture: {fileID: 2800000, guid: a6cd1a61a4acc3d4fa3bb01576b8f89b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -105,10 +113,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a6cd1a61a4acc3d4fa3bb01576b8f89b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskMap:
         m_Texture: {fileID: 2800000, guid: a6cd1a61a4acc3d4fa3bb01576b8f89b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -180,7 +184,7 @@ Material:
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AdditionalLightsFalloff: 1
-    - _AdditionalLightsThreshold: 0.5
+    - _AdditionalLightsThreshold: 0.3
     - _AdvancedTab: 0
     - _AlbedoMapIntensity: 1
     - _AlembicMotionVectors: 0
@@ -206,6 +210,7 @@ Material:
     - _Contrast: 1
     - _Cull: 0
     - _Cutoff: 0.5
+    - _DeformationParamsForMotionVectors: 0
     - _DeformedMeshIndex: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -221,6 +226,7 @@ Material:
     - _DrawnMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EnableRukhanka: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -241,13 +247,13 @@ Material:
     - _Light: 1
     - _LightBands: 4
     - _LightBandsScale: 0.5
-    - _LightThreshold: 0.5
+    - _LightThreshold: 0.25
     - _Metallic: 0
     - _Mode: 0
     - _NormalMapIntensity: 1
     - _OcclusionStrength: 1
     - _OptionsTab: 1
-    - _Outline: 3
+    - _Outline: 1
     - _OutlineClipOffset: 0
     - _OutlineConstantSize: 0
     - _OutlineData: 0
@@ -257,7 +263,6 @@ Material:
     - _OutlineSize: 20
     - _OutlineTab: 1
     - _Parallax: 0.02
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RenderFace: 0
@@ -268,7 +273,7 @@ Material:
     - _RimThresholdOffset: 0.25
     - _Saturation: 1
     - _SketchMapScale: 1
-    - _Smoothness: 0
+    - _Smoothness: 0.1
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _SpecularHighlights: 1
@@ -285,10 +290,9 @@ Material:
     - _StencilRef: 0
     - _StencilWriteMask: 255
     - _StencilZFail: 0
-    - _StylizeTab: 0
+    - _StylizeTab: 1
     - _Surface: 0
     - _ThresholdMapScale: 1
-    - _USE_VERTEX_COLOR: 1
     - _UVSec: 0
     - _VertexAnimation: 0
     - _VertexAnimationIntensity: 0.05
@@ -298,12 +302,11 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoColor: {r: 0.8820755, g: 0.9567693, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeformationParamsForMotionVectors: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.8820755, g: 0.9567693, b: 1, a: 1}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1.2452829, g: 1.2452829, b: 1.2452829, a: 1}
+    - _EmissionColor: {r: 0.846117, g: 0.846117, b: 0.846117, a: 1}
     - _GoochBrightColor: {r: 1, g: 1, b: 1, a: 1}
     - _GoochDarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _IridescenceColor: {r: 1, g: 1, b: 1, a: 0.5}
@@ -312,7 +315,7 @@ Material:
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimDarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 0.19999993, g: 0.19999993, b: 0.19999993, a: 1}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _VertexAnimationFrequency: {r: 2.5, g: 2.5, b: 2.5, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
