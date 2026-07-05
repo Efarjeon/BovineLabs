@@ -409,6 +409,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1782368635789278422, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
   m_PrefabInstance: {fileID: 1678861817}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &14248214 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1316756180014863261, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+  m_PrefabInstance: {fileID: 1678861817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14248209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0038df9991804dab9b4127193908728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
 --- !u!1 &19117883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,6 +3665,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6877551778090654422, guid: 77314406c6b71db4cab24a0bb9e7c030, type: 3}
   m_PrefabInstance: {fileID: 6321153787913418170}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &609759352 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2841361479831767498, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+  m_PrefabInstance: {fileID: 1678861817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &616775287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8535516563185332016, guid: afed9905aa1c77641b079e5703ff011d, type: 3}
@@ -6389,6 +6405,42 @@ PrefabInstance:
       propertyPath: Owner
       value: 
       objectReference: {fileID: 14248209}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[0].key
+      value: 
+      objectReference: {fileID: -110916558456784295, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].key
+      value: 
+      objectReference: {fileID: 1495504538778655826, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: 7065539912173826665, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].key
+      value: 
+      objectReference: {fileID: -6044530578099085876, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[0].value
+      value: 
+      objectReference: {fileID: 14248214}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].value
+      value: 
+      objectReference: {fileID: 609759352}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 609759352}
+    - target: {fileID: 8522865410544663704, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].value
+      value: 
+      objectReference: {fileID: 1837958583}
     - target: {fileID: 9053030884355335742, guid: e90b833f3b93d0e45b5d71391d6b00c6, type: 3}
       propertyPath: m_Name
       value: Hit Reaction
@@ -9055,7 +9107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 562894388915053453, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category05
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562894388915053453, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category06
@@ -9174,6 +9226,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4510374234692397233, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: IntrinsicDefaults.Array.data[1].Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510374234692397233, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: IntrinsicDefaults.Array.data[1].Intrinsic
       value: 
       objectReference: {fileID: 11400000, guid: 6aa93114ad67f344e9a74230633d2d20, type: 2}
@@ -9239,7 +9295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8182662165147423664, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.01248312
+      value: -0.012483122
       objectReference: {fileID: 0}
     - target: {fileID: 8182662165147423664, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10194,6 +10250,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1839be73e81ae4c97132df4493e93f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Core.Extensions.Authoring::BovineLabs.Core.Authoring.LifeCycle.LifeCycleAuthoring
+--- !u!114 &1837958583 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8661489984924014016, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+  m_PrefabInstance: {fileID: 1678861817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsBodyAuthoring
 --- !u!1 &1845696090
 GameObject:
   m_ObjectHideFlags: 0
