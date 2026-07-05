@@ -635,11 +635,10 @@
       }
     },
     "com.vex.bossroom1": {
-      "version": "https://github.com/NIbir888/Boss-Room-1-Level.git",
+      "version": "file:Boss-Room-1-Level",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "f1ff8789ca0cb0ca0c5be2beee56ca25c9c8c57c"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
