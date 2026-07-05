@@ -640,6 +640,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.vex.shadowlevelterrain": {
+      "version": "file:com.vex.shadowlevelterrain",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.youngwoocho02.unity-cli-connector": {
       "version": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
       "depth": 0,

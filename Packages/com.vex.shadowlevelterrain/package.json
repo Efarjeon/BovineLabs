@@ -1,0 +1,12 @@
+{
+  "name": "com.vex.shadowlevelterrain",
+  "version": "1.0.0",
+  "displayName": "Shadow Level Terrain",
+  "description": "Shadow level terrain prefab with its terrain data, layer, and texture. Self-contained.",
+  "unity": "6000.0",
+  "author": {
+    "name": "VEX"
+  },
+  "license": "UNLICENSED",
+  "_fingerprint": "0f56eaf3bbb4a45f243d971f8d875dddc17beee9"
+}
