@@ -23,11 +23,10 @@
       "hash": "391e6c492280f352de5b557580b1c3bd213c1ca9"
     },
     "com.agni.dualswordanimationpack": {
-      "version": "https://github.com/SadmanShafin/dual-sword-animation-pack-unity-package.git",
+      "version": "file:dual-sword-animation-pack-unity-package",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "7994e53f80930f776dc73d7f5fad6fbb0ae82d63"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.agni.flameknight": {
       "version": "file:com.agni.flameknight",
