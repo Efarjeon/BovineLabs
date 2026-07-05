@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain2
       objectReference: {fileID: 0}
+    - target: {fileID: 7162199073554486136, guid: 7759f02a378e46247b11914a966d97d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1802,15 +1806,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a335734b1572644a6a5d09d87adc65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Scenes::Unity.Scenes.SubScene
-  _SceneAsset: {fileID: 102900000, guid: a7e22d4f9a649154180b6a67c5d2b78f, type: 3}
+  _SceneAsset: {fileID: 102900000, guid: c602962c53850df4ab9f4ddc7e5da05b, type: 3}
   _HierarchyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   AutoLoadScene: 1
   _SceneGUID:
     Value:
-      x: 4107415162
-      y: 1159284393
-      z: 1990635649
-      w: 4168822108
+      x: 3261669484
+      y: 1339054133
+      z: 3453286842
+      w: 3037386215
 --- !u!1 &1342076471
 GameObject:
   m_ObjectHideFlags: 0
