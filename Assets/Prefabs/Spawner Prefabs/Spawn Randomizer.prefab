@@ -287,10 +287,10 @@ MonoBehaviour:
   Stats:
   - StatSchema: {fileID: 11400000, guid: 332427150fe4b404fbd0ff4f03b8eb4e, type: 2}
     Target: 2
-    ValueType: 2
+    ValueType: 0
     Fixed:
       ModifyType: 0
-      Value: 0
+      Value: 1
     Linear:
       ModifyType: 0
       ConditionSchemaObject: {fileID: 0}
