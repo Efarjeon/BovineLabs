@@ -47,6 +47,7 @@
     "com.unity.toolchain.linux-x86_64-linux": "1.1.0",
     "com.unity.ugui": "2.6.0",
     "com.unity.visualeffectgraph": "17.6.0",
+    "com.vex.bossroom1": "https://github.com/NIbir888/Boss-Room-1-Level.git",
     "com.youngwoocho02.unity-cli-connector": "https://github.com/youngwoocho02/unity-cli.git?path=unity-connector",
     "jp.keijiro.klak.timeline.particle-system-control": "https://github.com/IAFahim/TimelineParticleControl.git#upm",
     "com.unity.modules.terrainphysics": "1.0.0"
