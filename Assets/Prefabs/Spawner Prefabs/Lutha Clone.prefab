@@ -670,6 +670,7 @@ GameObject:
   - component: {fileID: 3874064075406952251}
   - component: {fileID: 3013026657259751984}
   - component: {fileID: 6533352072464344937}
+  - component: {fileID: 4939822135422888640}
   m_Layer: 0
   m_Name: Pos
   m_TagString: Untagged
@@ -707,7 +708,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7247160248619427716}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -767,6 +768,19 @@ MonoBehaviour:
   Custom: {fileID: 0}
   Initialize:
     Target: 1
+--- !u!114 &4939822135422888640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7247160248619427716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &7857019676341851299
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +793,7 @@ GameObject:
   - component: {fileID: 2179772458598034855}
   - component: {fileID: 991982526047625797}
   - component: {fileID: 1653987442290455804}
+  - component: {fileID: 1435352826613809613}
   m_Layer: 0
   m_Name: Rot
   m_TagString: Untagged
@@ -816,7 +831,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7857019676341851299}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -876,6 +891,19 @@ MonoBehaviour:
   Custom: {fileID: 0}
   Initialize:
     Target: 1
+--- !u!114 &1435352826613809613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7857019676341851299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce5be625b13416781e3426ee2109abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Core.Authoring::BovineLabs.Core.Authoring.TransformAuthoring
+  TransformUsageFlags: 2
 --- !u!1 &8861492756826124911
 GameObject:
   m_ObjectHideFlags: 0
