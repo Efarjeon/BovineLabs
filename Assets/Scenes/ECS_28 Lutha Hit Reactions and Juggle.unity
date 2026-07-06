@@ -8806,6 +8806,26 @@ PrefabInstance:
       propertyPath: m_PrefabInstanceID
       value: 1678861817
       objectReference: {fileID: 0}
+    - target: {fileID: 928127571463718954, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 928127571463718954, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].key
+      value: 
+      objectReference: {fileID: 7065539912173826665, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 928127571463718954, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: -6044530578099085876, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 928127571463718954, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: m_SceneBindings.Array.data[3].key
+      value: 
+      objectReference: {fileID: -2435828886951895605, guid: 4de6c94fd82e59448bdd3d3911701a8d, type: 2}
+    - target: {fileID: 928127571463718954, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 1837958586}
     - target: {fileID: 2336597582091530224, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
       propertyPath: m_Name
       value: Lutha Clone
@@ -9805,6 +9825,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1822235512577653137, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
   m_PrefabInstance: {fileID: 1678861817}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837958586 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8661489984924014016, guid: 95df142fc6f614d4db0033bcf410ef8b, type: 3}
+  m_PrefabInstance: {fileID: 1678861817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Physics.Custom::Unity.Physics.Authoring.PhysicsBodyAuthoring
 --- !u!1 &1845696090
 GameObject:
   m_ObjectHideFlags: 0

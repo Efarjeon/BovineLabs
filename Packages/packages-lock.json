@@ -22,12 +22,6 @@
       "dependencies": {},
       "hash": "391e6c492280f352de5b557580b1c3bd213c1ca9"
     },
-    "com.agni.dualswordanimationpack": {
-      "version": "file:dual-sword-animation-pack-unity-package",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.agni.flameknight": {
       "version": "file:com.agni.flameknight",
       "depth": 0,
@@ -635,10 +629,11 @@
       }
     },
     "com.vex.bossroom1": {
-      "version": "file:Boss-Room-1-Level",
+      "version": "https://github.com/NIbir888/Boss-Room-1-Level.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "0514ecbff170b81b85491e492bdf89d2eafa9e4d"
     },
     "com.vex.shadowlevelterrain": {
       "version": "file:com.vex.shadowlevelterrain",
