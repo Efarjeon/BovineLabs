@@ -22,6 +22,12 @@
       "dependencies": {},
       "hash": "391e6c492280f352de5b557580b1c3bd213c1ca9"
     },
+    "com.agni.dualswordanimationpack": {
+      "version": "file:dual-sword-animation-pack-unity-package",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.agni.flameknight": {
       "version": "file:com.agni.flameknight",
       "depth": 0,
