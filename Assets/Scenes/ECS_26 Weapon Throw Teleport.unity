@@ -675,7 +675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: BovineLabs.Reaction.Authoring::BovineLabs.Reaction.Authoring.Core.TargetsAuthoring
   Owner: {fileID: 2261186124155219439}
   Source: {fileID: 0}
-  Target: {fileID: 0}
+  Target: {fileID: 687338779983907083}
   Custom: {fileID: 0}
   Initialize:
     Target: 1
@@ -1763,7 +1763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2077402781
 Transform:
   m_ObjectHideFlags: 0

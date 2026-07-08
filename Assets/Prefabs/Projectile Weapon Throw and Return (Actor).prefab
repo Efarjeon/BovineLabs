@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 5978605142701829530}
   - component: {fileID: 8113773873289061682}
   - component: {fileID: 4513634143572267443}
+  - component: {fileID: 2826049713993054937}
+  - component: {fileID: 4937100374092539584}
   m_Layer: 0
   m_Name: Projectile Weapon Throw and Return (Actor)
   m_TagString: Untagged
@@ -274,7 +276,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   Custom: {fileID: 0}
   Initialize:
-    Target: 1
+    Target: 3
 --- !u!114 &3021120008855288924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,14 +339,35 @@ MonoBehaviour:
     duration: 1.05
     cancellable: 0
   Conditions:
-    conditions: []
+    conditions:
+    - Name: OnInputTrigger
+      Condition: {fileID: 11400000, guid: 90d290f28aa29a24992e08f33fabb18b, type: 2}
+      Target: 2
+      Operation: 1
+      ComparisonMode: 0
+      Value: 1
+      CustomValue:
+        rid: -2
+      MinComparisonMode: 0
+      ValueMin: 0
+      CustomValueMin:
+        rid: -2
+      MaxComparisonMode: 0
+      ValueMax: 0
+      CustomValueMax:
+        rid: -2
+      Features: 1
+      DestroyIfTargetDestroyed: 0
+      CancelActive: 0
     conditionLogic:
       expression: 
     chanceToTrigger: 1
     doNotReset: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!114 &4513634143572267443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,6 +381,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: BovineLabs.Reaction.Addon.Authoring::BovineLabs.Reaction.Addon.Authoring.ActionDestroyOnDeactivateAuthoring
   Targets: {_typeName: UInt8, _data: 04}
+--- !u!114 &2826049713993054937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545230650990898100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dcbda6791f5f841a9bee881a1df3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BovineLabs.Reaction.Timeline.Authoring::BovineLabs.Reaction.Timeline.Authoring.ActionTimelineAuthoring
+  Timelines:
+  - Director: {fileID: 72424001891146560}
+    InitialTime: 0
+    DisableTimelineOnDeactivate: 0
+    ResetWhenActive: 0
+    Bindings: []
+--- !u!114 &4937100374092539584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545230650990898100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
 --- !u!1 &1671661332803622869
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9090916821091443763}
+  - component: {fileID: 72424001891146560}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -389,6 +443,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4510235026968846526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &72424001891146560
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671661332803622869}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 47c33e631ac4bbe4e855379027c52bdc, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -4447347955906864563, guid: 47c33e631ac4bbe4e855379027c52bdc, type: 2}
+    value: {fileID: 4241669333293309355}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &2580712411507232555
 GameObject:
   m_ObjectHideFlags: 0
